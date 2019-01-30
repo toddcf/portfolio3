@@ -1,4 +1,38 @@
+html {
+  font-size: 16px;
+}
 
+#project-container a,
+#project-container a:active,
+#project-container a:focus
+#project-container a:hover,
+#project-container a:link,
+#project-container a:visited {
+  text-decoration: none;
+}
+
+.global-btn-box {
+  position: relative;
+}
+
+.global-btn {
+  display: block;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.cta-primary-btn-box {
+  background: blue;
+}
+
+.cta-secondary-btn-box {
+  background: gray;
+}
+
+.cta-primary-btn-box a,
+.cta-secondary-btn-box a {
+  color: #fff;
+}
 
 
 
