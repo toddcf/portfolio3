@@ -34,29 +34,107 @@ html {
   color: #fff;
 }
 
+.project-title-box {
+  background: #000;
+  color: #fff;
+  padding: 1em;
+}
+
+.project-title-box h3 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.info-module {
+  background: rgba(0, 0, 0, .7);
+  border-bottom: 8px solid #5dc21e;
+  color: #fff;
+  padding: 1em 1em 0 1em;
+}
+
 
 
 
 /* Extra Small devices only (landscape phones, below 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+  #bmw-el-cajon-img-sm {
+    background: url(https://via.placeholder.com/2500x1407.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 56%;
+    width: 100%;
+  }
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}
 
 /* Small devices only (landscape phones, between 576px and 768px) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  #bmw-el-cajon-img-sm {
+    background: url(https://via.placeholder.com/2500x750.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30%;
+    width: 100%;
+  }
+
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {}
 
 /* Medium devices only (tablets, between 768px and 992px) */
-@media (min-width: 576px) and (max-width: 991.98px) {}
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+  #bmw-el-cajon-img-sm {
+    background: url(https://via.placeholder.com/2500x750.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30%;
+    width: 100%;
+  }
+
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {}
 
 /* Large devices only (desktops, between 992px and 1200px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #bmw-el-cajon-img-sm {
+    background: url(https://via.placeholder.com/2500x750.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30%;
+    width: 100%;
+  }
+
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+  #bmw-el-cajon-img-lg {
+    background: url(https://via.placeholder.com/2500x750.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 0;
+    padding-bottom: 30%;
+    width: 100%;
+  }
+
+}
