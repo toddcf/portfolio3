@@ -12,6 +12,7 @@ html {
 }
 
 .center-container {
+  margin: 0 auto;
   max-width: 1440px;
   width: 100%;
 }
@@ -65,7 +66,7 @@ html {
 @media (max-width: 575.98px) {
 
   #bmw-el-cajon-img-sm {
-    background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
+    background: url(../img/bmw-el-cajon/2019-x7/576x227-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +104,7 @@ html {
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   #bmw-el-cajon-img-sm {
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/768x303-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +128,7 @@ html {
 @media (min-width: 768px) and (max-width: 991.98px) {
 
   #bmw-el-cajon-img-sm {
-    background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/992x391-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,7 +177,7 @@ html {
 @media (min-width: 1200px) {
 
   #bmw-el-cajon-img-lg {
-    background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
+    background: url(../img/bmw-el-cajon/2019-x7/1440x567-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
