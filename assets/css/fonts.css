@@ -1,0 +1,104 @@
+/* Headers: font-family: 'Open Sans', sans-serif; 
+300,300i,400,400i,600,600i,700,700i,800,800i */
+
+/* Body Copy: font-family: 'PT Sans', sans-serif; 
+400,400i,700,700i */
+
+#project-container h1,
+#project-container h2,
+#project-container h3,
+#project-container h4,
+#project-container h5,
+#project-container h6 {
+  color: #808080;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#project-container {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+#project-container p {
+  font-size: 16px;
+}
+
+#project-container h2 {
+  font-size: 4.236em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subsection-name-container {
+  overflow: hidden;
+  text-align: center;
+}
+
+.subsection-name-container h3 {
+  font-size: 2.618em;
+}
+
+.subsection-name {
+  display: inline;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.subsection-name::before,
+.subsection-name::after {
+  border-top: 1px solid #555;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+
+.subsection-name::before {
+  margin-right: 20px;
+  right: 100%;
+}
+
+.subsection-name::after {
+  left: 100%;
+  margin-left: 1rem;
+}
+
+.project-title-box h4 {
+  font-size: 1.618em;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Small devices only (landscape phones, between 576px and 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Medium devices only (tablets, between 768px and 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Large devices only (desktops, between 992px and 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+

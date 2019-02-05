@@ -32,7 +32,7 @@ html {
 }
 
 .cta-secondary-btn-box {
-  background: gray;
+  background: #808080;
 }
 
 .cta-primary-btn-box a,
@@ -46,7 +46,7 @@ html {
   padding: 1em;
 }
 
-.project-title-box h3 {
+.project-title-box h4 {
   margin-bottom: 0;
   text-align: center;
 }
@@ -95,6 +95,7 @@ html {
     border-bottom: none;
     color: #000;
     margin: -3.5% auto 4rem auto;
+    padding: 1.5rem 2rem;
     width: 85%;
   }
 
