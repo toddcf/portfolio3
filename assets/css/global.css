@@ -17,38 +17,10 @@ html {
   width: 100%;
 }
 
-.global-btn-box {
-  position: relative;
-}
-
-.global-btn {
-  display: block;
-  margin-bottom: 1em;
-  text-align: center;
-}
-
-.cta-primary-btn-box {
-  background: blue;
-}
-
-.cta-secondary-btn-box {
-  background: #808080;
-}
-
-.cta-primary-btn-box a,
-.cta-secondary-btn-box a {
-  color: #fff;
-}
-
 .project-title-box {
   background: #000;
   color: #fff;
   padding: 1em;
-}
-
-.project-title-box h4 {
-  margin-bottom: 0;
-  text-align: center;
 }
 
 .info-module {
