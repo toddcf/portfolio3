@@ -1,4 +1,5 @@
 .global-btn-box {
+  border-radius: 5px;
   margin-bottom: 1em;
   position: relative;
 }
@@ -19,12 +20,21 @@
   transition: .3s;
 }
 
-.cta-primary-btn-box:hover {
+.cta-primary-btn-box:hover,
+.cta-primary-btn-box:active {
   background-position: left top;
 }
 
 .cta-secondary-btn-box {
-  background-image: linear-gradient(to bottom, #808080 0, #5a5a5a 100%);
+  background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
+  background-position: left top;
+  background-size: 100% 200%;
+  transition: .3s;
+}
+
+.cta-secondary-btn-box:hover,
+.cta-secondary-btn-box:active {
+  background-position: left bottom;
 }
 
 .btn-box .fas,
