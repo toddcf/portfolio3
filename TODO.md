@@ -1,12 +1,10 @@
 # To Do:
 
 - Fonts
-  - Delete hosted Font Awesome folder. (Access currently denied.)
   - Choose fonts.
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
 - Style all buttons.
-  - Add hover effects to the linear-gradients.
   - Responsive font sizing.
 - BMW of El Cajon Walkthrough:
   - Show the button hover effect WITH and WITHOUT my solution.

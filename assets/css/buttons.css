@@ -7,7 +7,8 @@
 .global-btn {
   color: #fff;
   display: block;
-  padding: 1em;
+  font-size: 16px;
+  padding: 1em 0;
   text-align: center;
 }
 
@@ -17,7 +18,7 @@
   background-size: 100% 200%;
   font-weight: bold;
   text-transform: uppercase;
-  transition: .3s;
+  transition: .3s ease-in-out;
 }
 
 .cta-primary-btn-box:hover,
@@ -29,7 +30,7 @@
   background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
   background-position: left top;
   background-size: 100% 200%;
-  transition: .3s;
+  transition: .3s ease-in-out;
 }
 
 .cta-secondary-btn-box:hover,
@@ -50,7 +51,17 @@
 @media (max-width: 575.98px) {}
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+  .left-btn {
+    padding-right: 7.5px;
+  }
+
+  .right-btn {
+    padding-left: 7.5px;
+  }
+
+}
 
 /* Small devices only (landscape phones, between 576px and 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {}
@@ -62,17 +73,7 @@
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-  .left-btn {
-    padding-right: 7.5px;
-  }
-
-  .right-btn {
-    padding-left: 7.5px;
-  }
-
-}
+@media (min-width: 992px) {}
 
 /* Large devices only (desktops, between 992px and 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
