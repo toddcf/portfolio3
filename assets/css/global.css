@@ -53,7 +53,6 @@
     margin: 0 auto .5em auto;
     padding-bottom: 39%;
     position: relative;
-    /*width: 90%;*/
   }
 
   #bmw-el-cajon-img-sm {
@@ -141,6 +140,13 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  .portfolio-project-img-lg {
+    height: 0;
+    padding-bottom: 39%;
+    position: relative;
+    width: 100%;
+  }
+
   .project-title-box h3 {
     text-align: center;
   }
@@ -164,11 +170,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 0;
-    padding-bottom: 39%;
-    position: relative;
-    width: 100%;
-    z-index: 1;
   }
 
 }
@@ -181,10 +182,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 0;
-    padding-bottom: 39%;
-    position: relative;
-    width: 100%;
   }
 
 }
