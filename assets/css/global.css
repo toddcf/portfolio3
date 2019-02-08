@@ -22,11 +22,11 @@
 }
 
 .project-title-box {
-  margin-top: var(--sm-card-margin-top);
+  /*margin-top: var(--sm-card-margin-top);*/
 }
 
 .info-module {
-  padding: 1em 1em 0 1em;
+  padding: 1em 0 0 0;
 }
 
 
@@ -37,10 +37,15 @@
 @media (max-width: 575.98px) {
 
   #bmw-el-cajon-project {
-    background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/bmw-el-cajon/2019-x7/576x227-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/bmw-el-cajon/2019-x7/left-crop-576x630-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .mobile-card-centering {
+    margin: 0 auto;
+    width: 90%;
   }
 
   .portfolio-project-img-sm-container {
@@ -48,7 +53,7 @@
     margin: 0 auto .5em auto;
     padding-bottom: 39%;
     position: relative;
-    width: 90%;
+    /*width: 90%;*/
   }
 
   #bmw-el-cajon-img-sm {
@@ -62,10 +67,6 @@
     position: absolute;
     top: var(--sm-card-margin-top);
     width: 100%;
-  }
-
-  #project-container h4 {
-    color: #fff;
   }
 
   .info-module p {
