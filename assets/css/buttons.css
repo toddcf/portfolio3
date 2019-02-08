@@ -1,3 +1,4 @@
+/* All Buttons */
 .global-btn-box {
   border-radius: 5px;
   margin-bottom: 1em;
@@ -12,6 +13,7 @@
   text-align: center;
 }
 
+/* Primary (Green) Buttons */
 .cta-primary-btn-box {
   background-image: linear-gradient(to bottom, #3c6221 0, #33531c 50%, #213612 100%);
   background-position: left bottom;
@@ -26,18 +28,29 @@
   background-position: left top;
 }
 
+/* Secondary (Gray) Buttons */
 .cta-secondary-btn-box {
-  background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
-  background-position: left top;
+  background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
+  background-position: left bottom;
   background-size: 100% 200%;
   transition: .3s ease-in-out;
 }
 
 .cta-secondary-btn-box:hover,
 .cta-secondary-btn-box:active {
-  background-position: left bottom;
+  background-position: left top;
 }
 
+.cta-secondary-btn {
+  transition: .3s ease-in-out;
+}
+
+.cta-secondary-btn:hover,
+.cta-secondary-btn:active {
+  color: #000;
+}
+
+/* Button Icons */
 .btn-box .fas,
 .btn-box .fab {
   margin-right: .75em;
@@ -48,10 +61,34 @@
 
 /* Bootstrap Breakpoints */
 /* Extra Small devices only (landscape phones, below 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+  .cta-primary-btn-box {
+    margin-bottom: 2em;
+  }
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+
+  /* Secondary (Gray) Buttons */
+  .cta-secondary-btn-box {
+    background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
+    background-position: left top;
+    /*background-size: 100% 200%;
+    transition: .3s ease-in-out;*/
+  }
+
+  .cta-secondary-btn-box:hover,
+  .cta-secondary-btn-box:active {
+    background-position: left bottom;
+  }
+
+  .cta-secondary-btn:hover,
+  .cta-secondary-btn:active {
+    color: #fff;
+  }
 
   .left-btn {
     padding-right: 7.5px;

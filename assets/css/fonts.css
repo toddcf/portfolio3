@@ -76,7 +76,13 @@
 
 /* Bootstrap Breakpoints */
 /* Extra Small devices only (landscape phones, below 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+  #project-container h4 {
+    color: #fff;
+  }
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {}

@@ -4,6 +4,7 @@
   - Blurry BG.
   - Smaller, centered image at the top with box shadow.
   - Forest green border on the bottom.
+  - Change any ids to classes that you can.
 - Fonts
   - Choose fonts.
   - Style H2, H3, H4.
