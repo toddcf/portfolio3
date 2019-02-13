@@ -2,7 +2,7 @@
 
 - Add video header.
   - Compress bg fallback image (and do the same for `portfolio2`).
-  - Might have to remove `h1-responsive`.
+  - Get H1 fonts to work. Might also have to remove `h1-responsive`.
   - Remove all unused animations from `effects.css`.
   - Add white gradient for scrolldown to the main portfolio.
 - Add Additional Samples projects.
@@ -18,4 +18,3 @@
   - How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
   - How the linear-gradient button hover effects work.
 - At the very end, delete all unused font customizations.
-- Maybe consolidate the fonts.css file into the global.css file once all editing is done.
