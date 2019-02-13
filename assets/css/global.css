@@ -50,6 +50,13 @@
     background-size: cover;
   }
 
+  #honda-new-rochelle-project {
+    background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/honda-new-rochelle/2018-accord/576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .mobile-card-centering {
     margin: 0 auto;
     width: 90%;
@@ -80,6 +87,13 @@
 
   #bmw-el-cajon-img-sm {
     background: url(../img/bmw-el-cajon/2019-x7/576x227-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #honda-new-rochelle-img-sm {
+    background: url(../img/honda-new-rochelle/2018-accord/576x227-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,6 +156,13 @@
     background-size: cover;
   }
 
+  #honda-new-rochelle-img-md {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/honda-new-rochelle/2018-accord/768x303-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -171,6 +192,13 @@
 
   #bmw-el-cajon-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/992x391-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #honda-new-rochelle-img-md {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/honda-new-rochelle/2018-accord/992x391-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,6 +259,13 @@
     background-size: cover;
   }
 
+  #honda-new-rochelle-img-lg {
+    background: url(../img/honda-new-rochelle/2018-accord/1268x499-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -245,6 +280,13 @@
 
   #bmw-el-cajon-img-lg {
     background: url(../img/bmw-el-cajon/2019-x7/1440x567-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #honda-new-rochelle-img-lg {
+    background: url(../img/honda-new-rochelle/2018-accord/1440x567-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -1,6 +1,5 @@
 # To Do:
 
-- Add Honda Accord project.
 - Fonts
   - Choose fonts.
   - Style H2, H3, H4.
