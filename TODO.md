@@ -1,5 +1,10 @@
 # To Do:
 
+- Add video header.
+  - Might have to remove `h1-responsive`.
+  - Remove all unused animations from `effects.css`.
+- Add Additional Samples projects.
+  - Remember: Dark masking layer with video of water playing behind it.
 - Fonts
   - Choose fonts.
   - Style H2, H3, H4.

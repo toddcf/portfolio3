@@ -2,6 +2,37 @@
   --sm-card-margin-top: -20px;
 }
 
+header { min-height: 100vh; }
+
+#video-text-overlay {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+
+#video-background {
+  /* Makes the video fullscreen */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  z-index: -100;
+
+  /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  /* VIDEO PLAYS ON COMPUTER, BUT NOT ON IPHONE. SHOWS STILL IMG INSTEAD. */
+  background: url(../img/bg/tropical.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 #project-container a,
 #project-container a:active,
 #project-container a:focus
