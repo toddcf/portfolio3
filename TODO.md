@@ -1,8 +1,10 @@
 # To Do:
 
 - Add video header.
+  - Compress bg fallback image (and do the same for `portfolio2`).
   - Might have to remove `h1-responsive`.
   - Remove all unused animations from `effects.css`.
+  - Add white gradient for scrolldown to the main portfolio.
 - Add Additional Samples projects.
   - Remember: Dark masking layer with video of water playing behind it.
 - Fonts
