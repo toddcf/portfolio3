@@ -1,9 +1,5 @@
 # To Do:
 
-- Add video header.
-  - Add white gradient for scrolldown to the main portfolio. (Achieve full width.)
-  - Get H1 fonts to work. Might also have to remove `h1-responsive`.
-  - Remove all unused animations from `effects.css`.
 - Add Additional Samples projects.
   - Remember: Dark masking layer with video of water playing behind it.
 - Fonts
