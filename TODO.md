@@ -1,7 +1,6 @@
 # To Do:
 
 - Add video header.
-  - Compress bg fallback image (and do the same for `portfolio2`).
   - Get H1 fonts to work. Might also have to remove `h1-responsive`.
   - Remove all unused animations from `effects.css`.
   - Add white gradient for scrolldown to the main portfolio.
