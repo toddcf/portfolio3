@@ -74,6 +74,17 @@ header { min-height: 100vh; }
   padding: 1em 0 0 0;
 }
 
+.black-heading h3 {
+  background-image: transparent !important;
+  /*background: #000;*/
+  /*background: linear-gradient(rgb(0, 73, 130), rgba(255, 255, 255, 0)74%);*/
+  -webkit-background-clip: text !important;
+  /*color: transparent !important;*/
+  text-fill-color: transparent !important;
+}
+
+
+
 
 
 

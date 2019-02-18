@@ -6,7 +6,8 @@
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
 - Add Additional Samples projects.
-  - Remember: Dark masking layer with video of water playing behind it.
+  - Black bg header. H2 clip text displays water behind it. https://codepen.io/Jintos/pen/crlxk
+  - Dark masking layer with video of water playing behind it.
 - BMW of El Cajon Walkthrough:
   - Show the button hover effect WITH and WITHOUT my solution so the user can see the flash.
 - Portfolio Walkthrough:
