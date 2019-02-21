@@ -74,15 +74,6 @@ header { min-height: 100vh; }
   padding: 1em 0 0 0;
 }
 
-.black-heading h3 {
-  background-image: url(../video/tropical.mp4) !important;
-  /*background: #000;*/
-  /*background: linear-gradient(rgb(0, 73, 130), rgba(255, 255, 255, 0)74%);*/
-  -webkit-background-clip: text !important;
-  /*color: transparent !important;*/
-  text-fill-color: transparent !important;
-}
-
 
 
 
@@ -165,7 +156,8 @@ header { min-height: 100vh; }
 @media (min-width: 576px) {
 
   .portfolio-project {
-    margin-bottom: 25px;
+    margin-bottom: 0;
+    padding-bottom: 25px;
   }
 
   .project-title-box {
@@ -224,6 +216,10 @@ header { min-height: 100vh; }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  .portfolio-project {
+    padding-bottom: 50px;
+  }
+
   .project-title-box {
     width: max-content;
   }
@@ -266,7 +262,7 @@ header { min-height: 100vh; }
 @media (min-width: 992px) {
 
   .portfolio-project {
-    margin-bottom: 50px;
+    padding-bottom: 100px;
   }
 
   .portfolio-project-img-lg {
