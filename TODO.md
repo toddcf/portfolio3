@@ -9,12 +9,12 @@
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
 - Add Additional Samples projects.
+  - Make the cards work on all screen sizes.
   - Black bg header. H2 clip text displays water behind it.
     - https://codepen.io/Jintos/pen/crlxk
     - http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
     - https://codepen.io/strawstack/pen/LNXpGG
     - https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
-  - Dark masking layer with video of water playing behind it.
 
 
 ## Walkthrough Pages

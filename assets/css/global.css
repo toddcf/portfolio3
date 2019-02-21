@@ -65,17 +65,21 @@ header { min-height: 100vh; }
   padding-bottom: 100px;
 }
 
-.professional-info-module,
-.sample-info-module {
+.professional-info-module {
   padding: 1em 0 0 0;
+}
+
+.btn-box {
+  padding-top: 1rem;
 }
 
 .shaded-bg {
   background: rgba(0, 0, 0, .6);
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .additional-samples-project {
+  margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
   width: 95%;
@@ -100,6 +104,10 @@ header { min-height: 100vh; }
 .additional-samples-centering {
   margin: 0 auto;
   width: 90%;
+}
+
+#project-container .sample-info-module p {
+  color: #000;
 }
 
 
@@ -178,6 +186,13 @@ header { min-height: 100vh; }
     color: #fff;
   }
 
+  #my-portfolio-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/tcf-webdesign/right-crop-576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   #my-portfolio-img-sm {
     background: url(../img/additional-samples/tcf-webdesign/576x227-min.jpg);
     background-position: center;
@@ -185,9 +200,30 @@ header { min-height: 100vh; }
     background-size: cover;
   }
 
-  #my-portfolio-project {
-    background-image: linear-gradient(rgba(255, 255, 255, .55) 0, rgba(255, 255, 255, .55) 100%), url(../img/additional-samples/tcf-webdesign/right-crop-576x630-blur12px-min.jpg);
+  #omnifood-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/omnifood/left-crop-576x630-blur12px-min.jpg);
     background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #omnifood-img-sm {
+    background: url(../img/additional-samples/omnifood/576x227-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #author-site-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/author-site/left-crop-576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #author-site-img-sm {
+    background: url(../img/additional-samples/author-site/576x227-min.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -218,6 +254,48 @@ header { min-height: 100vh; }
     margin: -3.5% auto 0 auto;
     padding: 1.5rem 2rem;
     width: 85%;
+  }
+
+  #my-portfolio-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/tcf-webdesign/right-crop-768x840-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #my-portfolio-img-sm {
+    background: url(../img/additional-samples/tcf-webdesign/768x302-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #omnifood-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/omnifood/left-crop-768x840-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #omnifood-img-sm {
+    background: url(../img/additional-samples/omnifood/768x302-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #author-site-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/author-site/left-crop-768x840-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #author-site-img-sm {
+    background: url(../img/additional-samples/author-site/768x302-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 }
@@ -331,6 +409,10 @@ header { min-height: 100vh; }
 
   .info-module-right {
     right: 3%;
+  }
+
+  .professional-project .btn-box {
+    padding-top: 0;
   }
 
 }
