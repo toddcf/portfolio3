@@ -35,6 +35,11 @@
 - How the linear-gradient button hover effects work.
 
 
+## About:
+
+- Include testimonials, using LinkedIn recommendations.
+
+
 ## Certificates:
 
 - Include Google Ads and Analytics.
