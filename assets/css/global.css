@@ -27,7 +27,6 @@ header { min-height: 100vh; }
   z-index: -100;
 
   /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-  /* VIDEO PLAYS ON COMPUTER, BUT NOT ON IPHONE. SHOWS STILL IMG INSTEAD. */
   background: url(../video/tropical-1920x1080-min.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -62,16 +61,45 @@ header { min-height: 100vh; }
   background: #fff;
 }
 
-.portfolio-project {
-  margin-bottom: 100px;
+.professional-project {
+  padding-bottom: 100px;
 }
 
-.project-title-box {
-  /*margin-top: var(--sm-card-margin-top);*/
-}
-
-.info-module {
+.professional-info-module,
+.sample-info-module {
   padding: 1em 0 0 0;
+}
+
+.shaded-bg {
+  background: rgba(0, 0, 0, .6);
+  padding: 100px 0;
+}
+
+.additional-samples-project {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.additional-samples-img-sm-container {
+  height: 0;
+  margin: 0 auto .5em auto;
+  padding-bottom: 39%;
+  position: relative;
+}
+
+.additional-samples-img-sm {
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+  height: 0;
+  padding-bottom: 39%;
+  position: absolute;
+  top: var(--sm-card-margin-top);
+  width: 100%;
+}
+
+.additional-samples-centering {
+  margin: 0 auto;
+  width: 90%;
 }
 
 
@@ -83,21 +111,21 @@ header { min-height: 100vh; }
 /* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
 
-  #acura-of-tempe-project {
+  #acura-of-tempe-bg-blur {
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/acura-of-tempe/2019-nsx/left-crop-576x630-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  #bmw-el-cajon-project {
+  #bmw-el-cajon-bg-blur {
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/bmw-el-cajon/2019-x7/left-crop-576x630-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-  #honda-new-rochelle-project {
+  #honda-new-rochelle-bg-blur {
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/honda-new-rochelle/2018-accord/576x630-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
@@ -109,14 +137,14 @@ header { min-height: 100vh; }
     width: 90%;
   }
 
-  .portfolio-project-img-sm-container {
+  .professional-project-img-sm-container {
     height: 0;
     margin: 0 auto .5em auto;
     padding-bottom: 39%;
     position: relative;
   }
 
-  .portfolio-project-img-sm {
+  .professional-project-img-sm {
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
     height: 0;
     padding-bottom: 39%;
@@ -146,8 +174,22 @@ header { min-height: 100vh; }
     background-size: cover;
   }
 
-  .info-module p {
+  .professional-info-module p {
     color: #fff;
+  }
+
+  #my-portfolio-img-sm {
+    background: url(../img/additional-samples/tcf-webdesign/576x227-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #my-portfolio-project {
+    background-image: linear-gradient(rgba(255, 255, 255, .55) 0, rgba(255, 255, 255, .55) 100%), url(../img/additional-samples/tcf-webdesign/right-crop-576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
 }
@@ -155,8 +197,7 @@ header { min-height: 100vh; }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-  .portfolio-project {
-    margin-bottom: 0;
+  .professional-project {
     padding-bottom: 25px;
   }
 
@@ -170,7 +211,7 @@ header { min-height: 100vh; }
     z-index: 2;
   }
 
-  .info-module {
+  .professional-info-module {
     background: #fff;
     border: none;
     color: #000;
@@ -184,7 +225,7 @@ header { min-height: 100vh; }
 /* Small devices only (landscape phones, between 576px and 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-  .portfolio-project-img-md {
+  .professional-project-img-md {
     height: 0;
     padding-bottom: 39%;
     width: 100%;
@@ -216,7 +257,7 @@ header { min-height: 100vh; }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  .portfolio-project {
+  .professional-project {
     padding-bottom: 50px;
   }
 
@@ -229,7 +270,7 @@ header { min-height: 100vh; }
 /* Medium devices only (tablets, between 768px and 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-  .portfolio-project-img-md {
+  .professional-project-img-md {
     height: 0;
     padding-bottom: 39%;
     width: 100%;
@@ -261,11 +302,11 @@ header { min-height: 100vh; }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .portfolio-project {
+  .professional-project {
     padding-bottom: 100px;
   }
 
-  .portfolio-project-img-lg {
+  .professional-project-img-lg {
     height: 0;
     padding-bottom: 39%;
     position: relative;
@@ -276,7 +317,7 @@ header { min-height: 100vh; }
     text-align: center;
   }
 
-  .info-module {
+  .professional-info-module {
     bottom: 0;
     margin-bottom: 0;
     padding-bottom: .5em;
