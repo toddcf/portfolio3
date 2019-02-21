@@ -75,7 +75,7 @@ header { min-height: 100vh; }
 }
 
 .black-heading h3 {
-  background-image: transparent !important;
+  background-image: url(../video/tropical.mp4) !important;
   /*background: #000;*/
   /*background: linear-gradient(rgb(0, 73, 130), rgba(255, 255, 255, 0)74%);*/
   -webkit-background-clip: text !important;
