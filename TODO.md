@@ -3,13 +3,13 @@
 
 ## Portfolio Homepage
 
+- Remove right margin on entire page. (Seems to be a problem with video's fixed position?)
 - Fonts
   - Continue fixing the "PORTFOLIO" H2.
   - Choose fonts.
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
 - Add Additional Samples projects.
-  - Make the cards work on all screen sizes.
   - Black bg header. H2 clip text displays water behind it.
     - https://codepen.io/Jintos/pen/crlxk
     - http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
@@ -39,16 +39,14 @@
 - How the linear-gradient button hover effects work.
 
 
-## About:
+## About Me:
 
 - Include testimonials, using LinkedIn recommendations.
-
-
-## Certificates:
-
-- Include Google Ads and Analytics.
+- Include certificates
+  - Include Google Ads and Analytics.
 
 
 ## When Finished:
 
+- Add Google Analytics throughout entire site.
 - At the very end, delete all unused font customizations.
