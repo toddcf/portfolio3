@@ -3,7 +3,6 @@
 
 ## Portfolio Homepage
 
-- Remove right margin on entire page. (Seems to be a problem with video's fixed position?)
 - Fonts
   - Continue fixing the "PORTFOLIO" H2.
   - Choose fonts.

@@ -9,11 +9,20 @@ body {
           box-sizing: border-box !important;
 }
 
+#project-container {
+  overflow: hidden; /* Prevents the header video from going wider than the rest of the project */
+  position: relative;
+  width: 100%;
+}
+
 #project-container a {
   text-decoration: none;
 }
 
-header { min-height: 100vh; }
+header {
+  min-height: 100vh;
+  position: relative;
+}
 
 #video-text-overlay {
   position: absolute;
@@ -50,12 +59,6 @@ header { min-height: 100vh; }
 #project-container a:link,
 #project-container a:visited {
   text-decoration: none;
-}
-
-.center-container {
-  margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
 }
 
 #white-gradient-1 {
@@ -476,6 +479,17 @@ header { min-height: 100vh; }
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+}
+
+/* 1440px and up */
+@media (min-width: 1440px) {
+
+  .center-container {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
   }
 
 }
