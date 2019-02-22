@@ -25,28 +25,28 @@ header {
 }
 
 #video-text-overlay {
-  position: absolute;
-  width: 100%;
   height: auto;
-  top: 50%;
   left: 50%;
+  position: absolute;
+  top: 50%;
   -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 #video-background {
-  /* Makes the video fullscreen */
+  /* Makes video fullscreen */
+  bottom: 0;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100%; 
   position: fixed;
   right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100vh;
   width: auto;
-  height: auto;
   z-index: -100;
 
-  /*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+  /* Background fallback in case video doens't load */
   background: url(../video/tropical-1920x1080-min.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -93,9 +93,8 @@ header {
 }
 
 .additional-samples-project {
-  margin-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
+  margin: 0 auto 100px auto;
   width: 95%;
 }
 
