@@ -8,7 +8,6 @@
   - Choose fonts.
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
-- Add modal to My Portfolio's live site button.
 - Add Waypoints and Animate.css to Additional Samples and footer icons.
 
 
