@@ -9,12 +9,8 @@
   - Choose fonts.
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
-- Add Additional Samples projects.
-  - Black bg header. H2 clip text displays water behind it.
-    - https://codepen.io/Jintos/pen/crlxk
-    - http://nimbupani.com/using-background-clip-for-text-with-css-fallback.html
-    - https://codepen.io/strawstack/pen/LNXpGG
-    - https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip
+- Add modal to My Portfolio's live site button.
+- Add Waypoints and Animate.css to Additional Samples and footer icons.
 
 
 ## Walkthrough Pages
@@ -41,9 +37,9 @@
 
 ## About Me:
 
-- Include testimonials, using LinkedIn recommendations.
-- Include certificates
-  - Include Google Ads and Analytics.
+- Bio
+- Testimonials (LinkedIn recommendations).
+- Certificates (including Google Ads and Analytics).
 
 
 ## When Finished:
