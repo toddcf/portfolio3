@@ -8,12 +8,12 @@
   - Choose fonts.
   - Style H2, H3, H4.
   - Responsive sizing AND SPACING for each breakpoint.
-- Add Waypoints and Animate.css to Additional Samples and footer icons.
+- Check styles at each breakpoint.
 
 
 ## Walkthrough Pages
 
-### Acura of Tempe:
+### Acura of Tempe Walkthrough:
 
 - The value of the white-background rising image.
 - How one of the images disappears on small screens.
@@ -31,6 +31,7 @@
 - How the portfolio cards have a different layout and style for every screen size.
 - How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
 - How the linear-gradient button hover effects work.
+- How the fadeInUp animations work, and how they have different delays depending on the screen size.
 
 
 ## About Me:
