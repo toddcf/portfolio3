@@ -1,34 +1,24 @@
+/* https://type-scale.com/ */
+/* Using 1.200 minor third ratio */
+
 /* Headers: font-family: 'Open Sans', sans-serif; 
 300,300i,400,400i,600,600i,700,700i,800,800i */
 
 /* Body Copy: font-family: 'PT Sans', sans-serif; 
 400,400i,700,700i */
 
-#project-container h1 {
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 4.5px;
+}
+
+#project-container h1,
+#project-container h2,
+#project-container h3,
+#project-container h4,
+#project-container h5,
+#project-container h6 {
   font-family: 'Lato', sans-serif;
-}
-
-.main-name {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.7rem;
-  text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
-  z-index: 10;
-}
-
-.main-subheading,
-.portfolio-header {
-  display: block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.5rem;
-  text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
-  z-index: 10;
-}
-
-.portfolio-header {
-  color: #fff !important;
 }
 
 #project-container h2,
@@ -37,13 +27,36 @@
 #project-container h5,
 #project-container h6 {
   color: #808080;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
 }
 
-#project-container {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
+.main-name {
+  display: block;
+  font-size: 2.488em;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  margin-bottom: .5em;
+  text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
+
+.main-subheading,
+.portfolio-header {
+  display: block;
+  font-size: 2.074em;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.portfolio-header {
+  color: #fff !important;
+}
+
+
+
+
 
 #project-container p {
   font-size: 16px;
@@ -127,17 +140,8 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-  .main-name {
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 1.3rem;
-  }
-
-  .main-subheading,
-  .portfolio-header {
-    font-size: 1.3rem;
-    font-weight: 400;
-    letter-spacing: 0.75rem;
+  html {
+    font-size: 8.5px;
   }
 
 }
@@ -148,17 +152,8 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  .main-name {
-    font-size: 3rem;
-    font-weight: 300;
-    letter-spacing: 1.3rem;
-  }
-
-  .main-subheading,
-  .portfolio-header {
-    font-size: 2rem;
-    font-weight: 300;
-    letter-spacing: 0.75rem;
+  html {
+    font-size: 11.5px;
   }
 
 }
@@ -169,13 +164,8 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .main-name {
-    font-size: 4.5rem;
-  }
-
-  .main-subheading,
-  .portfolio-header {
-    font-size: 3rem;
+  html {
+    font-size: 14.5px;
   }
 
 }
@@ -186,14 +176,8 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  .main-name {
-    font-size: 6rem;
-  }
-
-  .main-subheading,
-  .portfolio-header {
-    font-size: 4rem;
-    letter-spacing: 1rem;
+  html {
+    font-size: 16px;
   }
 
 }
