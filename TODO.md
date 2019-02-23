@@ -3,12 +3,9 @@
 
 ## Portfolio Homepage
 
-- Fonts
-  - Continue fixing the "PORTFOLIO" H2.
-  - Choose fonts.
-  - Style H2, H3, H4.
-  - Responsive sizing AND SPACING for each breakpoint.
+- Responsive font sizing AND SPACING for each breakpoint.
 - Check styles at each breakpoint.
+  - Small screens: Professional Project cards should have left and right margins, just like the Additional Samples cards.
 
 
 ## Walkthrough Pages
