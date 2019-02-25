@@ -39,31 +39,4 @@ $( document ).ready( function() {
     offset: '85%'
   });
 
-  // $( '#about-me-card' ).waypoint( function( direction ) {
-  //   $( '#about-me-card' ).addClass( 'animate-1s bounceInUp' );
-  // }, {
-  //   offset: '85%'
-  // });
-
-  // GitHub Card
-  // $( '#github-card' ).waypoint( function( direction ) {
-  //   $( '#github-card' ).addClass( 'animate-1s bounceInUp' );
-  // }, {
-  //   offset: '85%'
-  // });
-
-  // LinkedIn Card
-  // $( '#linkedin-card' ).waypoint( function( direction ) {
-  //   $( '#linkedin-card' ).addClass( 'animate-1s bounceInUp' );
-  // }, {
-  //   offset: '85%'
-  // });
-
-  // Resume Card
-  // $( '#resume-card' ).waypoint( function( direction ) {
-  //   $( '#resume-card' ).addClass( 'animate-1s bounceInUp' );
-  // }, {
-  //   offset: '85%'
-  // });
-
 } );

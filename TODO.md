@@ -1,9 +1,11 @@
 # To Do:
 
 
-## Portfolio Homepage
+## About Me:
 
-- Deployment checklist.
+- Bio
+- Testimonials (LinkedIn recommendations).
+- Certificates (including Google Ads and Analytics).
 
 
 ## Walkthrough Pages
@@ -30,14 +32,8 @@
 - How the fadeInUp animations work, and how they have different delays depending on the screen size.
 
 
-## About Me:
-
-- Bio
-- Testimonials (LinkedIn recommendations).
-- Certificates (including Google Ads and Analytics).
-
-
 ## When Finished:
 
 - Add Google Analytics throughout entire site.
 - At the very end, delete all unused font customizations.
+- Deployment checklist on every single file.
