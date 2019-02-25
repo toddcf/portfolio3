@@ -3,7 +3,7 @@
 
 ## Portfolio Homepage
 
-- Footer: All 4 icons must bounce up at same time, even on small screens.
+- Deployment checklist.
 
 
 ## Walkthrough Pages
@@ -12,6 +12,7 @@
 
 - The value of the white-background rising image.
 - How one of the images disappears on small screens.
+- The slider button hover effect.
 
 
 ### BMW of El Cajon Walkthrough:
