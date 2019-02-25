@@ -6,6 +6,7 @@
 - Responsive font sizing AND SPACING for each breakpoint.
 - Check styles at each breakpoint.
   - Small screens: Professional Project cards should have left and right margins, just like the Additional Samples cards.
+- Footer: All 4 icons must bounce up at same time, even on small screens.
 
 
 ## Walkthrough Pages

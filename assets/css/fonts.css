@@ -1,5 +1,6 @@
 /* https://type-scale.com/ */
-/* Using 1.200 minor third ratio */
+/* Using Augmented Fourth: 1.414 ratio*/
+/* Previously tried 1.200 minor third ratio */
 
 /* Headers: font-family: 'Open Sans', sans-serif; 
 300,300i,400,400i,600,600i,700,700i,800,800i */
@@ -7,10 +8,29 @@
 /* Body Copy: font-family: 'PT Sans', sans-serif; 
 400,400i,700,700i */
 
-html {
+/* FONT SIZE RATIOS */
+body {
   font-family: 'PT Sans', sans-serif;
-  font-size: 4.5px;
+  font-size: .28125em; /* 4.5px */
 }
+
+#project-container h1 {
+  font-size: 5.653em;
+}
+
+#project-container h2 {
+  font-size: 3.998em;
+}
+
+#project-container h3 {
+  font-size: 2.827em;
+}
+
+#project-container h4 {
+  font-size: 1.999em;
+}
+
+
 
 #project-container h1,
 #project-container h2,
@@ -27,43 +47,33 @@ html {
 #project-container h5,
 #project-container h6 {
   color: #808080;
-  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 .main-name {
   display: block;
-  font-size: 2.488em;
   font-weight: 300;
-  letter-spacing: 0.15em;
+  letter-spacing: .25em;
   margin-bottom: .5em;
-  text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
+  text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
   z-index: 10;
+}
+
+/* H1 subheading and H2 */
+.main-subheading {
+  display: block;
+  font-size: .707em; /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
 }
 
 .main-subheading,
-.portfolio-header {
-  display: block;
-  font-size: 2.074em;
+#project-container h2 {
   font-weight: 300;
-  letter-spacing: 0.15em;
-  text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
+  letter-spacing: .25em;
+  text-shadow: .15em .15em .15em rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 
-.portfolio-header {
-  color: #fff !important;
-}
-
-
-
-
-
-#project-container p {
-  font-size: 16px;
-}
-
 #project-container h2 {
-  font-size: 4.236em;
+  margin-bottom: 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -71,10 +81,6 @@ html {
 .subsection-name-container {
   overflow: hidden;
   text-align: center;
-}
-
-.subsection-name-container h3 {
-  font-size: 2.618em;
 }
 
 .subsection-name {
@@ -113,7 +119,6 @@ html {
 }
 
 .project-title-box h4 {
-  font-size: 1.618em;
   font-weight: 600;
   margin-bottom: 0;
   text-align: center;
@@ -122,6 +127,10 @@ html {
 #project-container .additional-samples-project h4 {
   color: #000;
   text-align: center;
+}
+
+#project-container p {
+  font-size: 16px;
 }
 
 
@@ -140,8 +149,8 @@ html {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-  html {
-    font-size: 8.5px;
+  body {
+    font-size: .53125em; /* 8.5px */
   }
 
 }
@@ -152,8 +161,8 @@ html {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  html {
-    font-size: 11.5px;
+  body {
+    font-size: .6875em; /* 11px */
   }
 
 }
@@ -164,8 +173,8 @@ html {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  html {
-    font-size: 14.5px;
+  body {
+    font-size: .90625em; /* 14.5px */
   }
 
 }
@@ -176,8 +185,8 @@ html {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  html {
-    font-size: 16px;
+  body {
+    font-size: 1em; /* 16px */
   }
 
 }
