@@ -419,6 +419,10 @@ header {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  #white-gradient-2 {
+    padding: 1.5em 0 3.5em 0;
+  }
+
   .professional-project {
     padding-bottom: 100px;
   }
@@ -458,10 +462,6 @@ header {
 
 /* Large devices only (desktops, between 992px and 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-  #white-gradient-2 {
-    padding: 1.5em 0 3.5em 0;
-  }
 
   #acura-of-tempe-img-lg {
     background: url(../img/acura-of-tempe/2019-nsx/1268x499-min.jpg);

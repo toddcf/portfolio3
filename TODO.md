@@ -3,7 +3,6 @@
 
 ## Portfolio Homepage
 
-- Responsive SPACING for each breakpoint.
 - Footer: All 4 icons must bounce up at same time, even on small screens.
 
 
