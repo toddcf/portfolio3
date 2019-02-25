@@ -75,7 +75,6 @@ header {
 
 .solid-white-bg {
   background: #fff;
-  padding-bottom: 100px;
 }
 
 .professional-project {
@@ -100,6 +99,7 @@ header {
 }
 
 .additional-samples-project {
+  border-radius: 4px;
   box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
   margin: 0 auto 100px auto;
   width: 95%;
@@ -139,6 +139,10 @@ header {
 /* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
 
+  .solid-white-bg {
+    padding-bottom: 100px;
+  }
+
   .professional-project {
     box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
     margin: 0 auto 100px auto;
@@ -151,6 +155,7 @@ header {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 3px;
   }
 
   #bmw-el-cajon-bg-blur {
@@ -158,6 +163,7 @@ header {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 3px;
   }
 
   #honda-new-rochelle-bg-blur {
@@ -165,6 +171,7 @@ header {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 4px;
   }
 
   .mobile-card-centering {
