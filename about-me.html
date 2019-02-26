@@ -15,7 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Sans:400,400i,700,700i" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/about-me.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="assets/css/buttons.css">
     <link rel="stylesheet" type="text/css" href="assets/css/effects.css">
@@ -24,10 +25,10 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-    <title>Todd Croak-Falen | UI/UX Designer</title>
+    <title>About Todd Croak-Falen | UI/UX Designer</title>
 
     <meta name="Author" content="Todd Croak-Falen">
-    <meta name="Description" content="Portfolio for UI/UX designer Todd Croak-Falen.">
+    <meta name="Description" content="About UI/UX designer Todd Croak-Falen.">
     <meta name="keywords" content="Todd Croak-Falen, ui, ux, designer, web developer, portfolio, Los Angeles">
 
     <!-- Favicon -->
@@ -40,290 +41,60 @@
     <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-
   </head>
 
   <body>
 
     <div id="project-container">
 
-      <!-- Video Header -->
       <header>
         
-        <!--Text Overlay -->
-        <div id="video-text-overlay" class="m-auto text-center">
-          <h1>
-            <span class="text-white main-name animate-8 fadeInDown">Todd Croak-Falen</span>
-            <span class="text-white main-subheading animate-8 fadeInUp">UI/UX Designer</span>
-          </h1>
-        </div>
-
-        <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
-        <video autoplay loop id="video-background" muted playsinline>
-          <source src="assets/video/tropical.mp4" type="video/mp4">
-        </video>
-        <!--Video Section Ends Here-->
+        <nav>
+          
+        </nav>
 
       </header>
 
-      <!-- Portfolio Content -->
-      <main id="portfolio-content">
+      <!-- Main Content -->
+      <main id="main-content">
 
-        <div id="white-gradient-1">
-
-          <div class="center-container">
-            <div class="row">
-              <div class="col">
-                <div class="section-name">
-                  <h2 class="text-white portfolio-header">Portfolio</h2>
-                </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section-name">
+                <h1>About Me</h1>
               </div>
             </div>
-          </div> <!-- Close .center-container -->
+          </div>
+        </div> <!-- Close .center-container -->
 
-        </div> <!-- Close #white-gradient -->
+        <!-- About Section -->
+        <section id="about-section">
 
-        <!-- Professional Subsection -->
-        <section id="professional-section">
+          <div class="container">
 
-          <div id="white-gradient-2">
-
-            <div class="center-container">
-              <div class="row">
-                <div class="col">
-                  <div class="subsection-name-container">
-                    <h3><span class="subsection-name">Professional Projects</span></h3>
-                  </div>
+            <div class="row">
+              
+              <div class="col-md-5">
+                <div id="tcf-photo-container" class="animate-1 fadeInLeft">
+                  <img src="assets/img/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="img-fluid tcf-photo">
                 </div>
               </div>
-            </div> <!-- Close .center-container -->
+              
+              <div class="col-md-7">
+                <div id="bio-text" class="text-justify animate-1 fadeInRight">
+                  <p>My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
+                  <p>I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
+                  <p>My other interests include <a href="http://www.toddcf.com" target="_blank">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
+                  <p>I am based in West Los Angeles, CA.</p>
+                </div> <!-- Close #bio-text -->
+              </div>
 
-          </div> <!-- Close #white-gradient-2 -->
+            </div> <!-- Close .row -->
 
-          <div class="solid-white-bg">
-
-            <div class="center-container">
-
-              <!-- Acura of Tempe -->
-              <div id="acura-of-tempe-project" class="professional-project">
-
-                <div id="acura-of-tempe-bg-blur" class="bg-blur">
-
-                  <div class="mobile-card-centering">
-
-                    <div class="professional-project-img-sm-container">
-                      <div id="acura-of-tempe-img-sm" class="professional-project-img-sm">
-                        <!-- Image is passed into this container via CSS depending on screen size -->
-                      </div> <!-- Close #acura-of-tempe-img-sm -->
-                    </div>
-
-                    <div class="project-title-box">
-                      <h4>Acura of Tempe</h4>
-                    </div>
-
-                    <div id="acura-of-tempe-img-md" class="professional-project-img-md">
-                      <!-- Image is passed into this container via CSS depending on screen size -->
-                    </div> <!-- Close #acura-of-tempe-img-sm -->
-
-                    <div id="acura-of-tempe-img-lg" class="professional-project-img-lg">
-                      
-                      <!-- Image is passed into this container via CSS depending on screen size -->
-
-                      <div class="professional-info-module info-module-right">
-                        
-                        <p>Six landing pages I designed and coded for the Acura of Tempe dealership. These meet Acura marketing guidelines and passed an Acura compliance check.</p>
-
-                        <div class="btn-box">
-
-                          <div class="row">
-
-                            <div class="col-12 col-sm-6 left-btn">
-                              <a a href="https://toddcf.github.io/acura-of-tempe/nsx.html" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fas fa-desktop"></i>Live Site</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12 col-sm-6 right-btn">
-                              <a href="https://github.com/toddcf/acura-of-tempe" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fab fa-github"></i>GitHub</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12">
-                              <a href="#">
-                                <div class="global-btn-box cta-primary-btn-box">
-                                  <div class="global-btn cta-primary-btn"><i class="fas fa-code"></i>Project Walkthrough</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-                            
-                          </div> <!-- Close .row -->
-
-                        </div> <!-- Close .btn-box -->
-
-                      </div> <!-- Close .professional-info-module -->
-
-                    </div> <!-- Close #acura-of-tempe-img-lg -->
-
-                  </div> <!-- Close .mobile-card-centering -->
-
-                </div> <!-- Close .bg-blur -->
-
-              </div> <!-- Close #acura-of-tempe -->
-
-              <!-- BMW of El Cajon -->
-              <div id="bmw-el-cajon-project" class="professional-project">
-
-                <div id="bmw-el-cajon-bg-blur" class="bg-blur">
-
-                  <div class="mobile-card-centering">
-
-                    <div class="professional-project-img-sm-container">
-                      <div id="bmw-el-cajon-img-sm" class="professional-project-img-sm">
-                        <!-- Image is passed into this container via CSS depending on screen size -->
-                      </div> <!-- Close #bmw-el-cajon-img-sm -->
-                    </div>
-
-                    <div class="project-title-box">
-                      <h4>BMW of El Cajon</h4>
-                    </div>
-
-                    <div id="bmw-el-cajon-img-md" class="professional-project-img-md">
-                      <!-- Image is passed into this container via CSS depending on screen size -->
-                    </div> <!-- Close #bmw-el-cajon-img-sm -->
-
-                    <div id="bmw-el-cajon-img-lg" class="professional-project-img-lg">
-                      
-                      <!-- Image is passed into this container via CSS depending on screen size -->
-
-                      <div class="professional-info-module info-module-left">
-                        
-                        <p>Two landing pages I designed and coded for BMW of El Cajon. They meet BMW's strict marketing style guidelines.</p>
-
-                        <div class="btn-box">
-
-                          <div class="row">
-
-                            <div class="col-12 col-sm-6 left-btn">
-                              <a a href="https://toddcf.github.io/bmw-el-cajon/" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fas fa-desktop"></i>Live Site</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12 col-sm-6 right-btn">
-                              <a href="https://github.com/toddcf/bmw-el-cajon" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fab fa-github"></i>GitHub</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12">
-                              <a href="#">
-                                <div class="global-btn-box cta-primary-btn-box">
-                                  <div class="global-btn cta-primary-btn"><i class="fas fa-code"></i>Project Walkthrough</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-                            
-                          </div> <!-- Close .row -->
-
-                        </div> <!-- Close .btn-box -->
-
-                      </div> <!-- Close .professional-info-module -->
-
-                    </div> <!-- Close #bmw-el-cajon-img-lg -->
-
-                  </div> <!-- Close .mobile-card-centering -->
-
-                </div> <!-- Close .bg-blur -->
-
-              </div> <!-- Close #bmw-el-cajon -->
-
-              <!-- Honda of New Rochelle -->
-              <div id="honda-new-rochelle-project" class="professional-project">
-
-                <div id="honda-new-rochelle-bg-blur" class="bg-blur">
-
-                  <div class="mobile-card-centering">
-
-                    <div class="professional-project-img-sm-container">
-                      <div id="honda-new-rochelle-img-sm" class="professional-project-img-sm">
-                        <!-- Image is passed into this container via CSS depending on screen size -->
-                      </div> <!-- Close #acura-of-tempe-img-sm -->
-                    </div>
-
-                    <div class="project-title-box">
-                      <h4>Honda of New Rochelle</h4>
-                    </div>
-
-                    <div id="honda-new-rochelle-img-md" class="professional-project-img-md">
-                      <!-- Image is passed into this container via CSS depending on screen size -->
-                    </div> <!-- Close #acura-of-tempe-img-sm -->
-
-                    <div id="honda-new-rochelle-img-lg" class="professional-project-img-lg">
-                      
-                      <!-- Image is passed into this container via CSS depending on screen size -->
-
-                      <div class="professional-info-module info-module-right">
-                        
-                        <p>Sample landing page I built for the 2018 Honda Accord as part of the interview process at fusionZONE Automotive, LLC. (And yes, I got the job!)</p>
-
-                        <div class="btn-box">
-
-                          <div class="row">
-
-                            <div class="col-12 col-sm-6 left-btn">
-                              <a a href="https://toddcf.github.io/fzha/" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fas fa-desktop"></i>Live Site</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12 col-sm-6 right-btn">
-                              <a href="https://github.com/toddcf/fzha" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fab fa-github"></i>GitHub</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12">
-                              <a href="#">
-                                <div class="global-btn-box cta-primary-btn-box">
-                                  <div class="global-btn cta-primary-btn"><i class="fas fa-code"></i>Project Walkthrough</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-                            
-                          </div> <!-- Close .row -->
-
-                        </div> <!-- Close .btn-box -->
-
-                      </div> <!-- Close .professional-info-module -->
-
-                    </div> <!-- Close #honda-new-rochelle-img-lg -->
-
-                  </div> <!-- Close .mobile-card-centering -->
-
-                </div> <!-- Close .bg-blur -->
-
-              </div> <!-- Close #honda-new-rochelle -->
-
-            </div> <!-- Close .center-container -->
-
-          </div> <!-- Close .solid-white-bg -->
-          
-        </section> <!-- Close #professional-section -->
+          </div> <!-- Close .center-container -->
+              
+        </section> <!-- Close #about-section -->
 
         <!-- Additional Samples Section -->
         <section id="additional-samples-section">
@@ -519,7 +290,7 @@
           
         </section> <!-- Close #additional-samples-section -->
 
-      </main> <!-- Close #portfolio-content -->
+      </main> <!-- Close #main-content -->
 
       <footer>
 

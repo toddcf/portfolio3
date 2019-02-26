@@ -4,8 +4,20 @@
 ## About Me:
 
 - Bio
-- Testimonials (LinkedIn recommendations).
+  - Animate in left and right (same for all screen sizes).
+    - Pull over fadeInRight CSS.
+    - Add `opacity: 0`, etc. for elements on load.
+- Professional References
+  - Pull all three LinkedIn recommendations.
+  - Choose an icon for each.
+  - Parallax bg.
+  - fadeInUp.
+- Skills
+  - Standardize all image icon sizes.
+  - Include text below each image for SEO and screen reader purposes.
+  - Animate in with mobile-responsive delays.
 - Certificates (including Google Ads and Analytics).
+  - Standardize all image sizes.
 
 
 ## Walkthrough Pages
@@ -20,9 +32,10 @@
 ### BMW of El Cajon Walkthrough:
 
 - Show the button hover effect WITH and WITHOUT my solution so the user can see the flash.
+- Show the difference WITH and WITHOUT my linear gradient behind the H1.
 
 
-### Portfolio Walkthrough:
+### My Portfolio Walkthrough:
 
 - How I solved the white-gradient background issue.
   - Two separate divs, one going from 0 to 50% opacity, the second going from 50% to 100% opacity.
@@ -34,6 +47,7 @@
 
 ## When Finished:
 
+- Run Google page speed insights test.
 - Add Google Analytics throughout entire site.
 - At the very end, delete all unused font customizations.
 - Deployment checklist on every single file.

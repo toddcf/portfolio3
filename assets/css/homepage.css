@@ -515,14 +515,3 @@ header {
   }
 
 }
-
-/* 1440px and up */
-@media (min-width: 1440px) {
-
-  .center-container {
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-  }
-
-}
