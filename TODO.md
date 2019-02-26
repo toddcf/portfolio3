@@ -4,9 +4,6 @@
 ## About Me:
 
 - Bio
-  - Animate in left and right (same for all screen sizes).
-    - Pull over fadeInRight CSS.
-    - Add `opacity: 0`, etc. for elements on load.
 - Professional References
   - Pull all three LinkedIn recommendations.
   - Choose an icon for each.
