@@ -16,11 +16,11 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/global.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/about-me.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="assets/css/buttons.css">
     <link rel="stylesheet" type="text/css" href="assets/css/effects.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/about-me.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -62,7 +62,7 @@
           <div class="row">
             <div class="col">
               <div class="section-name">
-                <h1>About Me</h1>
+                <h1 class="text-center"><span id="about-h1">About Me</span></h1>
               </div>
             </div>
           </div>
@@ -96,189 +96,81 @@
               
         </section> <!-- Close #about-section -->
 
-        <!-- Additional Samples Section -->
-        <section id="additional-samples-section">
+        <!-- Professional References Section -->
+        <section id="professional-references-section">
 
           <div class="black-heading">
             <div class="subsection-name-container">
-              <h3><span class="subsection-name">Additional Samples</span></h3>
+              <h2><span class="subsection-name">Professional References</span></h2>
             </div>
           </div> <!-- Close .black-heading -->
 
-          <div class="shaded-bg">
+          <div class="wood-panel-bg">
 
             <div class="center-container">
 
               <div class="row">
 
-                <!-- My Portfolio -->
+                <!-- Ed Barton -->
                 <div class="col-12 col-md-4">
                   
-                  <div id="my-portfolio-project" class="additional-samples-project">
+                  <div id="ed-barton-ref" class="card professional-reference">
 
-                    <div class="additional-samples-centering">
+                    <div class="card-body">
+                      <i class="fas fa-quote-left"></i>
+                      <blockquote cite="https://www.linkedin.com/in/toddcf/">
+                        <p>I had the pleasure of working with Todd when he was a UI/UX designer at fusionZONE. He was a dedicated and conscientious contributor, and was able to work with limited supervision to meet and exceed customer requirements.</p>
+                      </blockquote>
+                      <i class="fas fa-quote-right text-right"></i>
+                    </div> <!-- Close .card-body -->
 
-                      <div class="additional-samples-img-sm-container">
-                        <div id="my-portfolio-img-sm" class="additional-samples-img-sm">
-                          <!-- Image is passed into this container via CSS depending on screen size -->
-                        </div> <!-- Close #acura-of-tempe-img-sm -->
-                      </div>
+                    <div class="card-footer">
+                      <cite><span class="ref-name">Edward J. Barton</span><span class="ref-title">CEO, fusionZONE</span><span class="ref-link">via <a href="https://www.linkedin.com/in/toddcf/" target="_blank">LinkedIn</a></span></cite>
+                    </div> <!-- Close .card-footer -->
 
-                      <div class="sample-info-module">
-
-                        <h4>My Portfolio</h4>
-                        
-                        <p>I designed and coded the portfolio you are looking at right now.</p>
-
-                        <div class="btn-box">
-
-                          <div class="row">
-
-                            <div class="col-12">
-                              <a href="https://github.com/toddcf/portfolio3" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fab fa-github"></i>GitHub</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12">
-                              <a href="#">
-                                <div class="global-btn-box cta-primary-btn-box">
-                                  <div class="global-btn cta-primary-btn"><i class="fas fa-code"></i>Project Walkthrough</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-                            
-                          </div> <!-- Close .row -->
-
-                        </div> <!-- Close .btn-box -->
-
-                      </div> <!-- Close .sample-info-module -->
-
-                    </div> <!-- Close .mobile-card-centering -->
-
-                  </div> <!-- Close #my-portfolio-project -->
+                  </div> <!-- Close #ed-barton-ref .card .professional-reference -->
 
                 </div> <!-- Close .col -->
 
-                <!-- Omnifood -->
+                <!-- Anna Flom -->
                 <div class="col-12 col-md-4">
                   
-                  <div id="omnifood-project" class="additional-samples-project">
+                  <div id="anna-flom-ref" class="professional-reference">
 
-                    <div class="additional-samples-centering">
+                    <div class="card-body">
+                      <i class="fas fa-quote-left"></i>
+                      <blockquote cite="https://www.linkedin.com/in/toddcf/">
+                        <p>Todd's impeccable work ethic and standout designs exceeded customers' expectations. A truly exceptional designer with a knack for detailed work! Without question, Todd will be an asset to any team he joins.</p>
+                        <i class="fas fa-quote-right text-right"></i>
+                      </blockquote>
+                    </div> <!-- Close .card-body -->
 
-                      <div class="additional-samples-img-sm-container">
-                        <div id="omnifood-img-sm" class="additional-samples-img-sm">
-                          <!-- Image is passed into this container via CSS depending on screen size -->
-                        </div> <!-- Close #acura-of-tempe-img-sm -->
-                      </div>
+                    <div class="card-footer">
+                      <cite><span class="ref-name">Anna Flom</span><span class="ref-title">VP of Operations, fusionZONE</span><span class="ref-link">via <a href="https://www.linkedin.com/in/toddcf/" target="_blank">LinkedIn</a></span></cite>
+                    </div> <!-- Close .card-footer -->
 
-                      <div class="sample-info-module">
-
-                        <h4>Omnifood</h4>
-                        
-                        <p>Mobile responsive single-page sample site for high-end food delivery service.</p>
-
-                        <div class="btn-box">
-
-                          <div class="row">
-
-                            <div class="col-12">
-                              <a a href="https://omnifood-delivery.herokuapp.com/" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fas fa-desktop"></i>Live Site</div>
-                                </div>
-                              </a>
-
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12">
-                              <a href="https://github.com/toddcf/omnifood-delivery" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fab fa-github"></i>GitHub</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <!-- <div class="col-12">
-                              <a href="#">
-                                <div class="global-btn-box cta-primary-btn-box">
-                                  <div class="global-btn cta-primary-btn"><i class="fas fa-code"></i>Project Walkthrough</div>
-                                </div>
-                              </a>
-                            </div> --> <!-- Close .col -->
-                            
-                          </div> <!-- Close .row -->
-
-                        </div> <!-- Close .btn-box -->
-
-                      </div> <!-- Close .sample-info-module -->
-
-                    </div> <!-- Close .mobile-card-centering -->
-
-                  </div> <!-- Close #omnifood-project -->
+                  </div> <!-- Close #anna-flom-ref .card .professional-reference -->
 
                 </div> <!-- Close .col -->
 
-                <!-- Author Site -->
+                <!-- Agnes Azaryan -->
                 <div class="col-12 col-md-4">
                   
-                  <div id="author-site-project" class="additional-samples-project">
+                  <div id="agnes-azaryan-ref" class="professional-reference">
 
-                    <div class="additional-samples-centering">
+                    <div class="card-body">
+                      <i class="fas fa-quote-left"></i>
+                      <blockquote cite="https://www.linkedin.com/in/toddcf/">
+                        <p>As the Lead UI/UX Designer at FusionZone Automotive, I was Todd’s direct manager, where he explored and created so many amazing responsive interfaces for web and mobile solutions. Todd is a hardworking and talented individual.</p>
+                      </blockquote>
+                      <i class="fas fa-quote-right text-right"></i>
+                    </div> <!-- Close .card-body -->
 
-                      <div class="additional-samples-img-sm-container">
-                        <div id="author-site-img-sm" class="additional-samples-img-sm">
-                          <!-- Image is passed into this container via CSS depending on screen size -->
-                        </div> <!-- Close #acura-of-tempe-img-sm -->
-                      </div>
+                    <div class="card-footer">
+                      <cite><span class="ref-name">Agnes Azaryan</span><span class="ref-title">Lead UI/UX Designer, fusionZONE</span><span class="ref-link">via <a href="https://www.linkedin.com/in/toddcf/" target="_blank">LinkedIn</a></span></cite>
+                    </div> <!-- Close .card-footer -->
 
-                      <div class="sample-info-module">
-
-                        <h4>Author Site</h4>
-                        
-                        <p>Mobile responsive multipage website showcasing my published works.</p>
-
-                        <div class="btn-box">
-
-                          <div class="row">
-
-                            <div class="col-12">
-                              <a a href="http://www.toddcf.com" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fas fa-desktop"></i>Live Site</div>
-                                </div>
-                              </a>
-
-                            </div> <!-- Close .col -->
-
-                            <div class="col-12">
-                              <a href="https://github.com/toddcf/toddcf" target="_blank">
-                                <div class="global-btn-box cta-secondary-btn-box">
-                                  <div class="global-btn cta-secondary-btn"><i class="fab fa-github"></i>GitHub</div>
-                                </div>
-                              </a>
-                            </div> <!-- Close .col -->
-
-                            <!-- <div class="col-12">
-                              <a href="#">
-                                <div class="global-btn-box cta-primary-btn-box">
-                                  <div class="global-btn cta-primary-btn"><i class="fas fa-code"></i>Project Walkthrough</div>
-                                </div>
-                              </a>
-                            </div> --> <!-- Close .col -->
-                            
-                          </div> <!-- Close .row -->
-
-                        </div> <!-- Close .btn-box -->
-
-                      </div> <!-- Close .sample-info-module -->
-
-                    </div> <!-- Close .mobile-card-centering -->
-
-                  </div> <!-- Close #author-site-project -->
+                  </div> <!-- Close #agnes-azaryan-ref .card .professional-reference -->
 
                 </div> <!-- Close .col -->
                 
@@ -286,7 +178,7 @@
               
             </div> <!-- Close .center-container -->
 
-          </div> <!-- Close .shaded-bg -->
+          </div> <!-- Close .wood-panel-bg -->
           
         </section> <!-- Close #additional-samples-section -->
 
@@ -299,13 +191,13 @@
           <div class="row icon-row">
 
             <div class="col-6 col-md-3">
-              <a href="about-me.html">
+              <a href="index.html">
                 <div id="about-me-card" class="footer-card">
                   <div class="icon-container">
-                    <i class="fas fa-user-circle"></i>
+                    <i class="fas fa-home"></i>
                   </div>
                   <div class="description">
-                    <p>About Me</p>
+                    <p>Home</p>
                   </div>
                 </div>
               </a>

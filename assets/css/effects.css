@@ -1,10 +1,16 @@
 .additional-samples-project,
-.footer-card {
+.footer-card,
+#ed-barton-ref,
+#anna-flom-ref,
+#agnes-azaryan-ref {
   opacity: 0;
 }
 
 .additional-samples-project.animate-1s,
-.footer-card.animate-1s {
+.footer-card.animate-1s,
+#ed-barton-ref.animate-1s,
+#anna-flom-ref.animate-1s,
+#agnes-azaryan-ref.animate-1s {
   opacity: 1;
 }
 

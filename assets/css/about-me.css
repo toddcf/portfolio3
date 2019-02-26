@@ -1,7 +1,167 @@
+body {
+  font-size: .3em;
+}
+
 #project-container section {
   padding-bottom: 4em;
 }
 
+.section-name {
+  overflow: hidden;
+}
+
+#project-container h1 {
+  margin-bottom: 24px;
+}
+
+#about-h1 {
+  color: #565656;
+  position: relative;
+}
+
+#about-h1::before,
+#about-h1::after {
+  border-top: 3px solid #565656;
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+
+#about-h1::before {
+  margin-right: 15px;
+  right: 100%;
+}
+
+#about-h1::after {
+  left: 100%;
+  margin-left: 15px;
+}
+
 .bio {
   padding: 0 1em 1em 1em;
+}
+
+.tcf-photo {
+  margin-bottom: 16px;
+}
+
+#project-container #professional-references-section {
+  padding-bottom: 0;
+}
+
+.wood-panel-bg {
+  padding: 6em 2em;
+}
+
+.professional-reference {
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+/*background-image: linear-gradient(to bottom, #3c6221 0, #33531c 50%, #213612 100%);*/
+
+.professional-reference .fa-quote-left {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.professional-reference .fa-quote-right {
+  display: block;
+}
+
+.ref-name,
+.ref-title,
+.ref-link {
+  display: block;
+}
+
+.ref-name {
+  border-bottom: 1px solid #fff;
+}
+
+.ref-title {
+  font-style: normal;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .wood-panel-bg {
+    background-image: url(../img/dark-wood-panel/576x384-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Small devices only (landscape phones, between 576px and 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .wood-panel-bg {
+    background-image: url(../img/dark-wood-panel/768x512-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Medium devices only (tablets, between 768px and 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .wood-panel-bg {
+    background-image: url(../img/dark-wood-panel/992x661-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  body {
+    font-size: .7em;
+  }
+
+}
+
+/* Large devices only (desktops, between 992px and 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .wood-panel-bg {
+    background-image: url(../img/dark-wood-panel/1200x800-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .wood-panel-bg {
+    background-image: url(../img/dark-wood-panel/2500x1667-semi-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 }

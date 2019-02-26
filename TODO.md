@@ -3,7 +3,11 @@
 
 ## About Me:
 
+- Unlink `homepage.css`.
+- Style all text links.
+
 - Bio
+  - Style H1.
 - Professional References
   - Pull all three LinkedIn recommendations.
   - Choose an icon for each.
