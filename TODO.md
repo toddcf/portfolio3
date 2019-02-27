@@ -27,7 +27,8 @@
 
 ### Honda of New Rochelle:
 
-- 
+- Video background.
+- Animations and Waypoints.
 
 
 ## When Finished:
