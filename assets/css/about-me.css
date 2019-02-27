@@ -108,14 +108,30 @@ body {
 
 #project-container #certificates-section {
   padding-bottom: 0;
+  position: relative; /* Parallax */
+  overflow: hidden; /* Parallax */
 }
 
 .certificates-bg {
   background-image: url(../img/artificial-intelligence-circuit-board-computing-50711.jpg);
-  background-position: center;
+  background-position: center; /* If you have trouble, try center center */
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 8em;
+
+
+  /*background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;*/ /* Gets overridden */
+
+  
+  /*height: 461.363px;
+  transform: translate(0px, 159.057px);*/
 }
 
 #certificates-section .card {

@@ -13,9 +13,7 @@
 - Professional References
 - Skills
 - Certificates
-  - Add Google Ads.
-  - Add Google Analytics.
-  - Standardize all image sizes.
+  - Hardcode a text-box height for each breakpoint.
   - Parallax bg image.
   - Style each card.
 
