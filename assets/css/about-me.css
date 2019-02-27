@@ -196,6 +196,10 @@ body {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+  .professional-reference .card-body {
+    min-height: 338px;
+  }
+
   #weather-card .card-body,
   #seo-card .card-body,
   #wireframe-card .card-body,
@@ -225,6 +229,10 @@ body {
     font-size: .7em;
   }
 
+  .professional-reference .card-body {
+    min-height: 287px;
+  }
+
   #google-ads-card .card-body {
     min-height: auto;
   }
@@ -251,6 +259,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .professional-reference .card-body {
+    min-height: 239px;
   }
 
   #weather-card .card-body,
