@@ -1,10 +1,5 @@
 # To Do:
 
-## Global:
-
-- Style all text links. Confirm that they are working on homepage, About Me, and the walkthroughs (when completed).
-
-
 ## Walkthrough Pages
 
 ### My Portfolio Walkthrough:

@@ -9,6 +9,37 @@ body {
   text-decoration: none;
 }
 
+.text-link-light-bg,
+.text-link-dark-bg {
+  transition: .3s;
+}
+
+.text-link-light-bg:link,
+.text-link-light-bg:visited {
+  border-bottom: 1px solid #212529;
+  color: #212529;
+}
+
+.text-link-light-bg:hover,
+.text-link-light-bg:focus,
+.text-link-light-bg:active {
+  border-bottom: 1px solid #c0c0c0;
+  color: #c0c0c0;
+}
+
+.text-link-dark-bg:link,
+.text-link-dark-bg:visited {
+  border-bottom: 1px solid #c0c0c0;
+  color: #c0c0c0;
+}
+
+.text-link-dark-bg:hover,
+.text-link-dark-bg:focus,
+.text-link-dark-bg:active {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
 
 
 
