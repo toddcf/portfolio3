@@ -5,16 +5,22 @@
 - Style all text links. The homepage currently does not have footer underlines on hover, but About Me does. (And it shouldn't.)
 
 
+## Homepage:
+
+- Redraw wireframe for Walkthrough.
+
+
 ## About Me:
 
 - Unlink `homepage.css`. Change anything in common to `global.css`.
+- Redraw wireframe for Walkthrough.
 
 - Bio
 - Professional References
 - Skills
 - Certificates
   - Hardcode a text-box height for each breakpoint.
-  - Parallax bg image.
+  - Parallax bg image. (If CSS-only becomes too problematic, look into jQuery version: https://www.codementor.io/lautiamkok/js-tips-creating-a-simple-parallax-scrolling-with-css3-and-jquery-efp9b2spn)
   - Style each card.
 
 
