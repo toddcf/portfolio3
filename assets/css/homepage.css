@@ -8,10 +8,6 @@
   width: 100%;
 }
 
-#project-container a {
-  text-decoration: none;
-}
-
 header {
   min-height: 100vh;
   position: relative;

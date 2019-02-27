@@ -2,27 +2,21 @@
 
 ## Global:
 
-- Style all text links. The homepage currently does not have footer underlines on hover, but About Me does. (And it shouldn't.)
-
-
-## Homepage:
-
-- Redraw wireframe for Walkthrough.
-
-
-## About Me:
-
-- Unlink `homepage.css`. Change anything in common to `global.css`.
-- Redraw wireframe for Walkthrough.
-
-- Nav?
-- Bio
-- Professional References
-- Skills
-- Certificates
+- Style all text links. Confirm that they are working on homepage, About Me, and the walkthroughs (when completed).
 
 
 ## Walkthrough Pages
+
+### My Portfolio Walkthrough:
+
+- Redraw wireframes for homepage and About Me. Scan and add to walkthrough.
+- How I solved the white-gradient background issue.
+  - Two separate divs, one going from 0 to 50% opacity, the second going from 50% to 100% opacity.
+- How the portfolio cards have a different layout and style for every screen size.
+- How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
+- How the linear-gradient button hover effects work.
+- How the fadeInUp animations work, and how they have different delays depending on the screen size.
+- Parallax effect on About Me page.
 
 ### Acura of Tempe Walkthrough:
 
@@ -36,21 +30,14 @@
 - Show the button hover effect WITH and WITHOUT my solution so the user can see the flash.
 - Show the difference WITH and WITHOUT my linear gradient behind the H1.
 
+### Honda of New Rochelle:
 
-### My Portfolio Walkthrough:
-
-- How I solved the white-gradient background issue.
-  - Two separate divs, one going from 0 to 50% opacity, the second going from 50% to 100% opacity.
-- How the portfolio cards have a different layout and style for every screen size.
-- How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
-- How the linear-gradient button hover effects work.
-- How the fadeInUp animations work, and how they have different delays depending on the screen size.
-- Parallax effect on About Me page.
+- 
 
 
 ## When Finished:
 
+- Delete all unused font customizations.
 - Run Google page speed insights test.
 - Add Google Analytics throughout entire site.
-- At the very end, delete all unused font customizations.
 - Deployment checklist on every single file.
