@@ -15,6 +15,7 @@
 - Unlink `homepage.css`. Change anything in common to `global.css`.
 - Redraw wireframe for Walkthrough.
 
+- Nav?
 - Bio
 - Professional References
 - Skills
@@ -47,6 +48,7 @@
 - How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
 - How the linear-gradient button hover effects work.
 - How the fadeInUp animations work, and how they have different delays depending on the screen size.
+- Parallax effect on About Me page.
 
 
 ## When Finished:
