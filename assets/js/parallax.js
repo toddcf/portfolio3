@@ -1,4 +1,5 @@
 // From https://www.codementor.io/lautiamkok/js-tips-creating-a-simple-parallax-scrolling-with-css3-and-jquery-efp9b2spn
+// And https://raw.githubusercontent.com/lautiamkok/js-parallax/master/advanced/app.js
 
 $(document).ready(function(){
 
