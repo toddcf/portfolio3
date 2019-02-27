@@ -60,4 +60,16 @@ $( document ).ready( function() {
     offset: '85%'
   });
 
+  // HTML Skill triggers all skills:
+  $( '#html-skill' ).waypoint( function( direction ) {
+    $( '#html-skill' ).addClass( 'animate-1s fadeInRight' );
+    $( '#css-skill' ).addClass( 'animate-1s animate-delay-a fadeInRight' );
+    $( '#javascript-skill' ).addClass( 'animate-1s animate-delay-b fadeInRight' );
+    $( '#bootstrap-skill' ).addClass( 'animate-1s animate-delay-c fadeInRight' );
+    $( '#foundation-skill' ).addClass( 'animate-1s animate-delay-d fadeInRight' );
+    $( '#jquery-skill' ).addClass( 'animate-1s animate-delay-e fadeInRight' );
+  }, {
+    offset: '85%'
+  });
+
 } );

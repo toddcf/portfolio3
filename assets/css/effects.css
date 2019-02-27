@@ -2,7 +2,13 @@
 .footer-card,
 #ed-barton-ref,
 #anna-flom-ref,
-#agnes-azaryan-ref {
+#agnes-azaryan-ref,
+#html-skill,
+#css-skill,
+#javascript-skill,
+#bootstrap-skill,
+#foundation-skill,
+#jquery-skill {
   opacity: 0;
 }
 
@@ -10,7 +16,13 @@
 .footer-card.animate-1s,
 #ed-barton-ref.animate-1s,
 #anna-flom-ref.animate-1s,
-#agnes-azaryan-ref.animate-1s {
+#agnes-azaryan-ref.animate-1s,
+#html-skill.animate-1s,
+#css-skill.animate-1s,
+#javascript-skill.animate-1s,
+#bootstrap-skill.animate-1s,
+#foundation-skill.animate-1s,
+#jquery-skill.animate-1s {
   opacity: 1;
 }
 
@@ -247,6 +259,31 @@
 
 .fadeInUp {
   animation-name: fadeInUp;
+}
+
+/* Skills Delays */
+#skills-section .animate-delay-a {
+  animation-delay: .15s;
+}
+
+#skills-section .animate-delay-b {
+  animation-delay: .3s;
+}
+
+#skills-section .animate-delay-c {
+  animation-delay: .45s;
+}
+
+#skills-section .animate-delay-d {
+  animation-delay: .6s;
+}
+
+#skills-section .animate-delay-e {
+  animation-delay: .75s;
+}
+
+#skills-section .animate-delay-f {
+  animation-delay: .9s;
 }
 
 
