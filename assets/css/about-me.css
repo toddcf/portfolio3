@@ -63,8 +63,6 @@ body {
   padding: 1em;
 }
 
-/*background-image: linear-gradient(to bottom, #3c6221 0, #33531c 50%, #213612 100%);*/
-
 .professional-reference .fa-quote-left {
   display: block;
   margin-bottom: 1rem;
@@ -108,8 +106,37 @@ body {
   text-align: center;
 }
 
+#project-container #certificates-section {
+  padding-bottom: 0;
+}
+
 .certificates-bg {
+  background-image: url(../img/artificial-intelligence-circuit-board-computing-50711.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 8em;
+}
+
+#certificates-section .card {
+  background: rgba(0, 0, 0, .7);
+  border: none;
+  border-bottom: 8px solid #3c6221;
+  border-radius: 0;
+  margin-bottom: 4em;
+}
+
+/*background-image: linear-gradient(to bottom, #3c6221 0, #33531c 50%, #213612 100%);*/
+
+#certificates-section .card img {
+  display: block;
+  width: 100%;
+}
+
+#certificates-section .card p {
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 

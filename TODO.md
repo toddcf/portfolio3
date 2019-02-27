@@ -1,24 +1,23 @@
 # To Do:
 
+## Global:
+
+- Style all text links. The homepage currently does not have footer underlines on hover, but About Me does. (And it shouldn't.)
+
 
 ## About Me:
 
 - Unlink `homepage.css`.
-- Style all text links.
 
 - Bio
-  - Style H1.
 - Professional References
-  - Pull all three LinkedIn recommendations.
-  - Choose an icon for each.
-  - Parallax bg.
-  - fadeInUp.
 - Skills
-  - Standardize all image icon sizes.
-  - Include text below each image for SEO and screen reader purposes.
-  - Animate in with mobile-responsive delays.
-- Certificates (including Google Ads and Analytics).
+- Certificates
+  - Add Google Ads.
+  - Add Google Analytics.
   - Standardize all image sizes.
+  - Parallax bg image.
+  - Style each card.
 
 
 ## Walkthrough Pages
