@@ -20,9 +20,6 @@
 - Professional References
 - Skills
 - Certificates
-  - Hardcode a text-box height for each breakpoint.
-  - Minimize parallax bg img.
-  - Style each card.
 
 
 ## Walkthrough Pages

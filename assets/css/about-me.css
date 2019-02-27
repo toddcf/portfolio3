@@ -85,9 +85,12 @@ body {
 
 .ref-name {
   border-bottom: 1px solid #fff;
+  font-size: 1.35em;
+  margin-bottom: .25em;
 }
 
 .ref-title {
+  font-size: .7em;
   font-style: normal;
 }
 
