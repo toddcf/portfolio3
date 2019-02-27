@@ -7,7 +7,7 @@
 
 ## About Me:
 
-- Unlink `homepage.css`.
+- Unlink `homepage.css`. Change anything in common to `global.css`.
 
 - Bio
 - Professional References
