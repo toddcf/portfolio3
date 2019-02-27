@@ -21,7 +21,7 @@
 - Skills
 - Certificates
   - Hardcode a text-box height for each breakpoint.
-  - Parallax bg image. (If CSS-only becomes too problematic, look into jQuery version: https://www.codementor.io/lautiamkok/js-tips-creating-a-simple-parallax-scrolling-with-css3-and-jquery-efp9b2spn)
+  - Minimize parallax bg img.
   - Style each card.
 
 

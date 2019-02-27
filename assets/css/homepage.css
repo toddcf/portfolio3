@@ -2,13 +2,6 @@
   --sm-card-margin-top: -20px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box !important;
-          box-sizing: border-box !important;
-}
-
 #project-container {
   overflow: hidden; /* Prevents the header video from going wider than the rest of the project */
   position: relative;
