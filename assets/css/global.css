@@ -5,6 +5,12 @@ body {
           box-sizing: border-box !important;
 }
 
+#project-container {
+  overflow: hidden; /* Prevents the header video from going wider than the rest of the project */
+  position: relative;
+  width: 100%;
+}
+
 #project-container a {
   text-decoration: none;
 }

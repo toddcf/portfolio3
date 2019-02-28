@@ -4,6 +4,10 @@
 
 ### My Portfolio Walkthrough:
 
+- Style the icon links.
+- Position the icon links.
+- Position the header image.
+
 - Redraw wireframes for homepage and About Me. Scan and add to walkthrough.
 - How I solved the white-gradient background issue.
   - Two separate divs, one going from 0 to 50% opacity, the second going from 50% to 100% opacity.
@@ -18,6 +22,7 @@
 - The value of the white-background rising image.
 - How one of the images disappears on small screens.
 - The slider button hover effect.
+- NSX gradients that make section breaks blend together.
 
 
 ### BMW of El Cajon Walkthrough:
@@ -27,7 +32,8 @@
 
 ### Honda of New Rochelle:
 
-- Video background.
+- Mockups.
+- Video background with fallback image.
 - Animations and Waypoints.
 
 
