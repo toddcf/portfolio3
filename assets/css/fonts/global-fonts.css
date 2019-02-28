@@ -7,12 +7,21 @@
 /* Body Copy: font-family: 'PT Sans', sans-serif; 
 400,400i,700,700i */
 
-/* FONT SIZE RATIOS */
-body {
-  font-family: 'PT Sans', sans-serif;
-  font-size: .28125em; /* 4.5px */
+/* FONT FAMILIES */
+#project-container h1,
+#project-container h2,
+#project-container h3,
+#project-container h4,
+#project-container h5,
+#project-container h6 {
+  font-family: 'Lato', sans-serif;
 }
 
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* FONT SIZE RATIOS */
 #project-container h1 {
   font-size: 5.653em;
 }
@@ -31,14 +40,7 @@ body {
 
 
 
-#project-container h1,
-#project-container h2,
-#project-container h3,
-#project-container h4,
-#project-container h5,
-#project-container h6 {
-  font-family: 'Lato', sans-serif;
-}
+
 
 #project-container h2,
 #project-container h3,
@@ -165,13 +167,7 @@ body {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-  body {
-    font-size: .53125em; /* 8.5px */
-  }
-
-}
+@media (min-width: 576px) {}
 
 /* Small devices only (landscape phones, between 576px and 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -184,38 +180,16 @@ body {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-  body {
-    font-size: .6875em; /* 11px */
-  }
-
-}
+@media (min-width: 768px) {}
 
 /* Medium devices only (tablets, between 768px and 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-  body {
-    font-size: .90625em; /* 14.5px */
-  }
-
-  #project-container .sample-info-module h4 {
-    font-size: 1.5em;
-  }
-
-}
+@media (min-width: 992px) {}
 
 /* Large devices only (desktops, between 992px and 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-  body {
-    font-size: 1em; /* 16px */
-  }
-
-}
+@media (min-width: 1200px) {}

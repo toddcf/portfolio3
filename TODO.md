@@ -1,12 +1,14 @@
 # To Do:
 
+## Global
+
+- Abstract the font CSS files so that they do not interfere with each other.
+
 ## Walkthrough Pages
 
 ### My Portfolio Walkthrough:
 
-- Style the icon links.
-- Position the icon links.
-- Position the header image.
+- Add the next row. Position the boxes.
 
 - Redraw wireframes for homepage and About Me. Scan and add to walkthrough.
 - How I solved the white-gradient background issue.

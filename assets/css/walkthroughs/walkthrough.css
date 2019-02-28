@@ -70,6 +70,13 @@
   width: 100%;
 }
 
+.objective,
+.process {
+  background: rgb(153, 153, 153);
+  color: #fff;
+  padding: 2em;
+}
+
 
 
 
