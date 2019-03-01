@@ -77,6 +77,11 @@
   padding: 2em;
 }
 
+.objective h2,
+.process h2 {
+  margin-bottom: .5em;
+}
+
 .global-btn-box {
   margin-bottom: 0;
 }
@@ -95,7 +100,21 @@
 @media (min-width: 576px) and (max-width: 767.98px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+
+  .header-main-img-container {
+    margin-bottom: 1.5em;
+  }
+
+  .objective {
+    margin-right: .75em;
+  }
+
+  .process {
+    margin-left: .75em;
+  }
+
+}
 
 /* Medium devices only (tablets, between 768px and 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {}
@@ -126,7 +145,7 @@
 
   .header-main-img-container {
     margin: calc(var(--header-icon-size) / 2);
-    margin-bottom: 30px;
+    margin-bottom: 1.5em;
   }
 
   .objective {
