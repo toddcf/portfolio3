@@ -98,7 +98,14 @@ body {
 
 /* Bootstrap Breakpoints */
 /* Extra Small devices only (landscape phones, below 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+
+  /* Font size overrides for extra small only */
+  #project-container h2 {
+    font-size: 5em;
+  }
+
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
