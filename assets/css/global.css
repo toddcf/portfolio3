@@ -20,6 +20,12 @@ body {
   width: 100%;
 }
 
+.center-1440 {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
 #project-container a {
   text-decoration: none;
 }
@@ -53,18 +59,4 @@ body {
 .text-link-dark-bg:active {
   border-bottom: 1px solid #fff;
   color: #fff;
-}
-
-
-
-
-/* 1440px and up */
-@media (min-width: 1440px) {
-
-  .center-1440 {
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 100%;
-  }
-
 }

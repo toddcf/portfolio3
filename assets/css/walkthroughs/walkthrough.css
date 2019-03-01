@@ -4,7 +4,7 @@
 }
 
 .center-1440 {
-  margin: 0 1em;
+  width: 97%;
 }
 
 .header-layout-box {
@@ -69,6 +69,10 @@
   width: 100%;
 }
 
+#project-container section {
+  margin-bottom: 4em;
+}
+
 .objective,
 .process {
   background: rgb(153, 153, 153);
@@ -108,7 +112,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: 1440px;
 }
 
 .walkthrough-heading .sidelines::before {
@@ -123,6 +127,19 @@
 
 .walkthrough-heading p {
   color: var(--medium-gray);
+}
+
+.wireframe-title,
+.project-card-title {
+  text-align: center;
+}
+
+.wireframe-img,
+.project-card-img {
+  border: 1px solid #000;
+  height: 0;
+  padding-bottom: 129%;
+  width: 100%;
 }
 
 
