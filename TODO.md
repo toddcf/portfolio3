@@ -8,9 +8,9 @@
 
 ### My Portfolio Walkthrough:
 
-- Add the next row. Position the boxes.
+- Wireframe section.
 
-- Redraw wireframes for homepage and About Me. Scan and add to walkthrough.
+- Redraw wireframes for homepage, About Me, and Walkthrough. Scan and add to Walkthrough.
 - How I solved the white-gradient background issue.
   - Two separate divs, one going from 0 to 50% opacity, the second going from 50% to 100% opacity.
 - How the portfolio cards have a different layout and style for every screen size.
