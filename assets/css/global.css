@@ -65,13 +65,18 @@ body {
   color: #fff;
 }
 
-#project-container fieldset {
+#project-container fieldset,
+#project-container legend {
   border: 1px solid var(--dark-gray);
+}
+
+#project-container fieldset {
+  box-shadow: .2em .2em .1em rgba(0, 0, 0, .5);
   padding: 1.5em;
 }
 
 #project-container legend {
-  border: 1px solid var(--dark-gray);
+  box-shadow: .1em .1em .1em rgba(0, 0, 0, .5);
   padding: 0 .5em;
   text-transform: uppercase;
   width: max-content;

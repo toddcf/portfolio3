@@ -90,6 +90,10 @@
   margin-bottom: 0;
 }
 
+.row-spacer {
+  margin-bottom: 6em;
+}
+
 .walkthrough-heading {
   margin: 0 auto 1em auto;
   overflow: hidden;
@@ -147,6 +151,11 @@
   text-transform: uppercase;
 }
 
+#project-container .img-wrapper {
+  border: 1px solid var(--dark-gray);
+  box-shadow: .2em .2em .1em rgba(0, 0, 0, .5);
+}
+
 .code-snippet-wrapper pre {
   font-size: 16px;
   padding: 2em;
@@ -163,7 +172,7 @@
 @media (min-width: 576px) {
 
   .walkthrough-heading {
-    width: 85%;
+    width: 95%;
   }
 
 }
@@ -187,7 +196,7 @@
   }
 
   .walkthrough-heading {
-    width: 75%;
+    width: 85%;
   }
 
 }
@@ -235,7 +244,7 @@
   }
 
   .walkthrough-heading {
-    width: 65%;
+    width: 75%;
   }
 
 }
@@ -252,7 +261,7 @@
   }
 
   .walkthrough-heading {
-    width: 55%;
+    width: 65%;
   }
 
 }

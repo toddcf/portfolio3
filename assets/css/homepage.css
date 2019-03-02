@@ -2,12 +2,6 @@
   --sm-card-margin-top: -20px;
 }
 
-#project-container {
-  overflow: hidden; /* Prevents the header video from going wider than the rest of the project */
-  position: relative;
-  width: 100%;
-}
-
 header {
   min-height: 100vh;
   position: relative;
@@ -89,7 +83,7 @@ header {
 
 .additional-samples-project {
   border-radius: 4px;
-  box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, .3);
   margin: 0 auto 100px auto;
   width: 95%;
 }
