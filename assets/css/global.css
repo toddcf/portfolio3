@@ -64,3 +64,15 @@ body {
   border-bottom: 1px solid #fff;
   color: #fff;
 }
+
+#project-container fieldset {
+  border: 1px solid var(--dark-gray);
+  padding: 1.5em;
+}
+
+#project-container legend {
+  border: 1px solid var(--dark-gray);
+  padding: 0 .5em;
+  text-transform: uppercase;
+  width: max-content;
+}

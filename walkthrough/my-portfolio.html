@@ -420,22 +420,22 @@
             <div class="row">
 
               <div class="col-12 col-md-6">
-                <div class="img-wrapper">
-                  <img src="../assets/img/walkthroughs/portfolio/augmented-fourth-example-768x538-min.jpg" alt="Augmented Fourth example"> <!-- 768px wide -->
-                </div>
-              </div> <!-- Close .col -->
-
-              <div class="col-12 col-md-6">
                 <div class="text-wrapper">
                   
                   <h3>1. Select Font Size Ratio</h3>
 
                   <p>First, I used <a href="https://type-scale.com/" target="_blank" class="text-link-light-bg">Type Scale</a> to decide on a ratio. There was some trial and error involved here because there were many other variables to take into account. Font, font weight, and the length of the text content, which could vary from heading to heading and from page to page.</p>
 
-                  <p>Suffice it to say I landed on Augmented Fourth, which is a ratio of 1.414.</p>
+                  <p>Suffice it to say I landed on <strong>Augmented Fourth</strong>, which uses a ratio of 1.414.</p>
 
                 </div> <!-- Close .text-wrapper -->
                 
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-6">
+                <div class="img-wrapper">
+                  <img src="../assets/img/walkthroughs/portfolio/augmented-fourth-example-768x538-min.jpg" alt="Augmented Fourth example"> <!-- 768px wide -->
+                </div>
               </div> <!-- Close .col -->
               
             </div> <!-- Close .row -->
@@ -443,6 +443,19 @@
             <div class="row">
 
               <div class="col-12 col-md-6 order-md-2">
+                <div class="text-wrapper">
+                  
+                  <h3>2. Write D.R.Y. Code</h3>
+
+                  <p>Now that I knew my ratio, I coded it into its own CSS file called "Global Fonts." Keeping my font code in its own separate file made for easier editing later. It was also a convenient way to follow the D.R.Y. coding principle (Don't Repeat Yourself). I didn't want to rewrite these same ratios for each page &mdash; I wanted to write them once and point all my pages to this one file.</p>
+
+                  <p>In any case, the real advantage of setting all the ratios up front is that when I want to adjust the font sizes for each breakpoint, I will only have to adjust the root font size, and everything else will resize automatically. (More on this later.)</p>
+
+                </div> <!-- Close .text-wrapper -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-6 order-md-1">
                 <div class="code-snippet-wrapper">
 <pre class="prettyprint">
 <code>/* FONT SIZE RATIOS */
@@ -472,19 +485,199 @@
 </pre>
                 </div>
               </div> <!-- Close .col -->
+              
+            </div> <!-- Close .row -->
 
-              <div class="col-12 col-md-6 order-md-1">
+            <div class="row">
+
+              <div class="col-12 col-md-6">
                 <div class="text-wrapper">
                   
-                  <h3>2. Write D.R.Y. Code</h3>
+                  <h3>3. Set Minimum Font Size</h3>
 
-                  <p>Now that I knew my ratio, I coded it into its own CSS file called "Global Fonts." Keeping my font code in its own separate file made for easier editing later. It was also a convenient way to follow the D.R.Y. coding principle (Don't Repeat Yourself). I didn't want to rewrite these same ratios for each page &mdash; I wanted to write them once and point all my pages to this one file.</p>
-
-                  <p>In any case, the real advantage of setting all the ratios up front was that when I wanted to adjust the font sizes for each breakpoint, I would only have to adjust the root font size, and everything else would resize automatically. (More on this later.)</p>
+                  <p>For readability, I didn't want my body copy to ever get smaller than 16px, so I hardcoded that in.</p>
 
                 </div> <!-- Close .text-wrapper -->
                 
               </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-6">
+                <div class="code-snippet-wrapper">
+<pre class="prettyprint">
+<code>#project-container p {
+  font-size: 1rem;
+}</code>
+</pre>
+                </div>
+              </div> <!-- Close .col -->
+              
+            </div> <!-- Close .row -->
+
+            <div class="row">
+
+              <div class="col-12">
+                <div class="text-wrapper">
+
+                  <h3>4. Individual Page Customizations</h3>
+
+                  <div class="row">
+                  
+                    <div class="col-12 col-md-6">
+
+                      <p>Because the homepage, About Me, and Walkthrough pages all have different layouts with different amounts of text, I could not use identical font sizes across all three. So I gave each one its own custom CSS font file and set their root font sizes accordingly.</p>
+
+                    </div>
+
+                    <div class="col-12 col-md-6">
+
+                      <p>I also manually overrode certain font sizes so they wouldn't become microscopic on small screens, but for simplicity I'll only include the root settings here.</p>
+
+                    </div>
+
+                  </div> <!-- Close .row -->
+
+                </div> <!-- Close .text-wrapper -->
+                
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row">
+
+              <div class="col-12 col-lg-4">
+                <div class="code-snippet-container">
+                  
+                  <div class="code-snippet-title">
+                    <h4>Homepage</h4>
+                  </div>
+
+                  <div class="code-snippet-wrapper">
+<pre class="prettyprint">
+<code>body {
+  font-size: .28125em;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: .53125em;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: .6875em;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: .90625em;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1rem; /* 16px */
+  }
+}</code>
+</pre>
+                  </div> <!-- Close .code-snippet-wrapper -->
+
+                </div> <!-- Close .code-snippet-container -->
+
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-lg-4">
+                <div class="code-snippet-container">
+                  
+                  <div class="code-snippet-title">
+                    <h4>About Me</h4>
+                  </div>
+
+                  <div class="code-snippet-wrapper">
+<pre class="prettyprint">
+<code>body {
+  font-size: .3em;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: .53125em;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: .6875em;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: .7em;
+  }
+}</code>
+</pre>
+                  </div> <!-- Close .code-snippet-wrapper -->
+
+                </div> <!-- Close .code-snippet-container -->
+
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-lg-4">
+                <div class="code-snippet-container">
+                  
+                  <div class="code-snippet-title">
+                    <h4>Walkthrough</h4>
+                  </div>
+
+                  <div class="code-snippet-wrapper">
+<pre class="prettyprint">
+<code>body {
+  font-size: .5em;
+}
+
+@media (min-width: 576px) {
+  body {
+    font-size: .55em;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: .6em;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: .7em;
+  }
+}</code>
+</pre>
+                  </div> <!-- Close .code-snippet-wrapper -->
+
+                </div> <!-- Close .code-snippet-container -->
+
+              </div> <!-- Close .col -->
+              
+            </div> <!-- Close .row -->
+
+            <div class="row">
+
+              <div class="col-12 col-lg-6">
+                <div class="text-wrapper">
+                  <p>As you can see, the real advantage to setting the ratios once up front comes when you're adjusting font sizes for each breakpoint. This is way less code to write at each breakpoint, especially across separate files. The aesthetically-pleasing ratio is maintained while only changing one value in the code.</p>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6">
+                <fieldset>
+
+                  <legend>Exception</legend>
+                  <p>I didn't have any H5 or H6 tags in this particular project, but if I did, I imagine I would have had to set them to 1rem on some of the smaller screen sizes to ensure they didn't get any smaller than my p tags.</p>
+                </fieldset>
+              </div>
               
             </div> <!-- Close .row -->
 
