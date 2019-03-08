@@ -6,11 +6,12 @@
 
 ### My Portfolio Walkthrough:
 
+- Figure out all mobile-responsive spacing between rows.
 - Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
 
 #### Wireframe section
 - Redraw wireframes for homepage, About Me, and Walkthrough. Scan and add to Walkthrough.
-- Make each wireframe image a link to the full-size image (opens in new tab).
+- Make each wireframe image a link to the full-size image (opens in new tab). Zooms in on hover.
 
 #### White Gradient Section
 - How I solved the white-gradient background issue.
