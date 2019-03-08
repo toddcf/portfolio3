@@ -43,9 +43,11 @@ body {
   font-weight: 300;
 }
 
-.objective h2,
-.process h2 {
+#project-container .gray-card h2,
+#project-container .gray-card h3 {
   border-bottom: 1px solid #fff;
+  color: #fff;
+  margin-bottom: .5em;
 }
 
 

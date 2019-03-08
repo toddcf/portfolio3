@@ -73,17 +73,20 @@
   margin-bottom: 4em;
 }
 
-.objective,
-.process {
-  background: rgb(153, 153, 153);
+.gray-card,
+.medium-gray-card,
+.dark-gray-card {
   color: #fff;
   margin-bottom: 1.5em;
   padding: 2em;
 }
 
-.objective h2,
-.process h2 {
-  margin-bottom: .5em;
+.gray-card {
+  background: rgb(153, 153, 153);
+}
+
+.medium-gray-card {
+  background: var(--medium-gray);
 }
 
 .global-btn-box {
