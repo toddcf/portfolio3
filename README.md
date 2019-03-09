@@ -8,7 +8,7 @@ The third iteration of my UI/UX web design portfolio: http://www.tcf-webdesign.c
 
 * HTML5
 * CSS3
-* Bootstrap 4 Beta
+* Bootstrap 4
 * Foundation 5
 * JavaScript
 * jQuery
