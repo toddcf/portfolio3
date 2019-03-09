@@ -1,9 +1,5 @@
 # To Do:
 
-## No Walkthrough Version
-
-- Once it's been pushed live, update your pinned repositories on GitHub. (Replace portfolio2 with portfolio3.)
-
 ## Global
 
 ## Walkthrough Pages
