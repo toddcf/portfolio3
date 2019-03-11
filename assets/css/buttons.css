@@ -20,7 +20,7 @@
   background-size: 100% 200%;
   font-weight: bold;
   text-transform: uppercase;
-  transition: .3s ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 .cta-primary-btn-box:hover,
@@ -33,7 +33,7 @@
   background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
   background-position: left bottom;
   background-size: 100% 200%;
-  transition: .3s ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 .cta-secondary-btn-box:hover,
@@ -42,7 +42,7 @@
 }
 
 .cta-secondary-btn {
-  transition: .3s ease-in-out;
+  transition: 300ms ease-in-out;
 }
 
 .cta-secondary-btn:hover,
@@ -51,8 +51,8 @@
 }
 
 /* Button Icons */
-.btn-box .fas,
-.btn-box .fab {
+.global-btn .fas,
+.global-btn .fab {
   margin-right: .75em;
 }
 
