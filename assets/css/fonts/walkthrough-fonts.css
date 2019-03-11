@@ -50,6 +50,39 @@ body {
   margin-bottom: .5em;
 }
 
+.code-snippet-title {
+  color: var(--dark-gray);
+  overflow: hidden;
+  text-align: center;
+}
+
+.code-snippet-title h4 {
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.code-snippet-title h4::before,
+.code-snippet-title h4::after {
+  border-top: 1px solid var(--dark-gray);
+  color: var(--dark-gray);
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+}
+
+.code-snippet-title h4::before {
+  margin-right: 15px;
+  right: 100%;
+}
+
+.code-snippet-title h4::after {
+  left: 100%;
+  margin-left: 15px;
+}
+
 
 
 
