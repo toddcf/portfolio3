@@ -35,6 +35,61 @@
   width: 100%;
 }
 
+.btn-example-box {
+  border: 1px solid #000;
+  padding: 2em;
+  text-transform: uppercase;
+}
+
+.btn-example-dark-bg {
+  background: #333;
+}
+
+.btn-example-light-bg {
+  background: #fff;
+}
+
+.btn-example-container-dark-bg {
+  background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
+  background-position: left bottom;
+  background-size: 100% 200%;
+  transition: 300ms ease-in-out;
+}
+
+.btn-example-container-dark-bg:hover,
+.btn-example-container-dark-bg:active {
+  background-position: left top;
+  cursor: pointer;
+}
+
+.dark-bg-btn,
+.light-bg-btn {
+  transition: 300ms ease-in-out;
+}
+
+.dark-bg-btn:hover,
+.dark-bg-btn:active {
+  color: #000;
+}
+
+.btn-example-container-light-bg {
+  background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
+  background-position: left top;
+  background-size: 100% 200%;
+  transition: 300ms ease-in-out;
+}
+
+.btn-example-container-light-bg:hover,
+.btn-example-container-light-bg:active {
+  background-position: left bottom;
+  cursor: pointer;
+}
+
+.light-bg-btn:hover,
+.light-bg-btn:active {
+  color: #fff;
+}
+
 
 
 

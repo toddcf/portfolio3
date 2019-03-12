@@ -51,8 +51,9 @@
 }
 
 /* Button Icons */
-.global-btn .fas,
-.global-btn .fab {
+.global-btn .fab,
+.global-btn .far,
+.global-btn .fas {
   margin-right: .75em;
 }
 

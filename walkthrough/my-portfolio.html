@@ -840,27 +840,97 @@
 
             </div> <!-- Close .row -->
 
-          </div> <!-- Close .container -->
-
-        </section> <!-- Close #project-cards-section -->
-
-        <!-- Animations Section -->
-        <section id="animations-section">
-          
-          <div class="container">
-
             <div class="row">
+
               <div class="col-12">
-                <div class="walkthrough-heading">
-                  <h2><span class="sidelines">Animations</span></h2>
-                  <p>I used code snippets from <a href="https://daneden.github.io/animate.css/" target="_blank" class="text-link-light-bg">Animate.css</a> for the animation effects. Then I used a jQuery library called <a href="http://imakewebthings.com/waypoints/guides/getting-started/" target="_blank" class="text-link-light-bg">Waypoints</a> to trigger them as the user scrolls. Here's how:</p>
-                </div>
-              </div>
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>Buttons</h3>
+
+                  <p>Then, because the background was dark on mobile and white on tablet and desktop, I adjusted the hover effects of my secondary (gray) buttons accordingly:</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-6">
+
+                <div class="btn-example-box btn-example-dark-bg">
+                  <div class="global-btn-box btn-example-container-dark-bg">
+                    <div class="global-btn dark-bg-btn"><i class="fas fa-moon"></i>Dark Background</div>
+                  </div>
+                </div> <!-- Close .btn-example-box -->
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">.cta-secondary-btn-box {
+  background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
+  background-position: left bottom;
+  background-size: 100% 200%;
+  transition: 300ms ease-in-out;
+}
+
+.cta-secondary-btn-box:hover,
+.cta-secondary-btn-box:active {
+  background-position: left top;
+}
+
+.cta-secondary-btn {
+  transition: 300ms ease-in-out;
+}
+
+.cta-secondary-btn:hover,
+.cta-secondary-btn:active {
+  color: #000;
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-6">
+
+                <div class="btn-example-box btn-example-light-bg">
+                  <div class="global-btn-box btn-example-container-light-bg">
+                    <div class="global-btn light-bg-btn"><i class="far fa-moon"></i>Light Background</div>
+                  </div>
+                </div> <!-- Close .btn-example-box -->
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">@media (min-width: 576px) {
+
+  .cta-secondary-btn-box {
+    background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
+    background-position: left top;
+  }
+
+  .cta-secondary-btn-box:hover,
+  .cta-secondary-btn-box:active {
+    background-position: left bottom;
+  }
+
+  .cta-secondary-btn:hover,
+  .cta-secondary-btn:active {
+    color: #fff;
+  }
+
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
             </div> <!-- Close .row -->
 
           </div> <!-- Close .container -->
 
-        </section> <!-- Close #animations-section -->
+        </section> <!-- Close #project-cards-section -->
 
         <!-- Parallax Section -->
         <section id="parallax-section">
