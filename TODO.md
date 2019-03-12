@@ -8,21 +8,15 @@
 
 - Figure out all mobile-responsive spacing between rows.
 - Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
+  - And then replace the header image.
 
 #### Wireframe section
 - Redraw wireframes for homepage, About Me, and Walkthrough. Scan and add to Walkthrough.
 - Make each wireframe image a link to the full-size image (opens in new tab). Zooms in on hover.
 
-#### White Gradient Section
-- How I solved the white-gradient background issue.
-  - Two separate divs, one going from 0 to 50% opacity, the second going from 50% to 100% opacity.
-
 #### Project Cards Section
 - How the project cards have a different layout and style for every screen size.
 - How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
-
-#### Buttons Section
-- How the linear-gradient button hover effects work.
 
 #### Animations
 - How the fadeInUp animations work.
@@ -39,12 +33,6 @@
   - Everything is calculated from the size of the icons. I made them 100px wide and stored that value in a variable. Then I made the height equal to that variable. (I don't normally do hardcoded heights, but this was an exception. I knew I wanted the icons to be square, and at least 57px for UX.)
   - At the 992px breakpoint, the icons change to `position: absolute`. Show the calculations for the image's margins. how the calculations for the icons' positions.
   - At the 1200px breakpoint, the root variable changes to 125px, and everything is calculated accordingly. Way easier than recalculating it manually for different breakpoints!
-
-#### Responsive Font Sizes
-- Decide on ratio. (Took some trial and error.)
-- Set ratio for each heading size accordingly using `em`.
-- Set `p` size to always be `16px`.
-- One global font file for D.R.Y. purposes. Then each page has its own font CSS file to allow further customization. Set `body` font size on each of these individual files.
 
 
 ### Acura of Tempe Walkthrough:
