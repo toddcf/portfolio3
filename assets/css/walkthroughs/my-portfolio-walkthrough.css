@@ -5,6 +5,36 @@
   background-size: cover;
 }
 
+#mobile-card-example {
+  background-image: url(../../img/walkthroughs/portfolio/project-cards/project-cards-sm-992x1025-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 103%;
+  width: 100%;
+}
+
+#tablet-card-example {
+  background-image: url(../../img/walkthroughs/portfolio/project-cards/project-cards-md-992x750-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 75%;
+  width: 100%;
+}
+
+#desktop-card-example {
+  background-image: url(../../img/walkthroughs/portfolio/project-cards/project-cards-lg-992x400-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 40%;
+  width: 100%;
+}
+
 
 
 
