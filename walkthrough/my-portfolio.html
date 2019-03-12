@@ -665,7 +665,9 @@
 
                   <p>You'll notice this size uses a variety of media queries, some using <code class="language-css">min-width</code>, and some using both <code class="language-css">min-width</code> and <code class="language-css">max-width</code>. That's because some of these styles are going to start applying to the desktop layout, too.</p>
 
-                  <p>I change all the background colors back to white and text to black. (The blurred image is simply no longer passed into the background, so its container remains transparent.)</p>
+                  <p>I change all the background colors back to white and text to black.</p>
+
+                  <p>The blurred image is simply no longer passed into the background, so its container reverts to being transparent. Likewise, no image is passed into the <code class="language-css">#img-sm</code> container anymore; instead, a larger one gets passed into <code class="language-css">#img-md</code>, which now serves as the background.</p>
 
                   <p>From here on up, the <code class="language-css">project-title-box</code> has a width of <code class="language-css">max-content</code>. It also gets a negative margin-bottom to draw the main image up a bit behind it.</p>
 
@@ -742,6 +744,89 @@
 
   #bmw-el-cajon-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/992x391-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-4">
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>CSS - Desktop</h3>
+
+                  <p>Now the main image is large enough to handle having the text box overlay it. Therefore, I give it a <code class="language-css">position: relative</code> so that I can give the text box <code class="language-css">position: absolute</code>.</p>
+
+                  <p>From there, I can attach the text box to the bottom using <code class="language-css">bottom: 0</code>, set a width of <code class="language-css">40%</code>, and let the top get as tall as it needs to based on its contents.</p>
+
+                  <p>Then, depending on whether I want the text box to be on the left or right (I want to alternate with each project), I position it <code class="language-css">3%</code> from the edge.</p>
+
+                  <p>Because the screen is now bigger, I pass larger versions of the background image into <code class="language-css">#img-lg</code> and pass nothing into <code class="language-css">#img-sm</code> or <code class="language-css">#img-md</code>.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-8">
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">@media (min-width: 992px) {
+
+  .professional-project-img-lg {
+    height: 0;
+    padding-bottom: 39%;
+    position: relative;
+    width: 100%;
+  }
+
+  .professional-info-module {
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    position: absolute;
+    width: 40%;
+  }
+
+  .info-module-left {
+    left: 3%;
+  }
+
+  .info-module-right {
+    right: 3%;
+  }
+
+  .professional-project .btn-box {
+    padding-top: 0;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #bmw-el-cajon-img-lg {
+    background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  #bmw-el-cajon-img-lg {
+    background: url(../img/bmw-el-cajon/2019-x7/1440x567-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
