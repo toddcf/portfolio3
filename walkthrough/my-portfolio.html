@@ -393,7 +393,7 @@
               <div class="col-12">
 
                 <div class="code-snippet-title">
-                  <h4>White Gradient Combined</h4>
+                  <h4>White Gradients Combined</h4>
                 </div>
 
                 <img src="../assets/img/walkthroughs/portfolio/white-gradient/white-gradient-combined-1200x292-min.jpg" alt="White gradient combined">
@@ -486,18 +486,18 @@
             <div class="row row-spacer">
 
               <div class="col-12">
-                  <div class="gray-card medium-gray-card">
-                    
-                    <h3>HTML</h3>
-
-                    <p>Because I don't want to cause trouble for SEO or accessibility by creating a lot of duplicates in my HTML and using <code class="language-css">display: none</code> to hide them for different screen sizes, all three layouts you see above actually share the exact same HTML:</p>
-
-                  </div> <!-- Close .gray-card -->
+                <div class="gray-card medium-gray-card">
                   
-                </div> <!-- Close .col -->
+                  <h3>HTML</h3>
 
-              <div class="col-12">
-                  <div class="code-snippet-wrapper">
+                  <p>Because I don't want to cause trouble for SEO or accessibility by creating a lot of duplicates in my HTML and using <code class="language-css">display: none</code> to hide them for different screen sizes, all three layouts you see above actually share the exact same HTML:</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+            <div class="col-12">
+              <div class="code-snippet-wrapper">
 <pre>
 <code class="language-html">&lt;div id="bmw-el-cajon-project" class="professional-project">
 
@@ -572,6 +572,187 @@
                 </div> <!-- Close .code-snippet-wrapper -->
               </div> <!-- Close .col -->
               
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-4">
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>CSS - Mobile Only</h3>
+
+                  <p>Using Photoshop, I cropped and blurred a portion of the main image for the card's background. Then, using CSS, I darkened that image a bit with a linear gradient and converted the card's text to white.</p>
+
+                  <p>Using CSS, I passed a small version of the main image into the <code class="language-css">#img-sm</code> container. Then I used a negative <code class="language-css">margin-top</code> to make the image rise above its blurred-image background.</p>
+
+                  <p>I put everything <em>except</em> the blurred background image inside a container called <code class="language-html">&lt;div class="mobile-card-centering"></code>, and gave that a width of 90% and centered it. This made it easy to keep all the content aligned while I was styling it.</p>
+
+                  <p>I added a box shadow to the card to give it some depth of field against its white background.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-8">
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">@media (max-width: 575.98px) {
+
+  .professional-project {
+    box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 100px auto;
+    padding-bottom: 0;
+    width: 95%;
+  }
+
+  #bmw-el-cajon-bg-blur {
+    background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/bmw-el-cajon/2019-x7/left-crop-576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+  }
+
+  .mobile-card-centering {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .professional-project-img-sm-container {
+    height: 0;
+    margin: 0 auto .5em auto;
+    padding-bottom: 39%;
+    position: relative;
+  }
+
+  .professional-project-img-sm {
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+    height: 0;
+    padding-bottom: 39%;
+    position: absolute;
+    top: var(--sm-card-margin-top);
+    width: 100%;
+  }
+
+  #bmw-el-cajon-img-sm {
+    background: url(../img/bmw-el-cajon/2019-x7/576x227-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .professional-info-module p {
+    color: #fff;
+  }
+
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-4">
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>CSS - Tablet</h3>
+
+                  <p>You'll notice this size uses a variety of media queries, some using <code class="language-css">min-width</code>, and some using both <code class="language-css">min-width</code> and <code class="language-css">max-width</code>. That's because some of these styles are going to start applying to the desktop layout, too.</p>
+
+                  <p>I change all the background colors back to white and text to black. (The blurred image is simply no longer passed into the background, so its container remains transparent.)</p>
+
+                  <p>From here on up, the <code class="language-css">project-title-box</code> has a width of <code class="language-css">max-content</code>. It also gets a negative margin-bottom to draw the main image up a bit behind it.</p>
+
+                  <p>In turn, the main text box gets a negative margin-top to draw it up on top of the main image, as well.</p>
+
+                  <p>For tablet only, the main image gets a white gradient at the very bottom, letting it blend into the background and the main text box.</p>
+
+                  <p>The buttons shift layout, but this is done with Bootstrap rows and columns. And now that the two secondary buttons will be side-by-side from here on up, I've given them some custom spacing to keep them symmetrical.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-8">
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">@media (min-width: 576px) {
+
+  .project-title-box {
+    background: #fff;
+    color: #000;
+    margin: 0 auto -1.5em auto;
+    padding: .5em 2em;
+    position: relative;
+    width: 85%; /* Fallback */
+    width: max-content;
+    z-index: 2;
+  }
+
+  .professional-info-module {
+    background: #fff;
+    border: none;
+    color: #000;
+    margin: -3.5% auto 0 auto;
+    padding: 1.5rem 2rem;
+    width: 85%;
+  }
+
+  .left-btn {
+    padding-right: 7.5px;
+  }
+
+  .right-btn {
+    padding-left: 7.5px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .professional-project-img-md {
+    height: 0;
+    padding-bottom: 39%;
+    width: 100%;
+  }
+
+  #bmw-el-cajon-img-md {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/768x303-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .professional-project-img-md {
+    height: 0;
+    padding-bottom: 39%;
+    width: 100%;
+  }
+
+  #bmw-el-cajon-img-md {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/992x391-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
             </div> <!-- Close .row -->
 
           </div> <!-- Close .container -->

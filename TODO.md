@@ -10,13 +10,13 @@
 - Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
   - And then replace the header image.
 
-#### Wireframe section
-- Redraw wireframes for homepage, About Me, and Walkthrough. Scan and add to Walkthrough.
-- Make each wireframe image a link to the full-size image (opens in new tab). Zooms in on hover.
-
 #### Project Cards Section
 - How the project cards have a different layout and style for every screen size.
 - How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
+
+#### Wireframe section
+- Redraw wireframes for homepage, About Me, and Walkthrough. Scan and add to Walkthrough.
+- Make each wireframe image a link to the full-size image (opens in new tab). Zooms in on hover.
 
 #### Animations
 - How the fadeInUp animations work.
