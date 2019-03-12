@@ -26,12 +26,12 @@
 }
 
 #desktop-card-example {
-  background-image: url(../../img/walkthroughs/portfolio/project-cards/project-cards-lg-992x400-min.jpg);
+  background-image: url(../../img/walkthroughs/portfolio/project-cards/project-cards-lg-992x475-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 0;
-  padding-bottom: 40%;
+  padding-bottom: 47%;
   width: 100%;
 }
 
