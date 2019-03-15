@@ -141,11 +141,10 @@
   text-align: center;
 }
 
-.wireframe-img,
-.project-card-img {
+.wireframe-img {
   border: 1px solid #000;
-  height: 0;
-  padding-bottom: 129%;
+  /*height: 0;*/
+  /*padding-bottom: 129%;*/
   width: 100%;
 }
 
