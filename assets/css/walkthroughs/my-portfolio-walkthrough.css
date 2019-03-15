@@ -97,13 +97,6 @@
 /* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
 
-  #wireframe-img-1 {
-    background-image: url(); /* 576 x 744 */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   #bmw-el-cajon-bg-blur {
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/bmw-el-cajon/2019-x7/left-crop-576x630-blur12px-min.jpg);
     background-position: left center;
@@ -127,13 +120,6 @@
 /* Small devices only (landscape phones, between 576px and 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-  #wireframe-img-1 {
-    background-image: url(); /* 768 x 991 */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   #bmw-el-cajon-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/768x303-min.jpg);
     background-position: center;
@@ -148,13 +134,6 @@
 
 /* Medium devices only (tablets, between 768px and 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
-  #wireframe-img-1 {
-    background-image: url(); /* 992 x 1280 */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   #bmw-el-cajon-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/992x391-min.jpg);
@@ -171,13 +150,6 @@
 /* Large devices only (desktops, between 992px and 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-  #wireframe-img-1 {
-    background-image: url(); /* 400 x 516 */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
   #bmw-el-cajon-img-lg {
     background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
     background-position: center;
@@ -189,13 +161,6 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-  #wireframe-img-1 {
-    background-image: url(); /* 480 x 620 */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 
   #bmw-el-cajon-img-lg {
     background: url(../img/bmw-el-cajon/2019-x7/1440x567-min.jpg);
