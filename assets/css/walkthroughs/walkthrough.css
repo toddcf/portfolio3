@@ -143,7 +143,17 @@
 
 .wireframe-img {
   border: 1px solid #000;
+  overflow: hidden;
   width: 100%;
+}
+
+.wireframe-img img {
+  transform: scale(1);
+  transition: 5000ms ease-in-out;
+}
+
+.wireframe-img img:hover {
+  transform: scale(1.1);
 }
 
 #project-container h3 {
