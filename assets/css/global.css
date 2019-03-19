@@ -26,6 +26,10 @@ body {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #project-container img {
   width: 100%;
 }

@@ -11,6 +11,7 @@ body {
 }
 
 .main-name {
+  color: #fff;
   display: block;
   font-weight: 300;
   letter-spacing: .25em;
@@ -21,6 +22,7 @@ body {
 
 /* H1 subheading and H2 */
 .main-subheading {
+  color: #fff;
   display: block;
   font-size: .707em; /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
 }
@@ -47,6 +49,7 @@ body {
 
 .subsection-name {
   display: inline;
+  font-weight: 500;
   position: relative;
   text-transform: uppercase;
 }
@@ -69,6 +72,10 @@ body {
 .subsection-name::after {
   left: 100%;
   margin-left: 1rem;
+}
+
+.portfolio-header {
+  color: #fff !important;
 }
 
 .black-heading {

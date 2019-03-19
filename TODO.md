@@ -2,24 +2,20 @@
 
 ## Global
 
-- Reduce Bootstrap to grid only.
+- Bootstrap has been reduced to grid, but now certain headings need restyling and spacing adjustments throughout the entire site.
+- Try making homepage footer `.container` instead of `.1440-container`.
 - Flexbox instead of grid:
-  - Skills (add Adobe XD)
   - Footer
-- Change all CSS to BEM.
+- Change all HTML and CSS to BEM.
   - Also update all code snippets on walkthroughs accordingly.
 
 ## Walkthrough Pages
 
 ### My Portfolio Walkthrough:
 
-- Figure out all mobile-responsive spacing between rows.
+- Fix all mobile-responsive spacing between rows.
 - Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
   - And then replace the header image.
-
-#### Project Cards Section
-- How the project cards have a different layout and style for every screen size.
-- How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
 
 #### Wireframe section
 - Adobe XD wireframes for homepage, About Me, and Walkthrough.
@@ -52,7 +48,7 @@
 
 ### Honda of New Rochelle:
 
-- Mockups.
+- Mockups (JPGs for mobile and desktop).
 - Video background with fallback image.
 - Animations and Waypoints.
 
@@ -60,6 +56,7 @@
 ## When Finished:
 
 - Delete all unused font customizations.
+- Delete all unused Bootstrap files (including JS files).
 - Run Google page speed insights test.
 - Add Google Analytics throughout entire site.
 - Deployment checklist on every single file.

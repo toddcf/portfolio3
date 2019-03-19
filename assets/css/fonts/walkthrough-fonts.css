@@ -10,6 +10,11 @@ body {
   width: max-content;
 }
 
+.wt-heading-container h1 {
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
 #project-container .wt-heading-container p {
   font-size: 2.25em;
   text-transform: uppercase;
