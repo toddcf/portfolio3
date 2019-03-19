@@ -65,12 +65,16 @@ body {
   font-style: normal;
 }
 
-.skills-bg {
-  padding-top: 8em;
+.skills-flex-container {
+  align-items: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .skill-container {
-  margin-bottom: 6em;
+  margin: 8em 2em 6em 2em;
 }
 
 .skill-container img {
@@ -133,6 +137,14 @@ body {
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
+  .skills-bg {
+    padding-top: 8em;
+  }
+
+  .skill-container {
+    margin: 0 2em 6em 2em;
+  }
+
   #ucla-card .card-body,
   #html-css-card .card-body,
   #bootstrap-card .card-body,
@@ -188,6 +200,10 @@ body {
 
   .professional-reference .card-body {
     min-height: 287px;
+  }
+
+  .skill-container {
+    margin: 0 1em 6em 1em;
   }
 
   #google-ads-card .card-body {

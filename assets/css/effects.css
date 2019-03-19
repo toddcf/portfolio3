@@ -8,7 +8,8 @@
 #javascript-skill,
 #bootstrap-skill,
 #foundation-skill,
-#jquery-skill {
+#jquery-skill,
+#adobe-xd-skill {
   opacity: 0;
 }
 
@@ -22,7 +23,8 @@
 #javascript-skill.animate-1s,
 #bootstrap-skill.animate-1s,
 #foundation-skill.animate-1s,
-#jquery-skill.animate-1s {
+#jquery-skill.animate-1s,
+#adobe-xd-skill.animate-1s {
   opacity: 1;
 }
 

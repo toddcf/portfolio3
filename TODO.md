@@ -2,6 +2,13 @@
 
 ## Global
 
+- Reduce Bootstrap to grid only.
+- Flexbox instead of grid:
+  - Skills (add Adobe XD)
+  - Footer
+- Change all CSS to BEM.
+  - Also update all code snippets on walkthroughs accordingly.
+
 ## Walkthrough Pages
 
 ### My Portfolio Walkthrough:
@@ -15,17 +22,12 @@
 - How I structured and styled the mobile cards: Secondary buttons have an inverse hover effect compared to medium and large screens; Created blurry (12px) bg image in Photoshop just for mobile; Negative margin-top for the smaller image at the top; Box shadow for depth.
 
 #### Wireframe section
-- Redraw wireframes for homepage, About Me, and Walkthrough. Scan and add to Walkthrough.
+- Adobe XD wireframes for homepage, About Me, and Walkthrough.
 - Make each wireframe image a link to the full-size image (opens in new tab). Zooms in on hover.
 
 #### Animations
 - How the fadeInUp animations work.
 - How some animations have different delays depending on the screen size. And how others (such as the footer) animate all at once on purpose.
-
-#### Parallax Effect
-- (About Me page.)
-- The tutorial I looked at.
-- Don't reinvent the internet.
 
 #### Walkthrough Header
 - Inspiration: Westworld booklet.

@@ -68,6 +68,7 @@ $( document ).ready( function() {
     $( '#bootstrap-skill' ).addClass( 'animate-1s animate-delay-c fadeInRight' );
     $( '#foundation-skill' ).addClass( 'animate-1s animate-delay-d fadeInRight' );
     $( '#jquery-skill' ).addClass( 'animate-1s animate-delay-e fadeInRight' );
+    $( '#adobe-xd-skill' ).addClass( 'animate-1s animate-delay-f fadeInRight' );
   }, {
     offset: '85%'
   });
