@@ -14,14 +14,6 @@
 - Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
   - And then replace the header image.
 
-#### Wireframe section
-- Adobe XD wireframes for homepage, About Me, and Walkthrough.
-- Make each wireframe image a link to the full-size image (opens in new tab). Zooms in on hover.
-
-#### Animations
-- How the fadeInUp animations work.
-- How some animations have different delays depending on the screen size. And how others (such as the footer) animate all at once on purpose.
-
 #### Walkthrough Header
 - Inspiration: Westworld booklet.
 - Icons and main header image: How I did the responsive variables, sizes, and positioning.
