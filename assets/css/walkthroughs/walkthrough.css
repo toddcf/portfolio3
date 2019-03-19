@@ -142,6 +142,7 @@
 }
 
 .wireframe-img {
+  background: #000; /* Hides white gap at bottom of some images */
   border: 1px solid #000;
   overflow: hidden;
   width: 100%;
