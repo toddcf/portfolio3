@@ -2,10 +2,6 @@
 
 ## Global
 
-- Bootstrap has been reduced to grid, but now certain headings need restyling and spacing adjustments throughout the entire site. (I think the `em` and `rem` settings are now altered.)
-- Try making homepage footer `.container` instead of `.1440-container`.
-- Flexbox instead of grid:
-  - Footer
 - Change all HTML and CSS to BEM.
   - Also update all code snippets on walkthroughs accordingly.
 
@@ -44,8 +40,8 @@
 
 ### BMW of El Cajon Walkthrough:
 
-- Show the button hover effect WITH and WITHOUT my solution so the user can see the flash.
-- Show the difference WITH and WITHOUT my linear gradient behind the H1.
+- Show the button hover effect WITH and WITHOUT my solution so the user can see the flash. (Unless just using `background-image` for both would have allowed the transition to work?)
+- H1: Show the difference WITH and WITHOUT my linear gradient behind it.
 
 ### Honda of New Rochelle:
 
