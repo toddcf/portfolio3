@@ -2,7 +2,7 @@
 
 ## Global
 
-- Bootstrap has been reduced to grid, but now certain headings need restyling and spacing adjustments throughout the entire site.
+- Bootstrap has been reduced to grid, but now certain headings need restyling and spacing adjustments throughout the entire site. (I think the `em` and `rem` settings are now altered.)
 - Try making homepage footer `.container` instead of `.1440-container`.
 - Flexbox instead of grid:
   - Footer
@@ -13,6 +13,7 @@
 
 ### My Portfolio Walkthrough:
 
+- After converting everything to BEM, update the code snippets on this page to match.
 - Fix all mobile-responsive spacing between rows.
 - Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
   - And then replace the header image.

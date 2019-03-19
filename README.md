@@ -12,6 +12,8 @@ The third iteration of my UI/UX web design portfolio: http://www.tcf-webdesign.c
 * Foundation 5
 * JavaScript
 * jQuery
+* Adobe XD
+* Adobe Photoshop
 
 ## Future Iterations
 
