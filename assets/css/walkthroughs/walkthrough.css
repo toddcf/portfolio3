@@ -85,6 +85,25 @@
   background: rgb(153, 153, 153);
 }
 
+.gray-card-icon-container {
+  float: right;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.gray-card-icon-border {
+  border: 5px solid;
+  border-radius: 5%;
+  padding: .1em;
+}
+
+.gray-card-icon {
+  display: block !important;
+  font-size: 100px;
+  text-align: center;
+}
+
 .medium-gray-card {
   background: var(--medium-gray);
 }
