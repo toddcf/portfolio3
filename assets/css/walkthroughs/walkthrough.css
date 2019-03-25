@@ -85,17 +85,36 @@
   background: rgb(153, 153, 153);
 }
 
-.gray-card-icon-container {
-  float: right;
-  height: 100px;
-  position: relative;
-  width: 100px;
+.process-flex-container {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
-.gray-card-icon-border {
+.process-flex-item-1 {
+  flex-grow: 8;
+  order: 1;
+  padding-right: 1em;
+}
+
+.process-flex-item-2 {
+  flex-grow: 1;
+  order: 2;
+}
+
+.gray-card-icon-invisible {
+  /*height: 100px;*/
+  position: relative;
+  /*width: 100px;*/
+}
+
+.gray-card-icon-visible {
   border: 5px solid;
   border-radius: 5%;
-  padding: .1em;
+  padding: 1em;
 }
 
 .gray-card-icon {
