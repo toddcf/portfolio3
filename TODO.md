@@ -15,7 +15,7 @@
   - And then replace the header image.
 
 #### Walkthrough Header
-- Add `compass` and `code branch` icons to gray boxes.
+
 - Inspiration: Westworld booklet.
 - Icons and main header image: How I did the responsive variables, sizes, and positioning.
   - Everything is calculated from the size of the icons. I made them 100px wide and stored that value in a variable. Then I made the height equal to that variable. (I don't normally do hardcoded heights, but this was an exception. I knew I wanted the icons to be square, and at least 57px for UX.)
