@@ -62,7 +62,7 @@
   z-index: 1;
 }
 
-.header-main-img {
+#header-main-img {
   position: relative;
   height: 0;
   padding-bottom: 39%;
