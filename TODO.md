@@ -1,31 +1,18 @@
 # To Do:
 
-## Global
-
-- Change all HTML and CSS to BEM.
-  - Also update all code snippets on walkthroughs accordingly.
-
 ## Walkthrough Pages
 
 ### My Portfolio Walkthrough:
 
-- After converting everything to BEM, update the code snippets on this page to match.
-- Fix all mobile-responsive spacing between rows.
-- Once you have finished and have used this as a template for the next walkthrough, remove the "Live Site" header icon from the Portfolio Walkthrough.
-  - And then replace the header image.
+- Remove the "Live Site" header icon from the Portfolio Walkthrough.
 
-#### Walkthrough Header
+### All Walkthroughs
 
-- Header layout and icons: How I did the responsive variables, sizes, and positioning.
-  - Everything is calculated from the size of the icons. I made them 100px wide and stored that value in a variable. Then I made the height equal to that variable. (I don't normally do hardcoded heights, but this was an exception. I knew I wanted the icons to be square, and at least 57px for UX.)
-  - At the 992px breakpoint, the icons change to `position: absolute`. Show the calculations for the image's margins. how the calculations for the icons' positions.
-  - At the 1200px breakpoint, the root variable changes to 125px, and everything is calculated accordingly. Way easier than recalculating it manually for different breakpoints!
-- Objective and Process flexboxes.
-- Reference - Header IMG sizes (39%):
-  - xs only: 576 x 227
-  - sm only: 768 x 302
-  - md only: 992 x 390
-  - lg up: 1268 x 499
+Header IMG sizes (39%):
+- xs only: 576 x 227
+- sm only: 768 x 302
+- md only: 992 x 390
+- lg up: 1268 x 499
 
 
 ### Acura of Tempe Walkthrough:
@@ -43,6 +30,7 @@
 
 ### Honda of New Rochelle:
 
+- Original: http://rsp-hondaofnewrochelle.fzautomotive.com/2018-honda-accord
 - Mockups (JPGs for mobile and desktop).
 - Video background with fallback image.
 - Animations and Waypoints.
