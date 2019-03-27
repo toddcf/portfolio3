@@ -978,7 +978,7 @@
               <div class="col-12">
                 <div class="walkthrough-heading">
                   <h2><span class="sidelines">Walkthrough Header</span></h2>
-                  <p>This is getting a little meta, but here's how I styled the header of the page you're looking at right now for mobile responsiveness:</p>
+                  <p>This is getting a little meta, but here's how I styled the header of the page you're looking at right now for mobile responsiveness.</p>
                 </div>
               </div>
             </div> <!-- Close .row -->
@@ -1003,8 +1003,378 @@
             </div>
 
             <div class="row">
+              <div class="col-12">
+                <div class="walkthrough-heading">
+                  <h3><span class="sidelines">Mobile Responsiveness</span></h3>
+                  <p>Of course, a layout that intricate must either adapt or die on smaller screens. Here are the solutions I came up with:</p>
+                </div>
+              </div>
+            </div> <!-- Close .row -->
+
+            <div class="row">
               
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-lg-4">
+                <div class="screenshot-container">
+                  <div class="code-snippet-title">
+                    <h4>Mobile</h4>
+                  </div>
+                  <div id="header-screenshot-sm">
+                    <img src="../assets/img/walkthroughs/portfolio/header-layout/sm-992x1135-min.jpg" alt="Header layout for mobile">
+                  </div>
+                </div>
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-lg-4">
+                <div class="screenshot-container">
+                  <div class="code-snippet-title">
+                    <h4>Tablet</h4>
+                  </div>
+                  <div id="header-screenshot-md">
+                    <img src="../assets/img/walkthroughs/portfolio/header-layout/md-992x825-min.jpg" alt="Header layout for tablet">
+                  </div>
+                </div>
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-lg-4">
+                <div class="screenshot-container">
+                  <div class="code-snippet-title">
+                    <h4>Desktop</h4>
+                  </div>
+                  <div id="header-screenshot-lg">
+                    <img src="../assets/img/walkthroughs/portfolio/header-layout/lg-992x555-min.jpg" alt="Header layout for desktop">
+                  </div>
+                </div>
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12">
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>HTML</h3>
+
+                  <p>As always, my HTML is identical for all three layouts. I don't want to cause trouble for SEO or accessibility by creating a lot of duplicates in my HTML and using <code class="language-css">display: none</code> to hide them for different screen sizes.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+            <div class="col-12">
+              <div class="code-snippet-wrapper">
+<pre>
+<code class="language-html">&lt;header>
+
+  &lt;div class="row">
+    
+    &lt;div class="col">
+
+      &lt;div class="center-1440">
+
+        &lt;div class="header-layout-box">
+          
+          &lt;div id="home-header-icon-invisible" class="header-icon-invisible">
+            &lt;a href="../index.html">
+              &lt;div id="home-header-icon" class="header-icon-visible">
+                &lt;div class="header-icon-contents">
+                  &lt;div class="header-icon">&lt;i class="fas fa-home">&lt;/i>&lt;/div>
+                  &lt;div class="header-icon-text">Home&lt;/div>
+                &lt;/div>
+              &lt;/div>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div id="live-site-header-icon-invisible" class="header-icon-invisible">
+            &lt;a href="../index.html"> &lt;!-- Remove this one for this page only -->
+              &lt;div id="live-site-header-icon" class="header-icon-visible">
+                &lt;div class="header-icon-contents">
+                  &lt;div class="header-icon">&lt;i class="fas fa-desktop">&lt;/i>&lt;/div>
+                  &lt;div class="header-icon-text">Live Site&lt;/div>
+                &lt;/div>
+              &lt;/div>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div id="github-header-icon-invisible" class="header-icon-invisible">
+            &lt;a href="https://github.com/toddcf/portfolio3" target="_blank">
+              &lt;div id="github-header-icon" class="header-icon-visible">
+                &lt;div class="header-icon-contents">
+                  &lt;div class="header-icon">&lt;i class="fab fa-github">&lt;/i>&lt;/div>
+                  &lt;div class="header-icon-text">GitHub&lt;/div>
+                &lt;/div>
+              &lt;/div>
+            &lt;/a>
+          &lt;/div>
+
+          &lt;div class="header-main-img-container">
+            &lt;div id="header-main-img">
+              &lt;!-- Image is passed into this container via CSS depending on screen size -->
+            &lt;/div> &lt;!-- Close .header-img -->
+          &lt;/div>
+        
+        &lt;/div> &lt;!-- Close .header-layout-box -->
+        
+      &lt;/div> &lt;!-- Close .center-1440 -->
+      
+    &lt;/div> &lt;!-- Close .col -->
+
+  &lt;/div> &lt;!-- Close .row -->
+
+&lt;/header></code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+              </div> <!-- Close .col -->
+              
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-4">
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>CSS - Mobile</h3>
+
+                  <p>Because I wrote my HTML mobile-first, the layout is already pretty straightforward for the small screens.</p>
+
+                  <p>Now to position and style them:</p>
+
+                  <p>I give each one a border and a subtle border radius.</p>
+
+                  <p>I give each one's parent container <code class="language-css">display: inline-block</code> to align them side-by-side.</p>
+
+                  <p>I add hover effects, since each one is a clickable link.</p>
+
+                  <p>Then I set the root height and width for the entire icon container to <code class="language-css">100px</code>. (I don't normally like to hardcode pixel values for heights or even widths, but in this case I wanted a perfect square, plus I'm going to use this root value to calculate several other things later on.) I chose <code class="language-css">100px</code> both for style and so that they'd be big enough for a finger to easily press on a touchscreen.)</p>
+                  
+                  <p>I then let CSS calculate the icon font size to be half that of the root size I gave the container. This will pay dividends for all the rest of the screen sizes, as I will be able to adjust only the root size and everything will stay in ratio.</p>
+
+                  <p>The gray boxes automatically stack vertically because of the Bootstrap grid I'm using: <code class="language-html">&lt;div class="col-12 col-md-6 col-lg-5"></code>.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-8">
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">:root {
+  --header-icon-size: 100px;
+  --header-icon-size-neg: -100px;
+}
+
+.center-1440 {
+  width: 97%;
+}
+
+.header-layout-box {
+  position: relative;
+  width: 100%;
+}
+
+.header-icon-invisible {
+  display: inline-block;
+  height: var(--header-icon-size);
+  margin: 0 2em 1em 0;
+  position: relative;
+  width: var(--header-icon-size);
+}
+
+.header-icon-visible {
+  border: 8px solid var(--dark-gray-o);
+  border-radius: 5%;
+  color: var(--dark-gray-o);
+  height: var(--header-icon-size);
+  position: relative;
+  text-align: center;
+  transition: .3s;
+  width: 100%;
+  z-index: 2;
+}
+
+.header-icon-visible:hover {
+  border: 8px solid var(--dark-gray);
+  color: var(--dark-gray);
+}
+
+.header-icon-contents {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.header-icon i {
+  display: block;
+  font-size: calc(var(--header-icon-size) / 2);
+}
+
+.header-icon-text {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header-main-img-container {
+  margin-bottom: 1.5em;
+  position: relative;
+  z-index: 1;
+}
+
+#header-main-img {
+  position: relative;
+  height: 0;
+  padding-bottom: 39%;
+  width: 100%;
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-4">
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>CSS - Tablet</h3>
+
+                  <p>Now to make a few alterations at the tablet breakpoint.</p>
+
+                  <p>I override the right and left margins for the gray Objective and Process boxes, respectively. Now that they will be side-by-side, I want the spacing to be equal, and Bootstrap's grid padding was interfering with that.</p>
+
+                  <p>Also, because I ultimately want the icons inside the gray boxes to be on the outside of the screen, I change their order inside the flexbox I put them in.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-8">
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">@media (min-width: 768px) {
+
+  .objective {
+    margin-right: .75em;
+  }
+
+  .process {
+    margin-left: .75em;
+  }
+
+  .walkthrough-heading {
+    width: 85%;
+  }
+
+  .process h2 {
+    text-align: right;
+  }
+
+  .process-flex-item-1 {
+    order: 2;
+  }
+
+  .process-flex-item-2 {
+    order: 1;
+    padding-right: 2em;
+    text-align: right;
+  }
+
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
+            </div> <!-- Close .row -->
+
+            <div class="row row-spacer">
+
+              <div class="col-12 col-md-4">
+                
+                <div class="gray-card medium-gray-card">
+                  
+                  <h3>CSS - Desktop</h3>
+
+                  <p>Now the fun begins, because this is the <em>real</em> layout I was inspired to do in the first place!</p>
+
+                  <p>The icons are now switched to <code class="language-css">display: block</code>, the margins are removed, and their position is changed to <code class="language-css">position: absolute</code>.</p>
+
+                  <p>The first one is then positioned all the way to the left, with a negative top margin equal to half its height.</p>
+
+                  <p>The second one is then positioned all the way to the right, with a negative top margin equal to half its height.</p>
+
+                  <p>The third one is then positioned all the way to the right, with a calculated top margin of 25% of the root width, plus the root width.</p>
+
+                  <p>To position the header image behind all the icons and set its corners at their centers, I give its parent container equal margins of half the size of each icon, pushing it inward.</p>
+
+                  <p>Although the gray Objective box is in a separate row beneath the image, I want it to overlap. This is easily achieved with a negative top margin and <code class="language-css">z-index: 2</code>.</p>
+
+                  <p>I also want the gray Process box to align with the right side of the header image, so I give that a margin-right of half the size of the icons &mdash; just like I did for the image itself.</p>
+
+                </div> <!-- Close .gray-card -->
+                
+              </div> <!-- Close .col -->
+
+              <div class="col-12 col-md-8">
+
+                <div class="code-snippet-wrapper">
+<pre>
+<code class="language-css">@media (min-width: 992px) {
+
+  .header-icon-invisible {
+    display: block;
+    margin: 0;
+    position: absolute;
+  }
+
+  #home-header-icon-invisible {
+    left: 0;
+    top: calc(var(--header-icon-size-neg) / 2);
+  }
+
+  #live-site-header-icon-invisible {
+    top: calc(var(--header-icon-size-neg) / 2);
+    right: 0;
+  }
+
+  #github-header-icon-invisible {
+    top: calc(var(--header-icon-size) * .75); /* Is actually Calc (width + (width * .25)), which works out to width * .75 */
+    right: 0;
+  }
+
+  .header-main-img-container {
+    margin: calc(var(--header-icon-size) / 2);
+    margin-bottom: 1.5em;
+  }
+
+  .objective {
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .process {
+    margin-right: calc(var(--header-icon-size) / 2);
+  }
+
+  .walkthrough-heading {
+    width: 75%;
+  }
+
+}</code>
+</pre>
+                </div> <!-- Close .code-snippet-wrapper -->
+
+              </div> <!-- Close .col -->
+
             </div> <!-- Close .row -->
 
           </div> <!-- Close .container -->

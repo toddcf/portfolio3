@@ -202,6 +202,14 @@
     max-width: 1000px;
   }
 
+  #header-screenshot-md {
+    padding-top: 10px; /* Align images when side-by-side */
+  }
+
+  #header-screenshot-lg {
+    padding-top: 30px; /* Align images when side-by-side */
+  }
+
 }
 
 /* Large devices only (desktops, between 992px and 1200px) */

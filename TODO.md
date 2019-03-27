@@ -16,7 +16,7 @@
 
 #### Walkthrough Header
 
-- Icons and main header image: How I did the responsive variables, sizes, and positioning.
+- Header layout and icons: How I did the responsive variables, sizes, and positioning.
   - Everything is calculated from the size of the icons. I made them 100px wide and stored that value in a variable. Then I made the height equal to that variable. (I don't normally do hardcoded heights, but this was an exception. I knew I wanted the icons to be square, and at least 57px for UX.)
   - At the 992px breakpoint, the icons change to `position: absolute`. Show the calculations for the image's margins. how the calculations for the icons' positions.
   - At the 1200px breakpoint, the root variable changes to 125px, and everything is calculated accordingly. Way easier than recalculating it manually for different breakpoints!
