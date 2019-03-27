@@ -17,6 +17,7 @@ Header IMG sizes (39%):
 
 ### Acura of Tempe Walkthrough:
 
+- Lg and up: Make header icons green instead of gray, for readability.
 - The value of the white-background rising image.
 - How one of the images disappears on small screens.
 - The slider button hover effect.
