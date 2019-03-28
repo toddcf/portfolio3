@@ -15,13 +15,20 @@ Header IMG sizes (39%):
 - lg up: 1268 x 499
 
 
+### My Portfolio Walkthrough:
+
+- Remove all unused CSS.
+
+
 ### Acura of Tempe Walkthrough:
 
 - Lg and up: Make header icons green instead of gray, for readability.
+- Restyle secondary buttons so they don't blend into the gray card bg. Call them something else entirely and write new code for them instead of overwriting the original code. IN FACT, USE BEM THIS TIME TO SIMPLIFY ALL THE PAGES.
 - The value of the white-background rising image.
 - How one of the images disappears on small screens.
 - The slider button hover effect.
 - NSX gradients that make section breaks blend together.
+- Remove all unused CSS that was left over from the template.
 
 
 ### BMW of El Cajon Walkthrough:

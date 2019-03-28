@@ -1,3 +1,7 @@
+.global-btn {
+  margin-bottom: 1em;
+}
+
 .global-btn img {
   display: inline-block;
   margin: -.1em .75em 0 0;
