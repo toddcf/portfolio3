@@ -1,3 +1,9 @@
+.global-btn img {
+  display: inline-block;
+  margin: -.1em .75em 0 0;
+  max-width: 16px;
+}
+
 #mobile-card-example {
   background-image: url(../../img/walkthroughs/portfolio/project-cards/project-cards-sm-992x1025-min.jpg);
   background-position: center;
