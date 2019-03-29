@@ -23,7 +23,11 @@ Header IMG sizes (39%):
 ### Acura of Tempe Walkthrough:
 
 - Lg and up: Make header icons green instead of gray, for readability.
-- Restyle secondary buttons so they don't blend into the gray card bg. Call them something else entirely and write new code for them instead of overwriting the original code. IN FACT, USE BEM THIS TIME TO SIMPLIFY ALL THE PAGES.
+  - Dark green equivalent with transparency when NOT hovered.
+  - Light green equivalent (NO transparency) when hovered.
+- Restyle secondary buttons so they don't blend into the gray card bg.
+  - Use BEM to recode all buttons completely.
+  - Then use this new BEM style on all the other pages, too.
 - The value of the white-background rising image.
 - How one of the images disappears on small screens.
 - The slider button hover effect.

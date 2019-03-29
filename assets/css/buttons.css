@@ -15,7 +15,7 @@
 
 /* Primary (Green) Buttons */
 .cta-primary-btn-box {
-  background-image: linear-gradient(to bottom, #3c6221 0, #33531c 50%, #213612 100%);
+  background-image: linear-gradient(to bottom, var(--light-green) 0, var(--medium-green) 50%, var(--dark-green) 100%);
   background-position: left bottom;
   background-size: 100% 200%;
   font-weight: bold;
