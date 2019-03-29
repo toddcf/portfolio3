@@ -1,13 +1,13 @@
 .header-icon-visible {
   background: rgba(255, 255, 255, .5);
-  border: 8px solid var(--light-green);
-  color: var(--light-green);
+  border: 8px solid var(--medium-green);
+  color: var(--medium-green);
 }
 
 .header-icon-visible:hover {
   background: rgba(255, 255, 255, .7);
-  border: 8px solid var(--medium-green);
-  color: var(--medium-green);
+  border: 8px solid var(--light-green);
+  color: var(--light-green);
 }
 
 .global-btn {

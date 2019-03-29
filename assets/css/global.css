@@ -46,7 +46,7 @@ body {
 .text-link-light-bg,
 .text-link-dark-bg,
 .text-link-white {
-  transition: .3s;
+  transition: 300ms;
 }
 
 .text-link-light-bg:link,
