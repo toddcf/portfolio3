@@ -27,7 +27,7 @@
   height: var(--header-icon-size);
   position: relative;
   text-align: center;
-  transition: .3s;
+  transition: 300ms;
   width: 100%;
   z-index: 2;
 }

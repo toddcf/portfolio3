@@ -22,9 +22,7 @@ Header IMG sizes (39%):
 
 ### Acura of Tempe Walkthrough:
 
-- Lg and up: Make header icons green instead of gray, for readability.
-  - Dark green equivalent with transparency when NOT hovered.
-  - Light green equivalent (NO transparency) when hovered.
+- Fix margins between each Acura button now that they are in two columns.
 - Restyle secondary buttons so they don't blend into the gray card bg.
   - Use BEM to recode all buttons completely.
   - Then use this new BEM style on all the other pages, too.
