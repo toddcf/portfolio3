@@ -53,3 +53,7 @@ Header IMG sizes (39%):
 - Run Google page speed insights test.
 - Add Google Analytics throughout entire site.
 - Deployment checklist on every single file.
+- After everything is pushed live, update all the Acura of Tempe landing pages accordingly:
+  - Remove headers.
+  - Remove any CSS affiliated with the headers.
+  - Push these updates live on GH Pages.
