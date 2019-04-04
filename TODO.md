@@ -1,6 +1,15 @@
 # To Do:
 
+## Structure:
+
+- Read Atomic Design. (Resume at http://atomicdesign.bradfrost.com/chapter-3/)
+- Employ those concepts.
+- Learn BEM.
+- Employ those concepts.
+
 ## Walkthrough Pages
+
+- Change all "Mobile, Tablet, Desktop" references to "Small, Medium, Large" to be compliant with Atomic Design.
 
 ### My Portfolio Walkthrough:
 
