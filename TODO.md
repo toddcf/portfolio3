@@ -7,6 +7,13 @@
 - Learn BEM.
 - Employ those concepts.
 
+## About Me
+
+- Change Foundation Logo to version 6.
+- Add Atomic Design to Skills.
+- Add BEM Batman logo to Skills (once conversions have been made).
+
+
 ## Walkthrough Pages
 
 - Change all "Mobile, Tablet, Desktop" references to "Small, Medium, Large" to be compliant with Atomic Design.
