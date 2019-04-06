@@ -2,6 +2,7 @@
 
 ## Structure:
 
+- Remove Bootstrap (except for grid) so it won't interfere with BEM.
 - Learn BEM.
 - Recode website with Atomic Design and BEM.
 
