@@ -2,10 +2,8 @@
 
 ## Structure:
 
-- Read Atomic Design. (Resume at http://atomicdesign.bradfrost.com/chapter-3/)
-- Employ those concepts.
 - Learn BEM.
-- Employ those concepts.
+- Recode website with Atomic Design and BEM.
 
 ## About Me
 
