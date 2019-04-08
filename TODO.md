@@ -72,3 +72,5 @@ Header IMG sizes (39%):
   - Remove headers.
   - Remove any CSS affiliated with the headers.
   - Push these updates live on GH Pages.
+- Add SSL certificate.
+  - If this alters the URL, update the URL across all my résumés, email signatures, and online job board accounts.
