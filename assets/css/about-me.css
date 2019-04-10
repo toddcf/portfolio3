@@ -66,11 +66,14 @@ body {
 }
 
 .skills-flex-container {
+  align-content: center;
   align-items: space-around;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .skill-container {

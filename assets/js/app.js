@@ -69,6 +69,9 @@ $( document ).ready( function() {
     $( '#foundation-skill' ).addClass( 'animate-1s animate-delay-d fadeInRight' );
     $( '#jquery-skill' ).addClass( 'animate-1s animate-delay-e fadeInRight' );
     $( '#adobe-xd-skill' ).addClass( 'animate-1s animate-delay-f fadeInRight' );
+    $( '#adobe-photoshop-skill' ).addClass( 'animate-1s animate-delay-g fadeInRight' );
+    $( '#atomic-design-skill' ).addClass( 'animate-1s animate-delay-h fadeInRight' );
+    $( '#bem-skill' ).addClass( 'animate-1s animate-delay-i fadeInRight' );
   }, {
     offset: '85%'
   });

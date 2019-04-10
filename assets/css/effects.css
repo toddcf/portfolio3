@@ -9,7 +9,10 @@
 #bootstrap-skill,
 #foundation-skill,
 #jquery-skill,
-#adobe-xd-skill {
+#adobe-xd-skill,
+#adobe-photoshop-skill,
+#atomic-design-skill,
+#bem-skill {
   opacity: 0;
 }
 
@@ -24,7 +27,10 @@
 #bootstrap-skill.animate-1s,
 #foundation-skill.animate-1s,
 #jquery-skill.animate-1s,
-#adobe-xd-skill.animate-1s {
+#adobe-xd-skill.animate-1s,
+#adobe-photoshop-skill.animate-1s,
+#atomic-design-skill.animate-1s,
+#bem-skill.animate-1s {
   opacity: 1;
 }
 
@@ -265,27 +271,39 @@
 
 /* Skills Delays */
 #skills-section .animate-delay-a {
-  animation-delay: .15s;
+  animation-delay: 150ms;
 }
 
 #skills-section .animate-delay-b {
-  animation-delay: .3s;
+  animation-delay: 300ms;
 }
 
 #skills-section .animate-delay-c {
-  animation-delay: .45s;
+  animation-delay: 450ms;
 }
 
 #skills-section .animate-delay-d {
-  animation-delay: .6s;
+  animation-delay: 600ms;
 }
 
 #skills-section .animate-delay-e {
-  animation-delay: .75s;
+  animation-delay: 750ms;
 }
 
 #skills-section .animate-delay-f {
-  animation-delay: .9s;
+  animation-delay: 900ms;
+}
+
+#skills-section .animate-delay-g {
+  animation-delay: 1050ms;
+}
+
+#skills-section .animate-delay-h {
+  animation-delay: 1200ms;
+}
+
+#skills-section .animate-delay-i {
+  animation-delay: 1350ms;
 }
 
 
