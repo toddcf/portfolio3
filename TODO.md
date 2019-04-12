@@ -21,6 +21,7 @@
 ### My Portfolio Walkthrough:
 
 - Remove the "Live Site" header icon from the Portfolio Walkthrough.
+- Redo the code snippets to reflect the new BEM structure.
 
 ### All Walkthroughs
 

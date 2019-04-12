@@ -2,6 +2,7 @@
   background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
   background-position: left top;
   background-size: 100% 200%;
+  border-radius: 5px;
   color: #fff;
   transition: 300ms ease-in-out;
 }
