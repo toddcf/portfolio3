@@ -1,4 +1,4 @@
-.button__theme_primary {
+.button_theme_primary {
   background-image: linear-gradient(to bottom, var(--light-green) 0, var(--medium-green) 50%, var(--dark-green) 100%);
   background-position: left bottom;
   background-size: 100% 200%;
@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-.button__theme_primary:hover,
-.button__theme_primary:active {
+.button_theme_primary:hover,
+.button_theme_primary:active {
   background-position: left top;
 }
