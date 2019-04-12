@@ -2,39 +2,6 @@
   --sm-card-margin-top: -20px;
 }
 
-header {
-  min-height: 100vh;
-  position: relative;
-}
-
-#video-text-overlay {
-  height: auto;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-  width: 100%;
-}
-
-#video-background {
-  /* Makes video fullscreen */
-  bottom: 0;
-  height: auto;
-  min-height: 100vh;
-  min-width: 100%; 
-  position: fixed;
-  right: 0; 
-  width: auto;
-  z-index: -100;
-
-  /* Background fallback in case video doens't load */
-  background: url(../video/tropical-1920x1080-min.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 #project-container a,
 #project-container a:active,
 #project-container a:focus
