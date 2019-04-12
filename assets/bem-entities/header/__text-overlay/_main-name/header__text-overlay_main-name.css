@@ -1,0 +1,11 @@
+.header__text-overlay_main-name {
+  color: #fff;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  letter-spacing: .25em;
+  margin-bottom: .5em;
+  text-align: center;
+  text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}

@@ -10,7 +10,7 @@ body {
   color: #808080;
 }
 
-.main-name {
+/*.main-name {
   color: #fff;
   display: block;
   font-weight: 300;
@@ -19,7 +19,7 @@ body {
   text-align: center;
   text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
   z-index: 10;
-}
+}*/
 
 /* H1 subheading and H2 */
 .main-subheading {
