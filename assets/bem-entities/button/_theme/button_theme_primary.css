@@ -3,11 +3,26 @@
   background-position: left bottom;
   background-size: 100% 200%;
   border-radius: 5px;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
+  transition: 300ms ease-in-out;
 }
 
 .button_theme_primary:hover,
 .button_theme_primary:active {
   background-position: left top;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .button_theme_primary {
+    margin-bottom: 2em;
+  }
+
 }

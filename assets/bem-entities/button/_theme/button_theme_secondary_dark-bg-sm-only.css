@@ -1,0 +1,19 @@
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .button_theme_secondary_dark-bg-sm-only {
+    background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
+    background-position: left bottom;
+    background-size: 100% 200%;
+    color: #fff;
+    transition: 300ms ease-in-out;
+  }
+
+  .button_theme_secondary_dark-bg-sm-only:hover,
+  .button_theme_secondary_dark-bg-sm-only:active {
+    background-position: left top;
+    color: #000;
+  }
+
+}

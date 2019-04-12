@@ -1,0 +1,38 @@
+.button_theme_secondary {
+  background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
+  background-position: left top;
+  background-size: 100% 200%;
+  color: #fff;
+  transition: 300ms ease-in-out;
+}
+
+.button_theme_secondary:hover,
+.button_theme_secondary:active {
+  background-position: left bottom;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .button_theme_secondary {
+    margin-bottom: 2em;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .left-btn {
+    padding-right: 7.5px;
+  }
+
+  .right-btn {
+    padding-left: 7.5px;
+  }
+
+}

@@ -1,61 +1,61 @@
 /* All Buttons */
-.global-btn-box {
+/*.global-btn-box {
   border-radius: 5px;
   margin-bottom: 1em;
   position: relative;
-}
+}*/
 
-.global-btn {
+/*.global-btn {
   color: #fff;
   display: block;
   font-size: 16px;
   padding: 1em 0;
   text-align: center;
-}
+}*/
 
 /* Primary (Green) Buttons */
-.cta-primary-btn-box {
+/*.cta-primary-btn-box {
   background-image: linear-gradient(to bottom, var(--light-green) 0, var(--medium-green) 50%, var(--dark-green) 100%);
   background-position: left bottom;
   background-size: 100% 200%;
   font-weight: bold;
   text-transform: uppercase;
   transition: 300ms ease-in-out;
-}
+}*/
 
-.cta-primary-btn-box:hover,
+/*.cta-primary-btn-box:hover,
 .cta-primary-btn-box:active {
   background-position: left top;
-}
+}*/
 
 /* Secondary (Gray) Buttons */
-.cta-secondary-btn-box {
+/*.cta-secondary-btn-box {
   background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
   background-position: left bottom;
   background-size: 100% 200%;
   transition: 300ms ease-in-out;
-}
+}*/
 
-.cta-secondary-btn-box:hover,
+/*.cta-secondary-btn-box:hover,
 .cta-secondary-btn-box:active {
   background-position: left top;
-}
+}*/
 
-.cta-secondary-btn {
+/*.cta-secondary-btn {
   transition: 300ms ease-in-out;
-}
+}*/
 
-.cta-secondary-btn:hover,
+/*.cta-secondary-btn:hover,
 .cta-secondary-btn:active {
   color: #000;
-}
+}*/
 
 /* Button Icons */
-.global-btn .fab,
+/*.global-btn .fab,
 .global-btn .far,
 .global-btn .fas {
   margin-right: .75em;
-}
+}*/
 
 
 
@@ -64,9 +64,9 @@
 /* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
 
-  .cta-primary-btn-box {
+  /*.cta-primary-btn-box {
     margin-bottom: 2em;
-  }
+  }*/
 
 }
 
@@ -74,20 +74,20 @@
 @media (min-width: 576px) {
 
   /* Secondary (Gray) Buttons */
-  .cta-secondary-btn-box {
+  /*.cta-secondary-btn-box {
     background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
     background-position: left top;
-  }
+  }*/
 
-  .cta-secondary-btn-box:hover,
+  /*.cta-secondary-btn-box:hover,
   .cta-secondary-btn-box:active {
     background-position: left bottom;
-  }
+  }*/
 
-  .cta-secondary-btn:hover,
+  /*.cta-secondary-btn:hover,
   .cta-secondary-btn:active {
     color: #fff;
-  }
+  }*/
 
   .left-btn {
     padding-right: 7.5px;
