@@ -1,0 +1,13 @@
+.button__theme_primary {
+  background-image: linear-gradient(to bottom, var(--light-green) 0, var(--medium-green) 50%, var(--dark-green) 100%);
+  background-position: left bottom;
+  background-size: 100% 200%;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button__theme_primary:hover,
+.button__theme_primary:active {
+  background-position: left top;
+}
