@@ -3,3 +3,7 @@
   position: relative;
   transition: 300ms ease-in-out;
 }
+
+.button:hover {
+  cursor: pointer;
+}
