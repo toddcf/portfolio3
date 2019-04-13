@@ -2,7 +2,6 @@
 /* Using Augmented Fourth: 1.414 ratio*/
 
 /* FONT FAMILIES */
-#project-container h1,
 #project-container h2,
 #project-container h3,
 #project-container h4,
@@ -16,10 +15,6 @@ body {
 }
 
 /* FONT SIZE RATIOS */
-/*#project-container h1 {
-  font-size: 5.653em;
-}*/
-
 #project-container h2 {
   font-size: 3.998em;
 }

@@ -2,13 +2,17 @@
 
 ## Structure:
 
-- Recode website with BEM (and without Bootstrap).
+- Recode the entire website with BEM (and without Bootstrap).
+
+### Homepage
+
+- Header: Convert the animations to BEM.
+- Buttons: Remove blue link underscores.
+
 
 ## About Me
 
 - Change Foundation Logo to version 6.
-- Add Atomic Design to Skills.
-- Add BEM Batman logo to Skills (once conversions have been made).
 
 
 ## Walkthrough Pages
