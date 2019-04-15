@@ -1,4 +1,7 @@
 .header__text-overlay_h1_main-name {
+  animation-duration: 8s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
@@ -8,4 +11,19 @@
   text-align: center;
   text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
   z-index: 10;
+}
+
+/* fadeInDown */
+@keyframes fadeInDown {
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+
 }
