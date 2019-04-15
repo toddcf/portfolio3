@@ -1,9 +1,8 @@
-.button {
-  margin-bottom: 1em;
-  position: relative;
-  /*transition: 300ms ease-in-out;*/
-}
-
-.button:hover {
-  cursor: pointer;
+.button,
+.button:active,
+.button:focus,
+.button:hover,
+.button:link,
+.button:visited {
+  text-decoration: none;
 }

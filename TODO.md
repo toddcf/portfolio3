@@ -2,17 +2,16 @@
 
 ## Structure:
 
-- Recode the entire website with BEM (and without Bootstrap).
+- Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
 
 ### Homepage
 
-- Header: Convert the animations to BEM.
 - Buttons: Remove blue link underscores.
 
 
 ## About Me
 
-- Change Foundation Logo to version 6.
+- Convert animations to BEM.
 
 
 ## Walkthrough Pages
