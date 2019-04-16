@@ -1,0 +1,50 @@
+.professional-section__project {
+  padding-bottom: 100px;
+}
+
+.professional-section__project:last-child {
+  margin-bottom: 0;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .professional-section__project {
+    box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 100px auto;
+    padding-bottom: 0;
+    width: 95%;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .professional-section__project {
+    padding-bottom: 25px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .professional-section__project {
+    padding-bottom: 50px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .professional-section__project {
+    padding-bottom: 100px;
+  }
+
+}

@@ -12,13 +12,13 @@
   background: #fff;
 }*/
 
-.professional-project {
+/*.professional-project {
   padding-bottom: 100px;
-}
+}*/
 
-.professional-project:last-child {
+/*.professional-project:last-child {
   margin-bottom: 0;
-}
+}*/
 
 .professional-info-module {
   padding: 1em 0 0 0;
@@ -78,12 +78,12 @@
     padding-bottom: 100px;
   }
 
-  .professional-project {
+  /*.professional-project {
     box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
     margin: 0 auto 100px auto;
     padding-bottom: 0;
     width: 95%;
-  }
+  }*/
 
   #acura-of-tempe-bg-blur {
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/acura-of-tempe/2019-nsx/left-crop-576x630-blur12px-min.jpg);
@@ -202,9 +202,9 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-  .professional-project {
+  /*.professional-project {
     padding-bottom: 25px;
-  }
+  }*/
 
   .project-title-box {
     background: #fff;
@@ -309,9 +309,9 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-  .professional-project {
+  /*.professional-project {
     padding-bottom: 50px;
-  }
+  }*/
 
 }
 
@@ -350,13 +350,13 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  #white-gradient-2 {
+  /*#white-gradient-2 {
     padding: 1.5em 0 3.5em 0;
-  }
+  }*/
 
-  .professional-project {
+  /*.professional-project {
     padding-bottom: 100px;
-  }
+  }*/
 
   .professional-project-img-lg {
     height: 0;
