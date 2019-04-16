@@ -6,7 +6,8 @@
 
 ### Homepage
 
-- Buttons: Remove blue link underscores.
+- Convert all Font Awesome icons to SVGs instead of CDNs.
+  - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
 
 
 ## About Me
@@ -22,19 +23,6 @@
 
 - Remove the "Live Site" header icon from the Portfolio Walkthrough.
 - Redo the code snippets to reflect the new BEM structure.
-
-### All Walkthroughs
-
-Header IMG sizes (39%):
-- xs only: 576 x 227
-- sm only: 768 x 302
-- md only: 992 x 390
-- lg up: 1268 x 499
-
-
-### My Portfolio Walkthrough:
-
-- Remove all unused CSS.
 
 
 ### Acura of Tempe Walkthrough:
@@ -66,7 +54,7 @@ Header IMG sizes (39%):
 ## When Finished:
 
 - Delete all unused font customizations.
-- Delete all unused Bootstrap files (including JS files).
+- Delete all unused Bootstrap files (including JS files) except for grid.
 - Run Google page speed insights test.
 - Add Google Analytics throughout entire site.
 - Deployment checklist on every single file.

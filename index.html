@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap Grid -->
     <link rel="stylesheet" href="assets/bootstrap-4.2.1-dist/css/bootstrap-grid.min.css">
 
     <!-- Fonts -->
@@ -43,6 +43,10 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/__text-overlay/_h1/header__text-overlay_h1_main-subheading.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/__video-background/header__video-background.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/_image-fallback/header_image-fallback.css">
+
+    <!-- Portfolio CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/portfolio/__center/_1440/portfolio__center_1440.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/portfolio/__white-gradient-1/portfolio__white-gradient-1.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/effects.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
@@ -96,11 +100,11 @@
       </header>
 
       <!-- Portfolio Content -->
-      <main id="portfolio-content">
+      <main class="portfolio"> <!-- Used to be #portfolio-content -->
 
-        <div id="white-gradient-1">
+        <div class="portfolio__white-gradient-1"> <!-- Used to be #white-gradient-1 -->
 
-          <div class="center-1440">
+          <div class="portfolio__center_1440"> <!-- Used to be .center-1440 -->
             <div class="row">
               <div class="col">
                 <div class="section-name">
@@ -113,9 +117,9 @@
         </div> <!-- Close #white-gradient -->
 
         <!-- Professional Subsection -->
-        <section id="professional-section">
+        <section id="professional-section"> <!-- Used to be #professional-section -->
 
-          <div id="white-gradient-2">
+          <div class="white-gradient-2"> <!-- Used to be #white-gradient-2 -->
 
             <div class="center-1440">
               <div class="row">
@@ -546,9 +550,9 @@
           
         </section> <!-- Close #additional-samples-section -->
 
-      </main> <!-- Close #portfolio-content -->
+      </main> <!-- Close .portfolio -->
 
-      <footer>
+      <footer class="footer">
 
         <div class="center-1440">
         
