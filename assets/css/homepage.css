@@ -74,9 +74,9 @@
 /* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
 
-  .solid-white-bg {
+  /*.solid-white-bg {
     padding-bottom: 100px;
-  }
+  }*/
 
   /*.professional-project {
     box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, 0.3);
