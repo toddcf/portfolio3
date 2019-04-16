@@ -1,0 +1,10 @@
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .professional-section__project_content {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+}
