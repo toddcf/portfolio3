@@ -6,6 +6,7 @@
 
 ### Homepage
 
+- RESUME: `.portfolio__heading_title`.
 - Convert all Font Awesome icons to SVGs instead of CDNs.
   - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
 
