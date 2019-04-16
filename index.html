@@ -49,7 +49,7 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/__text-overlay/_h1/header__text-overlay_h1_main-name.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/__text-overlay/_h1/header__text-overlay_h1_main-subheading.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/__video-background/header__video-background.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/_image-fallback/header_image-fallback.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/header/__video-background/_video/header__video-background_video.css">
 
     <!-- Portfolio CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/portfolio/__heading/portfolio__heading.css">
@@ -85,7 +85,6 @@
 
     <div class="project-container">
 
-      <!-- Video Header -->
       <header class="header">
         
         <div class="header__text-overlay">
@@ -95,15 +94,12 @@
           </h1>
         </div>
 
-        <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
-        <div class="header_image-fallback">
-          
-          <video autoplay loop muted playsinline class="header__video-background">
+        <!-- Video is placed after major DOM elements for performance and has image fallback -->
+        <div class="header__video-background">
+          <video autoplay loop muted playsinline class="header__video-background_video">
             <source src="assets/video/tropical.mp4" type="video/mp4">
           </video>
-
         </div>
-        <!--Video Section Ends Here-->
 
       </header>
 
