@@ -23,12 +23,6 @@ body {
           box-sizing: border-box !important;
 }
 
-#project-container {
-  overflow: hidden; /* Prevents the header video from going wider than the rest of the project */
-  position: relative;
-  width: 100%;
-}
-
 /*.center-1440 {
   margin: 0 auto;
   max-width: 1440px;

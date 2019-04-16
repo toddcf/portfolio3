@@ -7,7 +7,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
-  .solid-white-bg {
+  .professional-section__solid-white-bg {
     padding-bottom: 0;
   }
 
