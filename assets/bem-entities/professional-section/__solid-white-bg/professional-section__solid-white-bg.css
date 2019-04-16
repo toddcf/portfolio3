@@ -1,0 +1,14 @@
+.professional-section__solid-white-bg {
+  background: #fff;
+  padding-bottom: 100px;
+}
+
+/* Bootstrap Breakpoints */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .solid-white-bg {
+    padding-bottom: 0;
+  }
+
+}
