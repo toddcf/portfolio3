@@ -7,6 +7,7 @@
 ### Homepage
 
 - RESUME: `.portfolio__heading_title`.
+- Update BEM to include the fallback image for the video bg in the same component, so the whole thing can be properly transplanted elsewhere if need be.
 - Convert all Font Awesome icons to SVGs instead of CDNs.
   - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
 
