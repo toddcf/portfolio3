@@ -1,0 +1,5 @@
+.professional-section__heading {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 1) 100%);
+  padding: 1.5em 0 7em 0;
+  width: 100%;
+}

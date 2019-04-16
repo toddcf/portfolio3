@@ -2,11 +2,11 @@
   --sm-card-margin-top: -20px;
 }
 
-#white-gradient-2 {
+/*#white-gradient-2 {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 1) 100%);
   padding: 1.5em 0 7em 0;
   width: 100%;
-}
+}*/
 
 .solid-white-bg {
   background: #fff;
