@@ -1,3 +1,16 @@
 .font_size_tier-3 {
-  font-size: 2.827em;
+  font-size: 16px;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .font_size_tier-3 {
+    font-size: 2.827em;
+  }
+
 }
