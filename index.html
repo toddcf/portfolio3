@@ -64,7 +64,10 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__heading/_title-text/professional-section__heading_title-text.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__project/professional-section__project.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__project/_content/professional-section__project_content.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__project/_img/_sm/professional-section__project_img_sm.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__project/_img/_sm-riser/professional-section__project_img_sm-riser.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__project/_name/_acura-of-tempe/professional-section__project_name_acura-of-tempe.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__project/_name/_acura-of-tempe/_img/_sm/professional-section__project_name_acura-of-tempe_img_sm.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-section/__solid-white-bg/professional-section__solid-white-bg.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/effects.css">
@@ -139,12 +142,14 @@
               <!-- Acura of Tempe -->
               <div class="professional-section__project"> <!-- Used to be .professional-project and #acura-of-tempe-project -->
 
-                <div class="professional-section__project_name_acura-of-tempe"> <!-- Used to be #acura-of-tempe-bg-blur -->
+                <div class="professional-section__project_name_acura-of-tempe">
 
-                  <div class="professional-section__project_content"> <!-- Used to be .mobile-card-centering -->
+                  <!-- Blurred bg img is passed into this container via CSS for small screens only -->
 
-                    <div class="professional-project-img-sm-container">
-                      <div id="acura-of-tempe-img-sm" class="professional-project-img-sm">
+                  <div class="professional-section__project_content">
+
+                    <div class="professional-section__project_img_sm-riser"> <!-- Used to be .professional-project-img-sm-container -->
+                      <div id="acura-of-tempe-img-sm" class="professional-section__project_img_sm professional-section__project_name_acura-of-tempe_img_sm"> <!-- Used to be .professional-project-img-sm and #acura-of-tempe-img-sm -->
                         <!-- Image is passed into this container via CSS depending on screen size -->
                       </div> <!-- Close #acura-of-tempe-img-sm -->
                     </div>
@@ -201,11 +206,11 @@
 
                     </div> <!-- Close #acura-of-tempe-img-lg -->
 
-                  </div> <!-- Close .mobile-card-centering -->
+                  </div> <!-- Close .professional-section__project_content -->
 
-                </div> <!-- Close .bg-blur -->
+                </div> <!-- Close .professional-section__project_name_acura-of-tempe -->
 
-              </div> <!-- Close #acura-of-tempe -->
+              </div> <!-- Close .professional-section__project -->
 
               <!-- BMW of El Cajon -->
               <div id="bmw-el-cajon-project" class="professional-project">

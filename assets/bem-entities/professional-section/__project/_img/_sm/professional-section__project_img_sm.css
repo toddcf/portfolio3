@@ -1,0 +1,14 @@
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .professional-section__project_img_sm {
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+    height: 0;
+    padding-bottom: 39%;
+    position: absolute;
+    top: var(--sm-card-margin-top);
+    width: 100%;
+  }
+
+}
