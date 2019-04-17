@@ -1,0 +1,40 @@
+.heading__title-tag_title {
+  display: inline;
+  font-weight: 500;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.heading__title-tag_title::before,
+.heading__title-tag_title::after {
+  border-top: 1px solid #808080;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+
+.heading__title-tag_title::before {
+  margin-right: 20px;
+  right: 100%;
+}
+
+.heading__title-tag_title::after {
+  left: 100%;
+  margin-left: 1rem;
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {
+
+  .heading__title-tag_title::before,
+  .heading__title-tag_title::after {
+    border-top: 2px solid #808080;
+  }
+
+}
