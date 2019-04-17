@@ -1,0 +1,15 @@
+.professional-section__project_info-module_button-box {
+  padding: 1rem 0;
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .professional-section__project_info-module_button-box {
+    padding-top: 0;
+  }
+
+}
