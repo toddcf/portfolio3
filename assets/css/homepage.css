@@ -257,18 +257,18 @@
 /* Small devices only (landscape phones, between 576px and 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-  .professional-project-img-md {
+  /*.professional-project-img-md {
     height: 0;
     padding-bottom: 39%;
     width: 100%;
-  }
+  }*/
 
-  #acura-of-tempe-img-md {
+  /*#acura-of-tempe-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/acura-of-tempe/2019-nsx/768x303-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
   #bmw-el-cajon-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/768x303-min.jpg);
@@ -298,18 +298,18 @@
 /* Medium devices only (tablets, between 768px and 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-  .professional-project-img-md {
+  /*.professional-project-img-md {
     height: 0;
     padding-bottom: 39%;
     width: 100%;
-  }
+  }*/
 
-  #acura-of-tempe-img-md {
+  /*#acura-of-tempe-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/acura-of-tempe/2019-nsx/992x391-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
   #bmw-el-cajon-img-md {
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/bmw-el-cajon/2019-x7/992x391-min.jpg);
@@ -338,12 +338,12 @@
     padding-bottom: 100px;
   }*/
 
-  .professional-project-img-lg {
+  /*.professional-project-img-lg {
     height: 0;
     padding-bottom: 39%;
     position: relative;
     width: 100%;
-  }
+  }*/
 
   /*.project-title-box h3 {
     text-align: center;
@@ -374,12 +374,12 @@
 /* Large devices only (desktops, between 992px and 1200px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-  #acura-of-tempe-img-lg {
+  /*#acura-of-tempe-img-lg {
     background: url(../img/acura-of-tempe/2019-nsx/1268x499-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
   #bmw-el-cajon-img-lg {
     background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);

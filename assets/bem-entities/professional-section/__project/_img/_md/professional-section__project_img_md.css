@@ -1,0 +1,10 @@
+/* Small and medium devices only (landscape phones, between 576px and 992px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+  .professional-section__project_img_md {
+    height: 0;
+    padding-bottom: 39%;
+    width: 100%;
+  }
+
+}

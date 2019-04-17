@@ -2,6 +2,7 @@
   color: #fff;
   font-family: 'Lato', sans-serif;
   margin: 0;
+  text-align: center;
 }
 
 
@@ -12,15 +13,6 @@
 
   .professional-section__project_title {
     color: #808080;
-  }
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-  .professional-section__project_title {
-    text-align: center;
   }
 
 }
