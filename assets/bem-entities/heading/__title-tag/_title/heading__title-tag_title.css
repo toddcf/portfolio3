@@ -1,6 +1,6 @@
 .heading__title-tag_title {
   display: inline;
-  font-weight: 500;
+  font-weight: 300;
   position: relative;
   text-transform: uppercase;
 }
@@ -23,18 +23,4 @@
 .heading__title-tag_title::after {
   left: 100%;
   margin-left: 1rem;
-}
-
-
-
-
-/* Bootstrap Breakpoints */
-/* Medium devices (768px and up) */
-@media (min-width: 768px) {
-
-  .heading__title-tag_title::before,
-  .heading__title-tag_title::after {
-    border-top: 2px solid #808080;
-  }
-
 }

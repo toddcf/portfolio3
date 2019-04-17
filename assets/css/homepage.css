@@ -28,42 +28,42 @@
   padding: 1rem 0;
 }*/
 
-.shaded-bg {
+/*.shaded-bg {
   background: rgba(0, 0, 0, .3);
   padding-top: 100px;
-}
+}*/
 
-.additional-samples-project {
+/*.additional-samples-project {
   border-radius: 4px;
   box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, .3);
   margin: 0 auto 100px auto;
   width: 95%;
-}
+}*/
 
-.additional-samples-img-sm-container {
+/*.additional-samples-img-sm-container {
   height: 0;
   margin: 0 auto .5em auto;
   padding-bottom: 39%;
   position: relative;
-}
+}*/
 
-.additional-samples-img-sm {
+/*.additional-samples-img-sm {
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
   height: 0;
   padding-bottom: 39%;
   position: absolute;
   top: var(--sm-card-margin-top);
   width: 100%;
-}
+}*/
 
-.additional-samples-centering {
+/*.additional-samples-centering {
   margin: 0 auto;
   width: 90%;
-}
+}*/
 
-#project-container .sample-info-module p {
+/*#project-container .sample-info-module p {
   color: #000;
-}
+}*/
 
 
 
@@ -93,13 +93,13 @@
     border-radius: 3px;
   }*/
 
-  #honda-new-rochelle-bg-blur {
+  /*#honda-new-rochelle-bg-blur {
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/honda-new-rochelle/2018-accord/576x630-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 4px;
-  }
+  }*/
 
   /*.professional-project-img-sm-container {
     height: 0;
@@ -124,30 +124,30 @@
     background-size: cover;
   }*/
 
-  #honda-new-rochelle-img-sm {
+  /*#honda-new-rochelle-img-sm {
     background: url(../img/honda-new-rochelle/2018-accord/576x227-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  .professional-info-module p {
+  /*.professional-info-module p {
     color: #fff;
-  }
+  }*/
 
-  #my-portfolio-project {
+  /*#my-portfolio-project {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/tcf-webdesign/center-crop-576x630-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  #my-portfolio-img-sm {
+  /*#my-portfolio-img-sm {
     background: url(../img/additional-samples/tcf-webdesign/576x227-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
   #omnifood-project {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/omnifood/left-crop-576x630-blur12px-min.jpg);
@@ -206,23 +206,23 @@
     width: 85%;
   }*/
 
-  .shaded-bg {
+  /*.shaded-bg {
     padding-top: 125px;
-  }
+  }*/
 
-  #my-portfolio-project {
+  /*#my-portfolio-project {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/tcf-webdesign/center-crop-768x840-blur12px-min.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  #my-portfolio-img-sm {
+  /*#my-portfolio-img-sm {
     background: url(../img/additional-samples/tcf-webdesign/768x302-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
   #omnifood-project {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-samples/omnifood/left-crop-768x840-blur12px-min.jpg);
@@ -381,19 +381,19 @@
     background-size: cover;
   }*/
 
-  #bmw-el-cajon-img-lg {
+  /*#bmw-el-cajon-img-lg {
     background: url(../img/bmw-el-cajon/2019-x7/1268x499-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  #honda-new-rochelle-img-lg {
+  /*#honda-new-rochelle-img-lg {
     background: url(../img/honda-new-rochelle/2018-accord/1268x499-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
 }
 
@@ -407,22 +407,22 @@
     background-size: cover;
   }*/
 
-  #bmw-el-cajon-img-lg {
+  /*#bmw-el-cajon-img-lg {
     background: url(../img/bmw-el-cajon/2019-x7/1440x567-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  #honda-new-rochelle-img-lg {
+  /*#honda-new-rochelle-img-lg {
     background: url(../img/honda-new-rochelle/2018-accord/1440x567-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  .shaded-bg {
+  /*.shaded-bg {
     padding-top: 150px;
-  }
+  }*/
 
 }

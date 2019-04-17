@@ -1,0 +1,25 @@
+.additional-samples-section__shaded-bg {
+  background: rgba(0, 0, 0, .3);
+  padding-top: 100px;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .additional-samples-section__shaded-bg {
+    padding-top: 125px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .additional-samples-section__shaded-bg {
+    padding-top: 150px;
+  }
+
+}
