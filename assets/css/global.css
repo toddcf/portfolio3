@@ -19,8 +19,8 @@
 body {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box !important;
-          box-sizing: border-box !important;
+  /*-webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;*/
 }
 
 /*.center-1440 {
