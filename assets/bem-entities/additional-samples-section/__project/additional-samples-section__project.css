@@ -1,6 +1,13 @@
 .additional-samples-section__project {
+  animation-duration: 1s;
+  animation-fill-mode: both;
   border-radius: 4px;
   box-shadow: 20px 20px 20px 1px rgba(0, 0, 0, .3);
   margin: 0 auto 100px auto;
+  opacity: 0; /* Invisible before the animation is triggered */
   width: 95%;
+}
+
+.additional-samples-section__project.additional-samples-section__project_effects {
+  opacity: 1; /* To keep this card visible after the animation is completed */
 }
