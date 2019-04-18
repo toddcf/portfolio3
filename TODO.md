@@ -6,7 +6,7 @@
 
 ### Homepage
 
-- RESUME: Fix the H4 for `professional-section__project`.
+- RESUME: Footer
 - Convert all Font Awesome icons to SVGs instead of CDNs.
   - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
 
@@ -65,3 +65,8 @@
   - Push these updates live on GH Pages.
 - Add SSL certificate.
   - If this alters the URL, update the URL across all my résumés, email signatures, and online job board accounts.
+
+
+## Future Iterations:
+
+- Swap out Waypoints for Vanilla JS scroll triggers. One example: https://terwanerik.github.io/ScrollTrigger/
