@@ -1,4 +1,6 @@
 .additional-samples-section__project_my-portfolio_effects {
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
   animation-name: additional-samples-section__project_my-portfolio_effects;
 }
 

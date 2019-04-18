@@ -1,3 +1,14 @@
+.additional-samples-section__project_my-portfolio {
+  opacity: 0; /* Invisible before the animation is triggered */
+}
+
+.additional-samples-section__project_my-portfolio.additional-samples-section__project_my-portfolio_effects {
+  opacity: 1; /* Keeps this card visible after the animation is completed */
+}
+
+
+
+
 /* Bootstrap Breakpoints */
 /* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
