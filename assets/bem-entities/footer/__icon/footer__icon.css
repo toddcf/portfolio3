@@ -1,0 +1,11 @@
+.footer__icon {
+  color: #808080;
+  margin-bottom: 50px;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.footer__icon:hover,
+.footer__icon:active {
+  color: #fff;
+}
