@@ -1,11 +1,11 @@
-.additional-samples-section__project_omnifood_effects {
+.additional-samples-section__project_author-site_effects {
   animation-duration: 1000ms;
   animation-fill-mode: both;
-  animation-name: additional-samples-section__project_omnifood_effects;
+  animation-name: additional-samples-section__project_author-site_effects;
 }
 
 /* fadeInUp */
-@keyframes additional-samples-section__project_omnifood_effects {
+@keyframes additional-samples-section__project_author-site_effects {
 
   from {
     opacity: 0;
@@ -26,7 +26,7 @@
 @media (min-width: 768px) {
 
   .additional-samples-section__project_omnifood_effects {
-    animation-delay: 150ms;
+    animation-delay: 300ms;
   }
 
 }

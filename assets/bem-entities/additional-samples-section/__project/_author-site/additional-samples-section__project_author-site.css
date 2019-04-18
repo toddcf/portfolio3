@@ -1,0 +1,47 @@
+.additional-samples-section__project_author-site {
+  opacity: 0; /* Invisible before the animation is triggered */
+}
+
+.additional-samples-section__project_author-site.additional-samples-section__project_author-site_effects {
+  opacity: 1; /* Keeps this card visible after the animation is completed */
+}
+
+
+
+
+/* Bootstrap Breakpoints */
+/* Extra Small devices only (landscape phones, below 576px) */
+@media (max-width: 575.98px) {
+
+  .additional-samples-section__project_author-site {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(left-crop-576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+/* Small devices only (landscape phones, between 576px and 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .additional-samples-section__project_author-site {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(left-crop-768x840-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  .additional-samples-section__project_author-site {
+    background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(left-crop-576x630-blur12px-min.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
