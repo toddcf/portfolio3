@@ -11,13 +11,6 @@ $( document ).ready( function() {
   // ANIMATIONS ON SCROLL
   // Not actually using "direction," because this animation will only happen once.
 
-  // Footer Icons
-  $( '.footer-card' ).waypoint( function( direction ) {
-    $( '.footer-card' ).addClass( 'animate-1s bounceInUp' );
-  }, {
-    offset: '85%'
-  });
-
   // Ed Barton Reference
   $( '#ed-barton-ref' ).waypoint( function( direction ) {
     $( '#ed-barton-ref' ).addClass( 'animate-1s fadeInUp' );

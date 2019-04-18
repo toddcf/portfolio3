@@ -12,8 +12,8 @@ $( document ).ready( function() {
   // Not actually using "direction," because this animation will only happen once.
 
   // Footer Icons
-  $( '.footer-card' ).waypoint( function( direction ) {
-    $( '.footer-card' ).addClass( 'animate-1s bounceInUp' );
+  $( '.footer__icon' ).waypoint( function( direction ) {
+    $( '.footer__icon' ).addClass( 'footer__icon_effects' );
   }, {
     offset: '85%'
   });

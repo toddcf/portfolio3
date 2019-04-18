@@ -1,0 +1,20 @@
+.footer__icon_effects {
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
+  animation-name: footer__icon_effects;
+}
+
+/* fadeInUp */
+@keyframes footer__icon_effects {
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+
+}

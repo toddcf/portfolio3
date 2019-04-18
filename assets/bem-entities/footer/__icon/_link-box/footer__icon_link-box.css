@@ -1,3 +1,8 @@
 .footer__icon_link-box {
+  opacity: 0; /* Invisible before animations are triggered */
   text-align: center;
+}
+
+.footer__icon_link-box.footer__icon_effects {
+  opacity: 1; /* Remains visible after animations are complete */
 }
