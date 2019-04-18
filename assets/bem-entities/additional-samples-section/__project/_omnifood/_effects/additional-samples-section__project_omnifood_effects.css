@@ -1,0 +1,21 @@
+.additional-samples-section__project_omnifood_effects {
+  animation-delay: 150ms;
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
+  animation-name: additional-samples-section__project_omnifood_effects;
+}
+
+/* fadeInUp */
+@keyframes additional-samples-section__project_omnifood_effects {
+
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+
+}
