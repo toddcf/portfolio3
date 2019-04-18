@@ -1,4 +1,5 @@
 .footer__icon_link-box {
+  margin-bottom: 3rem;
   opacity: 0; /* Invisible before animations are triggered */
   text-align: center;
 }
