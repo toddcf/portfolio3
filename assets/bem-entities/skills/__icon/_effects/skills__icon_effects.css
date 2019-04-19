@@ -4,6 +4,14 @@
   animation-name: skills__icon_effects;
 }
 
+.skills__icon {
+  opacity: 0; /* Invisible until animation is triggered */
+}
+
+.skills__icon.skills__icon_effects {
+  opacity: 1; /* Remains visible after animation is complete */
+}
+
 
 
 
