@@ -12,8 +12,10 @@
 
 ## About Me
 
+- Fix responsive global font sizes.
+- Fix link styling.
+- Adjust Skills icon spacing. (Must fix global font sizes first, since this is in `em`.)
 - Redesign Professional Reference cards entirely when you convert them to BEM.
-- Convert Skills icons to BEM (and adjust their spacing).
 
 
 ## Walkthrough Pages
