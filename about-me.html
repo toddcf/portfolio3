@@ -64,6 +64,10 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/heading/__title-tag/_title/heading__title-tag_title.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/heading/_theme/_black/heading_theme_black.css">
 
+    <!-- Flexbox CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/flexbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_layout/_skills/flexbox_layout_skills.css">
+
     <!-- Footer CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/footer/__copyright/footer__copyright.css">
@@ -76,7 +80,10 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/footer/_theme/_black/footer_theme_black.css">
 
     <!-- Profiler CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__img/profiler__img.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__left/profiler__left.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__right/profiler__right.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__text/profiler__text.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -124,18 +131,19 @@
               <div class="row">
                 
                 <div class="col-md-5">
-                  <div class="profiler__left"> <!-- Was #tcf-photo-container and .animate-1s and .fadeInLeft -->
-                    <img src="assets/bem-entities/profiler/__left/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="tcf-photo">
+                  <div class="profiler__left">
+                    <img src="assets/bem-entities/profiler/__img/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="profiler__img">
                   </div>
                 </div>
                 
                 <div class="col-md-7">
-                  <div id="bio-text" class="text-justify animate-1s fadeInRight">
-                    <p>My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
-                    <p>I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
-                    <p>My other interests include <a href="http://www.toddcf.com" target="_blank" class="text-link-light-bg">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
-                    <p>I am based in West Los Angeles, CA.</p>
-                  </div> <!-- Close #bio-text -->
+                  <div class="profiler__right">
+                    <p class="profiler__text">My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
+                    <p class="profiler__text">I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
+                    <p class="profiler__text">My other interests include <a href="http://www.toddcf.com" target="_blank" class="text-link-light-bg">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
+                    <p class="profiler__text">I am based in West Los Angeles, CA.</p>
+                    </div>
+                  </div>
                 </div>
 
               </div> <!-- Close .row -->
@@ -249,16 +257,16 @@
 
             <div class="container">
 
-              <div class="skills-flex-container">
+              <div class="flexbox flexbox_skills">
 
-                <div class="skills-flex-item">
+                <div class="skills__flexbox_item">
                   <div id="html-skill" class="skill-container">
-                    <img src="assets/img/skills/html5-logo-trans-260x260-min.png" alt="HTML5 Logo">
+                    <img src="assets/img/skills/html5-logo-trans-260x260-min.png" alt="HTML5 Logo" class="skills__flexbox_img">
                     <p>HTML5</p>
                   </div>
                 </div>
 
-                <div class="skills-flex-item">
+                <div class="skills__flexbox_item">
                   <div id="css-skill" class="skill-container">
                     <img src="assets/img/skills/css3-logo-trans-260x260-min.png" alt="CSS3 Logo">
                     <p>CSS3</p>

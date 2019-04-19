@@ -12,7 +12,8 @@
 
 ## About Me
 
-- Delete all unused CSS links. (Professional Projects, Additional Samples, etc.)
+- Redesign Professional Reference cards entirely when you convert them to BEM.
+- Convert Skills icons to BEM (and adjust their spacing).
 
 
 ## Walkthrough Pages

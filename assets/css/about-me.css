@@ -11,13 +11,13 @@ body {
   overflow: hidden;
 }
 
-.bio {
+/*.bio {
   padding: 0 1em 1em 1em;
-}
+}*/
 
-.tcf-photo {
+/*.tcf-photo {
   margin-bottom: 16px;
-}
+}*/
 
 .black-heading {
   background: #000;
@@ -65,7 +65,7 @@ body {
   font-style: normal;
 }
 
-.skills-flex-container {
+/*.skills-flex-container {
   align-content: center;
   align-items: space-around;
   display: flex;
@@ -74,11 +74,11 @@ body {
   justify-content: center;
   margin: 0 auto;
   width: 70%;
-}
+}*/
 
-.skill-container {
+/*.skill-container {
   margin: 8em 2em 6em 2em;
-}
+}*/
 
 .skill-container img {
   display: block;

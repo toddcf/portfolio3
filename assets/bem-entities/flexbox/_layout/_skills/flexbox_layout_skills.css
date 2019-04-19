@@ -1,0 +1,20 @@
+.flexbox_layout_skills {
+  align-content: center;
+  align-items: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .flexbox_layout_skills {
+    width: 70%;
+  }
+
+}
