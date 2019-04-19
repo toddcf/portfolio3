@@ -12,10 +12,11 @@
 
 ## About Me
 
-- Fix responsive global font sizes.
-- Fix link styling.
-- Adjust Skills icon spacing. (Must fix global font sizes first, since this is in `em`.)
-- Redesign Professional Reference cards entirely when you convert them to BEM.
+- Redesign Professional Reference cards entirely in Adobe XD before converting them to BEM.
+  - Each card is a block.
+- Certificates:
+  - Each card is a block.
+  - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.
 
 
 ## Walkthrough Pages
