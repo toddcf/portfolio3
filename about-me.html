@@ -66,6 +66,7 @@
 
     <!-- Flexbox CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/flexbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_item/flexbox_item.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_layout/_skills/flexbox_layout_skills.css">
 
     <!-- Footer CSS -->
@@ -84,6 +85,12 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__left/profiler__left.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__right/profiler__right.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__text/profiler__text.css">
+
+    <!-- Skills -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/skills/__icon/skills__icon.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/skills/__icon/_html/skills__icon_html.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/skills/__icon/_img/skills__icon_img.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/skills/__icon/_text/skills__icon_text.css">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -243,7 +250,7 @@
         </section> <!-- Close #professional-references-section -->
 
         <!-- Skills Section -->
-        <section id="skills-section">
+        <section class="skills-section">
 
           <div class="heading heading_theme_black">
             <div class="heading__title-overflow">
@@ -257,16 +264,16 @@
 
             <div class="container">
 
-              <div class="flexbox flexbox_skills">
+              <div class="flexbox flexbox_layout_skills">
 
-                <div class="skills__flexbox_item">
-                  <div id="html-skill" class="skill-container">
-                    <img src="assets/img/skills/html5-logo-trans-260x260-min.png" alt="HTML5 Logo" class="skills__flexbox_img">
-                    <p>HTML5</p>
+                <div class="skills__icon flexbox_item">
+                  <div class="skills__icon_html">
+                    <img src="assets/bem-entities/skills/__icon/_html/html5-logo-trans-260x260-min.png" alt="HTML5 Logo" class="skills__icon_img">
+                    <p class="skills__icon_text">HTML5</p>
                   </div>
                 </div>
 
-                <div class="skills__flexbox_item">
+                <!-- <div class="skills__flexbox_item">
                   <div id="css-skill" class="skill-container">
                     <img src="assets/img/skills/css3-logo-trans-260x260-min.png" alt="CSS3 Logo">
                     <p>CSS3</p>
@@ -327,7 +334,7 @@
                     <img src="assets/img/skills/bem-logo-black-transparent-260x260-min.png" alt="BEM Logo">
                     <p>BEM</p>
                   </div>
-                </div>
+                </div> -->
                 
               </div> <!-- Close .skills-flex-container -->
               
