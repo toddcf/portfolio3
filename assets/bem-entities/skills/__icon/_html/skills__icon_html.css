@@ -1,3 +1,7 @@
 .skills__icon_html {
-  
+  /*opacity: 0;*/ /* Invisible until animation is triggered */
+}
+
+.skills__icon_html.skills__icon_html_effects {
+  opacity: 1; /* Keeps this icon visible after animation is complete */
 }

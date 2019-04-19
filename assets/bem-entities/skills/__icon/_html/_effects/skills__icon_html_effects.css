@@ -1,0 +1,7 @@
+.skills__icon_html_effects {
+
+}
+
+.skills__icon_html.skills__icon_html_effects {
+  opacity: 1; /* Keeps this visible after animation is complete */
+}

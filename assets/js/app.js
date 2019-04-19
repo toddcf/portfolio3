@@ -1,12 +1,12 @@
 $( document ).ready( function() {
 
   // FOOTER
-  var thisYear = new Date().getFullYear();
+  // var thisYear = new Date().getFullYear();
   // Pass thisYear into footer copyright's .currentYear span:
   // Footer (IIFE):
-  var footerInfo = ( function() {
-    $( '.currentYear' ).html( '&ndash;&nbsp;' + thisYear + '&nbsp;' );
-  }) ();
+  // var footerInfo = ( function() {
+  //   $( '.currentYear' ).html( '&ndash;&nbsp;' + thisYear + '&nbsp;' );
+  // }) ();
 
   // ANIMATIONS ON SCROLL
   // Not actually using "direction," because this animation will only happen once.

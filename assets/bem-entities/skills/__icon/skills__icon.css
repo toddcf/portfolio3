@@ -1,3 +1,7 @@
 .skills__icon {
-  /*opacity: 0;*/ /* Invisible before animation is triggered */
+  opacity: 0; /* Invisible until animation is triggered */
+}
+
+.skills__icon.skills__icon_effects {
+  opacity: 1; /* Keeps this icon visible after animation is complete */
 }
