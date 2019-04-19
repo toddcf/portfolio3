@@ -75,6 +75,9 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/footer/__icon-row/footer__icon-row.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/footer/_theme/_black/footer_theme_black.css">
 
+    <!-- Profiler CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__left/profiler__left.css">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -104,7 +107,7 @@
       <main id="main-content">
 
         <!-- About Section -->
-        <section id="about-section">
+        <section class="about-section">
 
           <div class="container">
 
@@ -116,24 +119,28 @@
               </div>
             </div>
 
-            <div class="row">
-              
-              <div class="col-md-5">
-                <div id="tcf-photo-container" class="animate-1s fadeInLeft">
-                  <img src="assets/img/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="img-fluid tcf-photo">
-                </div>
-              </div>
-              
-              <div class="col-md-7">
-                <div id="bio-text" class="text-justify animate-1s fadeInRight">
-                  <p>My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
-                  <p>I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
-                  <p>My other interests include <a href="http://www.toddcf.com" target="_blank" class="text-link-light-bg">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
-                  <p>I am based in West Los Angeles, CA.</p>
-                </div> <!-- Close #bio-text -->
-              </div>
+            <div class="profiler">
 
-            </div> <!-- Close .row -->
+              <div class="row">
+                
+                <div class="col-md-5">
+                  <div class="profiler__left"> <!-- Was #tcf-photo-container and .animate-1s and .fadeInLeft -->
+                    <img src="assets/bem-entities/profiler/__left/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="tcf-photo">
+                  </div>
+                </div>
+                
+                <div class="col-md-7">
+                  <div id="bio-text" class="text-justify animate-1s fadeInRight">
+                    <p>My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
+                    <p>I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
+                    <p>My other interests include <a href="http://www.toddcf.com" target="_blank" class="text-link-light-bg">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
+                    <p>I am based in West Los Angeles, CA.</p>
+                  </div> <!-- Close #bio-text -->
+                </div>
+
+              </div> <!-- Close .row -->
+
+            </div> <!-- Close .profiler -->
 
           </div> <!-- Close .center-container -->
               
