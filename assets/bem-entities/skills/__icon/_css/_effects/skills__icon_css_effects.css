@@ -1,7 +1,8 @@
-.skills__icon_html {
+.skills__icon_css {
+  animation-delay: 250ms;
   opacity: 0; /* Invisible until animation is triggered */
 }
 
-.skills__icon_html.skills__icon_effects {
+.skills__icon_css.skills__icon_effects {
   opacity: 1; /* Keeps this icon visible after animation is complete */
 }
