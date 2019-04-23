@@ -18,6 +18,10 @@
   - Each card is a block.
   - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.
 
+## Flowchart
+
+- Create a flowchart for the portfolio user experience.
+
 
 ## Walkthrough Pages
 
