@@ -12,8 +12,8 @@
 
 ## About Me
 
-- Redesign Professional Reference cards entirely in Adobe XD before converting them to BEM.
-  - Each card is a block.
+- Decide whether or not to switch from Bootstrap grid to a CSS flexbox grid of my own.
+- Code each Professional Reference card as a block.
 - Certificates:
   - Each card is a block.
   - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.
