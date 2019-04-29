@@ -1,0 +1,14 @@
+.professional-reference__main_blockquote {
+  background-color: #f8ebd8;
+  border: 3px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-size: 16px;
+  hyphens: auto;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  margin-inline-end: 0;
+  margin-inline-start: 0;
+  padding: 10px 20px;
+  text-align: justify;
+}
