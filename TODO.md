@@ -3,6 +3,7 @@
 ## Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
+- Remove Bootstrap grid and create your own flexbox.
 
 ### Homepage
 
@@ -12,7 +13,6 @@
 
 ## About Me
 
-- Decide whether or not to switch from Bootstrap grid to a CSS flexbox grid of my own.
 - Code each Professional Reference card as a block.
 - Certificates:
   - Each card is a block.

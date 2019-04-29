@@ -24,21 +24,21 @@ body {
   padding: 8em 2em;
 }
 
-.professional-reference {
+/*.professional-reference {
   background: rgba(0, 0, 0, .5);
   color: #fff;
   margin-bottom: 2em;
   padding: 1em;
-}
+}*/
 
-.professional-reference .fa-quote-left {
+/*.professional-reference .fa-quote-left {
   display: block;
   margin-bottom: 1rem;
-}
+}*/
 
-.professional-reference .fa-quote-right {
+/*.professional-reference .fa-quote-right {
   display: block;
-}
+}*/
 
 .ref-name,
 .ref-title,
