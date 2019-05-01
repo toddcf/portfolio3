@@ -13,7 +13,7 @@
 
 ## About Me
 
-- Code each Professional Reference card as a block.
+- Remove Bootstrap and custom-build your own flexbox for each section.
 - Certificates:
   - Each card is a block.
   - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.

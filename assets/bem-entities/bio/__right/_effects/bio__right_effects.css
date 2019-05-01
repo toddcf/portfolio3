@@ -1,11 +1,11 @@
-.profiler__right {
+.bio__right_effects {
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-name: profiler__right;
+  animation-name: bio__right_effects;
 }
 
-/* fadeInRight */
-@keyframes profiler__right {
+/* fadeInRight*/
+@keyframes bio__right_effects {
   
   from {
     opacity: 0;

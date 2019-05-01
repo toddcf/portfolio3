@@ -1,11 +1,11 @@
-.profiler__left {
+.bio__left_effects {
   animation-duration: 1s;
   animation-fill-mode: both;
-  animation-name: profiler__left;
+  animation-name: bio__left_effects;
 }
 
 /* fadeInLeft*/
-@keyframes profiler__left {
+@keyframes bio__left_effects {
   
   from {
     opacity: 0;

@@ -19,7 +19,17 @@
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/fonts/about-me-fonts.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/about-me.css">
 
-    <!-- CSS -->    
+    <!-- CSS -->
+    <!-- Bio CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/bio.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__img/bio__img.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__left/bio__left.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__left/_effects/bio__left_effects.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__right/bio__right.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__right/_effects/bio__right_effects.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__text/bio__text.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/_layout/bio_layout.css">
+
     <!-- Body CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/body/__project-container/body__project-container.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/body/body_homepage.css">
@@ -34,7 +44,8 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/button/__button-icon/button-icon.css">
 
     <!-- Center CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/center/_1440/center_1440.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/center/__1170/center__1170.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/bem-entities/center/__1440/center__1440.css"> -->
 
     <!-- Columns CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/columns/columns_left-even.css">
@@ -45,7 +56,12 @@
 
     <!-- Flexbox CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/flexbox.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_item/flexbox_item.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/__bio-left/flexbox__bio-left.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/__bio-left/_effects/flexbox__bio-left_effects.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/__bio-left/_img/flexbox__bio-left_img.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/__bio-right/flexbox__bio-right.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/__bio-right/_effects/flexbox__bio-right_effects.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_layout/_bio/flexbox_layout_bio.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_layout/_skills/flexbox_layout_skills.css">
 
     <!-- Fonts CSS -->
@@ -98,13 +114,6 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-reference/__main/_cite-source/professional-reference__main_cite-source.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/professional-reference/__main/_cite-title/professional-reference__main_cite-title.css">
 
-    <!-- Profiler CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/_spacing/profiler_spacing.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__img/profiler__img.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__left/profiler__left.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__right/profiler__right.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/profiler/__text/profiler__text.css">
-
     <!-- Skills -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/skills/__icon/skills__icon.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/skills/__icon/_effects/skills__icon_effects.css">
@@ -152,7 +161,7 @@
         <!-- About Section -->
         <section class="about-section">
 
-          <div class="container">
+          <div class="center__1170">
 
             <div class="heading heading_theme_clear">
               <div class="heading__title-overflow">
@@ -162,31 +171,22 @@
               </div>
             </div>
 
-            <div class="profiler profiler_spacing">
-
-              <div class="row">
+            <div class="bio bio_layout">
                 
-                <div class="col-md-5">
-                  <div class="profiler__left">
-                    <img src="assets/bem-entities/profiler/__img/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="profiler__img">
-                  </div>
-                </div>
+              <div class="bio__left bio__left_effects">
+                <img src="assets/bem-entities/bio/__img/tcf-photo-768x768-min.jpg" alt="Todd Croak-Falen" class="bio__img">
+              </div>
                 
-                <div class="col-md-7">
-                  <div class="profiler__right">
-                    <p class="profiler__text">My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
-                    <p class="profiler__text">I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
-                    <p class="profiler__text">My other interests include <a href="http://www.toddcf.com" target="_blank" class="link link_theme_black">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
-                    <p class="profiler__text">I am based in West Los Angeles, CA.</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="bio__right bio__right_effects">
+                <p class="bio__text">My name is Todd Croak-Falen, and I've designed and coded mobile-first web pages for Acura, BMW, Chrysler, Chevrolet, Dodge, Harley-Davidson, Honda, Hyundai, Jeep, Kia, Nissan, Ram, and Toyota dealerships nationwide.</p>
+                <p class="bio__text">I particularly love finding creative ways to modify the graphic design of a page for different screen sizes using HTML5/CSS3. With each new project, I push my skill set a little deeper by trying new techniques, and further embedding the ones I already have.</p>
+                <p class="bio__text">My other interests include <a href="http://www.toddcf.com" target="_blank" class="link link_theme_black">creative writing</a>, reading fiction and nonfiction, electronic music, hiking, cycling, personal finance, investing, chess, sensory deprivation tanks, and Krav Maga.</p>
+                <p class="bio__text">I am based in West Los Angeles, CA.</p>
+              </div>
 
-              </div> <!-- Close .row -->
+            </div> <!-- Close .flexbox_layout_bio -->
 
-            </div> <!-- Close .profiler -->
-
-          </div> <!-- Close .center-container -->
+          </div> <!-- Close .center__1170 -->
               
         </section> <!-- Close #about-section -->
 
@@ -203,7 +203,7 @@
 
           <div class="wood-panel-bg">
 
-            <div class="container">
+            <div class="center__1170">
 
               <div class="row">
 
@@ -290,7 +290,7 @@
                 
               </div> <!-- Close .row -->
               
-            </div> <!-- Close .container -->
+            </div> <!-- Close .center__1170 -->
 
           </div> <!-- Close .wood-panel-bg -->
           
@@ -309,7 +309,7 @@
 
           <!-- <div class="skills-bg"> -->
 
-            <div class="container">
+            <div class="center__1170">
 
               <div class="flexbox flexbox_layout_skills">
 
@@ -392,7 +392,7 @@
                 
               </div> <!-- Close .flexbox_layout_skills -->
               
-            </div> <!-- Close .container -->
+            </div> <!-- Close .center__1170 -->
 
           <!-- </div> --> <!-- Close .skills-bg -->
           
@@ -411,7 +411,7 @@
 
           <div id="certificates-bg" class="parallax" data-image-src="assets/img/circuit-board-2250x1529-min.jpg">
 
-            <div class="container">
+            <div class="center__1170">
 
               <div class="row">
 
@@ -527,7 +527,7 @@
 
               </div> <!-- Close .row -->
 
-            </div> <!-- Close .container -->
+            </div> <!-- Close .center__1170 -->
 
           </div> <!-- Close .certificates-bg -->
 
@@ -537,7 +537,7 @@
 
       <footer class="footer footer_theme_black">
 
-        <div class="container">
+        <div class="center__1170">
         
           <div class="row footer__icon-row">
 
@@ -586,7 +586,7 @@
             </div>
           </div>
 
-        </div> <!-- Close .container -->
+        </div> <!-- Close .center__1170 -->
 
       </footer>
 

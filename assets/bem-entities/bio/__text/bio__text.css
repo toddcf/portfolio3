@@ -1,15 +1,16 @@
-.profiler__text {
+.bio__text {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
   margin: 0 0 1em 0;
   text-align: justify;
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Breakpoints */
 @media (min-width: 768px) {
 
-  .profiler__text {
+  .bio__text {
     margin: 0 1em 1em 1em;
+    padding-left: 1em;
   }
 
 }
