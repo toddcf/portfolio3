@@ -2,8 +2,9 @@
   background-color: #401708;
   border: 3px solid #f8ebd8;
   border-radius: 5px;
-  color: #fff;
+  color: #f8ebd8;
   display: block;
-  margin: -25px auto 50px auto;
+  margin: -60px auto 50px auto;
+  padding: 10px 5px 16px 5px;
   width: 85%;
 }
