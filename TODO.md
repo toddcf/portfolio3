@@ -14,7 +14,7 @@
 
 ## About Me
 
-- Convert all backgrounds to BEM themes.
+- Remove all unused CSS link.
 
 
 ## Flowchart
