@@ -13,8 +13,6 @@
 
 ## About Me
 
-- Professional References:
-  - Fix nameplate name font sizes for each breakpoint. (23px for 320px screens.)
 - Certificates:
   - Custom flexbox.
   - Each card is a block.
