@@ -17,6 +17,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/about-me.css">
 
     <!-- CSS -->
+    <!-- Background -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/background/_theme/_wood-panel/background_theme_wood-panel.css">
+
     <!-- Bio CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/bio.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/bio/__img/bio__img.css">
@@ -47,6 +50,7 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/certificate/certificate.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/certificate/__body/certificate__body.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/certificate/__body/_title/certificate__body_title.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/certificate/__content/certificate__content.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/certificate/__img/certificate__img.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/certificate/_flex-item/certificate_flex-item.css">
 
@@ -160,7 +164,7 @@
     <div class="body__project-container">
 
       <!-- Main Content -->
-      <main id="main-content">
+      <main class="main-content">
 
         <!-- About Section -->
         <section class="about-section">
@@ -192,10 +196,10 @@
 
           </div> <!-- Close .center__1140 -->
               
-        </section> <!-- Close #about-section -->
+        </section> <!-- Close .about-section -->
 
         <!-- Professional References Section -->
-        <section id="professional-references-section">
+        <section class="professional-references-section">
 
           <div class="heading heading_theme_black">
             <div class="heading__title-overflow">
@@ -205,7 +209,7 @@
             </div>
           </div>
 
-          <div class="wood-panel-bg">
+          <div class="background background_theme_wood-panel">
 
             <div class="center__1140">
 
@@ -286,7 +290,7 @@
 
           </div> <!-- Close .wood-panel-bg -->
           
-        </section> <!-- Close #professional-references-section -->
+        </section> <!-- Close .professional-references-section -->
 
         <!-- Skills Section -->
         <section class="skills-section">
@@ -408,72 +412,92 @@
               <div class="flexbox flexbox_layout_certificates">
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/ucla-boot-camp-576x430-min.jpg" alt="The Coding Boot Camp at UCLA Extension certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">The Coding Boot Camp at UCLA Extension</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/ucla-boot-camp-576x430-min.jpg" alt="The Coding Boot Camp at UCLA Extension certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">The Coding Boot Camp<br> at UCLA Extension</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/html5-css3-576x430-min.jpg" alt="HTML5 and CSS3 certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">HTML5/CSS3</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/html5-css3-576x430-min.jpg" alt="HTML5 and CSS3 certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">HTML5/CSS3</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/bootstrap-4-beta-576x430-min.jpg" alt="Bootstrap 4 Beta certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">Bootstrap 4 Beta</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/bootstrap-4-beta-576x430-min.jpg" alt="Bootstrap 4 Beta certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">Bootstrap 4 Beta</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/javascript-576x430-min.jpg" alt="The Complete JavaScript Course certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">The Complete JavaScript Course</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/javascript-576x430-min.jpg" alt="The Complete JavaScript Course certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">The Complete JavaScript Course</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/weather-api-576x430-min.jpg" alt="Open Weather Map API certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">Open Weather Map API</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/weather-api-576x430-min.jpg" alt="Open Weather Map API certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">Open Weather Map API</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/seo-basics-576x430-min.jpg" alt="SEO Basics certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">SEO Basics</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/seo-basics-576x430-min.jpg" alt="SEO Basics certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">SEO Basics</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/wireframing-prototyping-576x430-min.jpg" alt="Wireframing and Prototyping certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">Wireframing &amp; Prototyping</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/wireframing-prototyping-576x430-min.jpg" alt="Wireframing and Prototyping certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">Wireframing &amp; Prototyping</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/photoshop-webdesign-576x430-min.jpg" alt="Photoshop for Web Design certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">Photoshop for Web Design</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/photoshop-webdesign-576x430-min.jpg" alt="Photoshop for Web Design certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">Photoshop for Web Design</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/google-ads-576x430-min.jpg" alt="Google Ads certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">Google Ads</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/google-ads-576x430-min.jpg" alt="Google Ads certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">Google Ads</p>
+                    </div>
                   </div>
                 </div>
 
                 <div class="certificate certificate_flex-item">
-                  <img src="assets/bem-entities/certificate/__img/google-analytics-576x430-min.jpg" alt="Google Analytics certificate" class="certificate__img">
-                  <div class="certificate__body">
-                    <p class="certificate__body_title">Google Analytics</p>
+                  <div class="certificate__content">
+                    <img src="assets/bem-entities/certificate/__img/google-analytics-576x430-min.jpg" alt="Google Analytics certificate" class="certificate__img">
+                    <div class="certificate__body">
+                      <p class="certificate__body_title">Google Analytics</p>
+                    </div>
                   </div>
                 </div>
 
@@ -485,7 +509,7 @@
 
         </section> <!-- Close .certificates-section -->
 
-      </main> <!-- Close #main-content -->
+      </main> <!-- Close .main-content -->
 
       <footer class="footer footer_theme_black">
 
@@ -540,7 +564,7 @@
 
       </footer>
 
-    </div> <!-- Close .project-container -->
+    </div> <!-- Close .body__project-container -->
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
