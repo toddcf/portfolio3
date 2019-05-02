@@ -7,20 +7,21 @@
 
 ### Homepage
 
+- Paste revised footer into this page -- except with 1440px flexbox.
 - Convert all Font Awesome icons to SVGs instead of CDNs.
   - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
 
 
 ## About Me
 
+- Footer:
+  - Custom flexbox.
+- Remove Bootstrap completely.
 - Certificates:
   - Style cards.
   - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.
   - Convert parallax to BEM (including moving JS file into parallax folder).
 - Move dark wood panel image into BEM folder. Convert all these to a block called `background` that can be modified to have different images or colors in the bg.
-- Footer:
-  - Custom flexbox.
-- Remove Bootstrap completely.
 - Search and replace all IDs with classes.
 
 

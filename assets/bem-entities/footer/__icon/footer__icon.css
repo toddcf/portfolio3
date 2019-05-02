@@ -1,11 +1,27 @@
 .footer__icon {
-  color: #808080;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
   margin-bottom: 50px;
-  text-decoration: none;
-  transition: 300ms;
+  max-width: 50%;
+  min-height: 1px;
+  opacity: 0; /* Invisible before animations are triggered */
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
 
-.footer__icon:hover,
-.footer__icon:active {
-  color: #fff;
+.footer__icon.footer__icon_effects {
+  opacity: 1; /* Remains visible after animations are complete */
+}
+
+@media (min-width: 768px) {
+
+  .footer__icon {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
 }
