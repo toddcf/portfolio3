@@ -13,10 +13,14 @@
 
 ## About Me
 
-- Remove Bootstrap and custom-build your own flexbox for each section.
+- Professional References:
+  - Custom flexbox.
+  - Fix mobile responsive styling. (Use calc for positioning of quote icon.)
 - Certificates:
+  - Custom flexbox.
   - Each card is a block.
   - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.
+- Remove Bootstrap.
 
 ## Flowchart
 
