@@ -65,19 +65,6 @@ body {
   background: #000;
 }
 
-.parallax {
-  background-attachment: fixed;
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  position: relative;
-}
-
-#certificates-bg {
-  padding-top: 8em;
-}
-
 #certificates-section .card {
   background: rgba(0, 0, 0, .7);
   border: none;

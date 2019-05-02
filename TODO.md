@@ -14,10 +14,15 @@
 ## About Me
 
 - Certificates:
-  - Custom flexbox.
-  - Each card is a block.
+  - Style cards.
   - Change all links for the certificates to be the actual online certificates (Udemy, etc.) so users know they're genuine.
-- Remove Bootstrap.
+  - Convert parallax to BEM (including moving JS file into parallax folder).
+- Move dark wood panel image into BEM folder. Convert all these to a block called `background` that can be modified to have different images or colors in the bg.
+- Footer:
+  - Custom flexbox.
+- Remove Bootstrap completely.
+- Search and replace all IDs with classes.
+
 
 ## Flowchart
 
@@ -67,6 +72,7 @@
 - Run Google page speed insights test.
 - Add Google Analytics throughout entire site.
 - Deployment checklist on every single file.
+  - Confirm that CSS autoprefixer adds `ms-flex:` to `flex:` items.
 - After everything is pushed live, update all the Acura of Tempe landing pages accordingly:
   - Remove headers.
   - Remove any CSS affiliated with the headers.
