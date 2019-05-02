@@ -15,7 +15,6 @@
 ## About Me
 
 - Convert all backgrounds to BEM themes.
-- Fix Professional Reference cards' padding.
 
 
 ## Flowchart
