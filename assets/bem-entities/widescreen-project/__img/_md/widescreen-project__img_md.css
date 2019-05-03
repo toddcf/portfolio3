@@ -1,0 +1,9 @@
+@media (min-width: 576px) and (max-width: 991.98px) {
+
+  .widescreen-project__img_md {
+    height: 0;
+    padding-bottom: 39%;
+    width: 100%;
+  }
+
+}

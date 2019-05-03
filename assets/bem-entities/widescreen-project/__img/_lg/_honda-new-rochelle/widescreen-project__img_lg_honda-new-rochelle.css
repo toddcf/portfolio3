@@ -1,0 +1,21 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .widescreen-project__img_lg_honda-new-rochelle {
+    background: url(1268x499-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .widescreen-project__img_lg_honda-new-rochelle {
+    background: url(1440x567-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}

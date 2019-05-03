@@ -1,0 +1,10 @@
+@media (max-width: 575.98px) {
+
+  .widescreen-project__img_sm_acura-of-tempe {
+    background: url(576x227-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}

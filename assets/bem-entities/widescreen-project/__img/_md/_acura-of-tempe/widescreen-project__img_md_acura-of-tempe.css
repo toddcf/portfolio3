@@ -1,0 +1,21 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .widescreen-project__img_md_acura-of-tempe {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(768x303-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .widescreen-project__img_md_acura-of-tempe {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(992x391-min.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}

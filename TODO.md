@@ -8,9 +8,7 @@
 
 ### Homepage
 
-- See if you can make each professional project more portable and reusable. Clean up the BEM.
-  - Change `professional-project` to `widescreen-project`.
-    - Every class name in CSS.
+- Make each portfolio project more portable and reusable. Clean up the BEM.
 - Convert button box to a custom block so you can delete the Bootstrap and the `left-even` and `right-even` styles.
 - Convert section backgrounds to `background`
 - Remove Bootstrap grid and create your own flexbox.
