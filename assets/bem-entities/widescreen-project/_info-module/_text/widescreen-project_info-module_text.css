@@ -1,0 +1,13 @@
+.widescreen-project_info-module_text {
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+
+  .widescreen-project_info-module_text {
+    color: #000;
+  }
+
+}

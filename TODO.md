@@ -3,10 +3,14 @@
 ## Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
+- Clean up fontawesome master file.
+  - Then pull just the parts you need for individual icons into the BEM folders of this project.
 
 ### Homepage
 
 - See if you can make each professional project more portable and reusable. Clean up the BEM.
+  - Change `professional-project` to `widescreen-project`.
+    - Every class name in CSS.
 - Convert button box to a custom block so you can delete the Bootstrap and the `left-even` and `right-even` styles.
 - Convert section backgrounds to `background`
 - Remove Bootstrap grid and create your own flexbox.

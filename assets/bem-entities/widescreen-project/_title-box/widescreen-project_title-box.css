@@ -1,0 +1,14 @@
+@media (min-width: 576px) {
+
+  .widescreen-project_title-box {
+    background: #fff;
+    color: #000;
+    margin: 0 auto -1.5em auto;
+    padding: .5em 2em;
+    position: relative;
+    width: 85%; /* Fallback */
+    width: max-content;
+    z-index: 2;
+  }
+
+}
