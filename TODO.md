@@ -9,12 +9,10 @@
 ### Homepage
 
 - Make each portfolio project more portable and reusable. Clean up the BEM.
-- Convert button box to a custom block so you can delete the Bootstrap and the `left-even` and `right-even` styles.
-- Convert section backgrounds to `background`
+  - Convert `_info-module` to `__info-module`.
+    - Convert button box to a custom block so you can delete the Bootstrap and the `left-even` and `right-even` styles.
+- Convert section backgrounds to `background`?
 - Remove Bootstrap grid and create your own flexbox.
-- Search and replace all IDs with classes.
-- Convert all Font Awesome icons to SVGs instead of CDNs.
-  - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
 - Delete all unused CSS links.
 
 
@@ -35,8 +33,8 @@
 
 ### My Portfolio Walkthrough:
 
-- Remove the "Live Site" header icon from the Portfolio Walkthrough.
 - Redo the code snippets to reflect the new BEM structure.
+- Remove the "Live Site" header icon from the Portfolio Walkthrough.
 
 
 ### Acura of Tempe Walkthrough:
