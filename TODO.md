@@ -3,18 +3,22 @@
 ## Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
-- Remove Bootstrap grid and create your own flexbox.
 
 ### Homepage
 
+- See if you can make each professional project more portable and reusable. Clean up the BEM.
+- Convert button box to a custom block so you can delete the Bootstrap and the `left-even` and `right-even` styles.
+- Convert section backgrounds to `background`
+- Remove Bootstrap grid and create your own flexbox.
 - Search and replace all IDs with classes.
 - Convert all Font Awesome icons to SVGs instead of CDNs.
   - Using BEM directory structure, the JS should be able to be moved into its own separate file and linked to.
+- Delete all unused CSS links.
 
 
 ## About Me
 
-- Remove all unused CSS link.
+- DONE!
 
 
 ## Flowchart
@@ -25,6 +29,7 @@
 ## Walkthrough Pages
 
 - Change all "Mobile, Tablet, Desktop" references to "Small, Medium, Large" to be compliant with Atomic Design.
+- Remove Bootstrap grid and create your own flexbox.
 
 ### My Portfolio Walkthrough:
 
