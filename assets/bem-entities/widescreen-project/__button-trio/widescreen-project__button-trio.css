@@ -1,0 +1,17 @@
+.widescreen-project__button-trio {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /*margin-right: -15px;
+  margin-left: -15px;*/
+  padding: 1rem 0;
+}
+
+@media (min-width: 992px) {
+
+  .widescreen-project__button-trio {
+    padding-top: 0;
+  }
+
+}

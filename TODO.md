@@ -8,9 +8,8 @@
 
 ### Homepage
 
-- Make each portfolio project more portable and reusable. Clean up the BEM.
-  - Convert `_info-module` to `__info-module`.
-    - Convert button box to a custom block so you can delete the Bootstrap and the `left-even` and `right-even` styles.
+- Make each additional sample project more portable and reusable. Clean up the BEM.
+- Change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
 - Convert section backgrounds to `background`?
 - Remove Bootstrap grid and create your own flexbox.
 - Delete all unused CSS links.
