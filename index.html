@@ -19,6 +19,15 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|PT+Sans:400,400i,700,700i" rel="stylesheet">
 
     <!-- CSS -->
+    <!-- Additional Sample -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/additional-sample.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__backboard/additional-sample__backboard.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__backboard/_my-portfolio/additional-sample__backboard_my-portfolio.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__content/additional-sample__content.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__img/additional-sample__img.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__img/_my-portfolio/additional-sample__img_my-portfolio.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__img-riser/additional-sample__img-riser.css">
+    
     <!-- Additional Samples Section -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-samples-section/__project/additional-samples-section__project.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-samples-section/__project/_content/additional-samples-section__project_content.css">
@@ -59,6 +68,10 @@
 
     <!-- Center CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/center/__1440/center__1440.css">
+
+    <!-- Flexbox CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/flexbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/flexbox/_layout/_additional-samples/flexbox_layout_additional-samples.css">
 
     <!-- Fonts CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/font/_size/_tier-1/font_size_tier-1.css">
@@ -435,17 +448,17 @@
 
             <div class="center__1440">
 
-              <div class="row">
+              <div class="flexbox flexbox_layout_additional-samples">
 
                 <!-- My Portfolio -->
-                <div class="col-12 col-md-4">
+                <div class="additional-sample"> <!-- col-12 col-md-4 -->
                   
-                  <div class="additional-samples-section__project additional-samples-section__project_my-portfolio">
+                  <div class="additional-sample__backboard additional-sample__backboard_my-portfolio"> <!-- additional-samples-section__project additional-samples-section__project_my-portfolio -->
 
-                    <div class="additional-samples-section__project_content">
+                    <div class="additional-sample__content"> <!-- additional-samples-section__project_content -->
 
-                      <div class="additional-samples-section__project_img-riser">
-                        <div class="additional-samples-section__project_img additional-samples-section__project_my-portfolio_img">
+                      <div class="additional-sample__img-riser"> <!-- additional-samples-section__project_img-riser -->
+                        <div class="additional-sample__img additional-sample__img_my-portfolio"> <!-- additional-samples-section__project_img additional-samples-section__project_my-portfolio_img -->
                           <!-- Image is passed into this container via CSS depending on screen size -->
                         </div>
                       </div>
@@ -482,11 +495,11 @@
 
                       </div> <!-- Close .additional-samples-section__project_info-module -->
 
-                    </div> <!-- Close .additional-samples-section__project_content -->
+                    </div> <!-- Close .additional-sample__content -->
 
-                  </div> <!-- Close .additional-samples-section__project -->
+                  </div> <!-- Close .additional-sample__backboard -->
 
-                </div> <!-- Close .col -->
+                </div> <!-- Close .additional-sample -->
 
                 <!-- Omnifood -->
                 <div class="col-12 col-md-4">

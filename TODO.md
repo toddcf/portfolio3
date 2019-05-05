@@ -9,9 +9,10 @@
 ### Homepage
 
 - Make each additional sample project more portable and reusable. Clean up the BEM.
-- Change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
+  - Additional Samples cards. [IN PROGRESS]
+- Possibly change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
 - Convert section backgrounds to `background`?
-- Remove Bootstrap grid and create your own flexbox.
+- Remove Bootstrap grid.
 - Delete all unused CSS links.
 
 
