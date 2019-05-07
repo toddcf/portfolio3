@@ -9,8 +9,6 @@
 
 ### Homepage
 
-- Widescreen Project > Button Trio:
-  - Fix the widths of buttons 1 and 2 so that they are always side-by-side on certain size screens.
 - Possibly change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
 - Convert section backgrounds to `background`?
 - Remove Bootstrap grid.
