@@ -9,10 +9,6 @@
 
 ### Homepage
 
-- Possibly change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
-- Convert section backgrounds to `background`?
-- Remove Bootstrap grid.
-  - Search and delete any `row` or `col` classes.
 - Delete all unused CSS links.
 
 
