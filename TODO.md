@@ -1,5 +1,11 @@
 # To Do:
 
+## Redeploy Non-Walkthrough Version
+
+- Comment out the Walkthrough buttons.
+- Run the deployment checklist.
+- Push the BEM, non-walkthrough version live.
+
 ## Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
@@ -9,7 +15,7 @@
 
 ### Homepage
 
-- Delete all unused CSS links.
+- DONE!
 
 
 ## About Me
@@ -29,6 +35,7 @@
   - Remove Bootstrap grid and create your own flexbox.
   - Delete all unused CSS links.
 - Once this is done, delete the actual Bootstrap files (except for jQuery).
+- Also delete all non-BEM files.
 
 ### My Portfolio Walkthrough:
 
