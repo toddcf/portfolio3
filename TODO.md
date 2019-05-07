@@ -10,10 +10,12 @@
 
 - Make each additional sample project more portable and reusable. Clean up the BEM.
   - Additional Samples cards. [IN PROGRESS]
+  - Condense all backboard CSS into the core backboard file.
   - Link up all effects!
 - Possibly change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
 - Convert section backgrounds to `background`?
 - Remove Bootstrap grid.
+  - Search and delete any `row` or `col` classes.
 - Delete all unused CSS links.
 
 

@@ -13,9 +13,9 @@
 
   .additional-sample__backboard_my-portfolio {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(center-crop-576x630-blur12px-min.jpg);
-    background-position: left center;
+    /*background-position: left center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
   }
 
 }
@@ -24,9 +24,9 @@
 
   .additional-sample__backboard_my-portfolio {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(center-crop-768x840-blur12px-min.jpg);
-    background-position: left center;
+    /*background-position: left center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
   }
 
 }
@@ -35,9 +35,9 @@
 
   .additional-sample__backboard_my-portfolio {
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(center-crop-576x630-blur12px-min.jpg);
-    background-position: left center;
+    /*background-position: left center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
   }
 
 }
