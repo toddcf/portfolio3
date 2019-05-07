@@ -3,16 +3,17 @@
 ## Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
+- Then delete all non-BEM CSS files.
 - Clean up fontawesome master file.
   - Then pull just the parts you need for individual icons into the BEM folders of this project.
 
 ### Homepage
 
 - Make each additional sample project more portable and reusable. Clean up the BEM.
-  - Additional Samples cards. [IN PROGRESS]
-  - Condense all backboard CSS into the core backboard file.
-  - Link up all effects!
+  - Tweak effects for different screen sizes.
 - Possibly change `professional-section__heading` to `heading` with a modifier for `widescreen` or `professional` or something like that?
+- Widescreen Project > Button Trio:
+  - Fix the widths of buttons 1 and 2 so that they are always side-by-side on certain size screens.
 - Convert section backgrounds to `background`?
 - Remove Bootstrap grid.
   - Search and delete any `row` or `col` classes.
@@ -32,7 +33,10 @@
 ## Walkthrough Pages
 
 - Change all "Mobile, Tablet, Desktop" references to "Small, Medium, Large" to be compliant with Atomic Design.
-- Remove Bootstrap grid and create your own flexbox.
+- Convert to BEM.
+  - Remove Bootstrap grid and create your own flexbox.
+  - Delete all unused CSS links.
+- Once this is done, delete the actual Bootstrap files (except for jQuery).
 
 ### My Portfolio Walkthrough:
 
