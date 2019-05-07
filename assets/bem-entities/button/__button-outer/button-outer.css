@@ -1,7 +1,5 @@
 .button__button-outer {
-  margin-bottom: 1em;
   position: relative;
-  /*transition: 300ms ease-in-out;*/
 }
 
 .button__button-outer:hover {
