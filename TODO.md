@@ -17,11 +17,15 @@
     - After: 
       - Mobile: 
       - Desktop: 
-- Comment out the Walkthrough buttons.
+- Make the "Live Site" buttons green for Widescreen Projects.
 - Run the deployment checklist.
   - RESUME: Validating at HEADING block.
 - Push the BEM, non-walkthrough version live.
-- AFTER deployment, add back `Here's how:` to My Portfolio card and put the Walkthrough button on the bottom again.
+- AFTER deployment:
+  - Add back `Here's how:` to My Portfolio card.
+  - Put the Walkthrough button on the bottom again.
+  - Put the Walkthrough buttons back.
+  - Revert the Live Site buttons to gray.
 
 ## Structure:
 
