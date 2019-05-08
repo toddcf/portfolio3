@@ -1,7 +1,10 @@
 .additional-sample__backboard_omnifood_effects {
-  animation-duration: 1000ms;
-  animation-fill-mode: both;
-  animation-name: additional-sample__backboard_omnifood_effects;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: additional-sample__backboard_omnifood_effects;
+          animation-name: additional-sample__backboard_omnifood_effects;
 }
 
 .additional-sample__backboard_omnifood {
@@ -13,16 +16,34 @@
 }
 
 /* fadeInUp */
-@keyframes additional-sample__backboard_omnifood_effects {
+@-webkit-keyframes additional-sample__backboard_omnifood_effects {
 
   from {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
   }
 
   to {
     opacity: 1;
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
+  }
+
+}
+
+@keyframes additional-sample__backboard_omnifood_effects {
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
   }
 
 }
@@ -30,7 +51,8 @@
 @media (min-width: 576px) {
 
   .additional-sample__backboard_omnifood_effects {
-    animation-delay: 150ms;
+    -webkit-animation-delay: 150ms;
+            animation-delay: 150ms;
   }
 
 }

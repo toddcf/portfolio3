@@ -5,7 +5,6 @@
   text-align: justify;
 }
 
-/* Breakpoints */
 @media (min-width: 768px) {
 
   .bio__text {

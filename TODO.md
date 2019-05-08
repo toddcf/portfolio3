@@ -2,6 +2,21 @@
 
 ## Redeploy Non-Walkthrough Version
 
+- Page Speed Test:
+  - Homepage:
+    - Before:
+      - Mobile: 76
+      - Desktop: 94
+    - After: 
+      - Mobile: 
+      - Desktop: 
+  - About Me:
+    - Before:
+      - Mobile: 92
+      - Desktop: 92
+    - After: 
+      - Mobile: 
+      - Desktop: 
 - Comment out the Walkthrough buttons.
 - Run the deployment checklist.
 - Push the BEM, non-walkthrough version live.
@@ -20,7 +35,8 @@
 
 ## About Me
 
-- DONE!
+- Bio section: Add left and right padding for small screens.
+- Add animations to Professional Reference cards.
 
 
 ## Flowchart

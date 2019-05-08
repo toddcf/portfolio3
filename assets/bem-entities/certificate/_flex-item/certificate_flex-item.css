@@ -1,6 +1,9 @@
 .certificate_flex-item {
-  box-sizing: border-box;
-  flex: 0 0 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
   max-width: 100%;
   min-height: 1px;
   padding-left: 15px;
@@ -12,7 +15,8 @@
 
   .certificate_flex-item {
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+    -webkit-box-flex: 0;
+            flex: 0 0 50%;
     max-width: 50%;
   }
 
@@ -22,7 +26,8 @@
 
   .certificate_flex-item {
     -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+            flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
 
@@ -32,7 +37,8 @@
 
   .certificate_flex-item {
     -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
+    -webkit-box-flex: 0;
+            flex: 0 0 25%;
     max-width: 25%;
   }
 

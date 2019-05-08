@@ -1,7 +1,10 @@
 .additional-sample__backboard_my-portfolio_effects {
-  animation-duration: 1000ms;
-  animation-fill-mode: both;
-  animation-name: additional-sample__backboard_my-portfolio_effects;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: additional-sample__backboard_my-portfolio_effects;
+          animation-name: additional-sample__backboard_my-portfolio_effects;
 }
 
 .additional-sample__backboard_my-portfolio {
@@ -13,16 +16,34 @@
 }
 
 /* fadeInUp */
-@keyframes additional-sample__backboard_my-portfolio_effects {
+@-webkit-keyframes additional-sample__backboard_my-portfolio_effects {
 
   from {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
   }
 
   to {
     opacity: 1;
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
+  }
+
+}
+
+@keyframes additional-sample__backboard_my-portfolio_effects {
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
   }
 
 }

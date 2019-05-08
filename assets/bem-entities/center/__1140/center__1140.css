@@ -1,16 +1,13 @@
 .center__1140 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
+  padding: 0 15px;
   max-width: 1140px;
   width: 100%;
 }
 
-
-
-
-/* Breakpoints */
 @media (min-width: 576px) {
 
   .center__1140 {

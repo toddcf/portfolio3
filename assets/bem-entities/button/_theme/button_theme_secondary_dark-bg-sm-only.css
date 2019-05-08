@@ -1,12 +1,15 @@
-/* Bootstrap Breakpoints */
-/* Extra Small devices only (landscape phones, below 576px) */
 @media (max-width: 575.98px) {
 
   .button_theme_secondary_dark-bg-sm-only {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(50%, #9f9f9f), to(#5a5a5a));
+    background-image: -webkit-linear-gradient(top, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
+    background-image: -o-linear-gradient(top, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
     background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
     background-position: left bottom;
     background-size: 100% 200%;
     color: #fff;
+    -webkit-transition: 300ms ease-in-out;
+    -o-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out;
   }
 
