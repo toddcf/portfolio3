@@ -1,3 +1,4 @@
 .skills__icon_jira {
-  animation-delay: 2000ms;
+  -webkit-animation-delay: 2000ms;
+          animation-delay: 2000ms;
 }

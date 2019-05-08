@@ -1,3 +1,4 @@
 .skills__icon_adobe-xd {
-  animation-delay: 1500ms;
+  -webkit-animation-delay: 1500ms;
+          animation-delay: 1500ms;
 }

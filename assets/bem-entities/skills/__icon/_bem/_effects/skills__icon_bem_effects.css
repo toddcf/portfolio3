@@ -1,3 +1,4 @@
 .skills__icon_bem {
-  animation-delay: 2500ms;
+  -webkit-animation-delay: 2500ms;
+          animation-delay: 2500ms;
 }

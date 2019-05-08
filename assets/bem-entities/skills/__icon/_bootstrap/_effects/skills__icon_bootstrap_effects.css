@@ -1,3 +1,4 @@
 .skills__icon_bootstrap {
-  animation-delay: 750ms;
+  -webkit-animation-delay: 750ms;
+          animation-delay: 750ms;
 }

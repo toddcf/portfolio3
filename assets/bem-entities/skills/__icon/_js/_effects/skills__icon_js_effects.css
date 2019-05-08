@@ -1,3 +1,4 @@
 .skills__icon_js {
-  animation-delay: 500ms;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }

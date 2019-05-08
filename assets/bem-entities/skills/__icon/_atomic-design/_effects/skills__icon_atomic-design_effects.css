@@ -1,3 +1,4 @@
 .skills__icon_atomic-design {
-  animation-delay: 2250ms;
+  -webkit-animation-delay: 2250ms;
+          animation-delay: 2250ms;
 }

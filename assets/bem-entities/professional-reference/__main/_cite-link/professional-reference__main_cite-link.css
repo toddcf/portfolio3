@@ -4,6 +4,8 @@
   border-bottom: 1px solid #f8ebd8;
   color: #f8ebd8;
   text-decoration: none;
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
   transition: 300ms;
 }
 

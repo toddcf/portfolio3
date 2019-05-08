@@ -1,7 +1,10 @@
 .skills__icon_effects {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-name: skills__icon_effects;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: skills__icon_effects;
+          animation-name: skills__icon_effects;
 }
 
 .skills__icon {
@@ -11,9 +14,6 @@
 .skills__icon.skills__icon_effects {
   opacity: 1; /* Remains visible after animation is complete */
 }
-
-
-
 
 /* fadeInRight */
 @-webkit-keyframes skills__icon_effects {
