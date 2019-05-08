@@ -19,7 +19,9 @@
       - Desktop: 
 - Comment out the Walkthrough buttons.
 - Run the deployment checklist.
+  - RESUME: Validating at HEADING block.
 - Push the BEM, non-walkthrough version live.
+- AFTER deployment, add back `Here's how:` to My Portfolio card and put the Walkthrough button on the bottom again.
 
 ## Structure:
 
