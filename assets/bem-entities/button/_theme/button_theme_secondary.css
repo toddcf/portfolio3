@@ -17,15 +17,15 @@
   background-position: left bottom;
 }
 
-@media (max-width: 575.98px) {
+/*@media (max-width: 575.98px) {
 
   .button_theme_secondary {
     margin-bottom: 2em;
   }
 
-}
+}*/
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
 
   .left-btn {
     padding-right: 7.5px;
@@ -35,4 +35,4 @@
     padding-left: 7.5px;
   }
 
-}
+}*/
