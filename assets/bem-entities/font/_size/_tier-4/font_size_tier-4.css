@@ -2,11 +2,6 @@
   font-size: 16px;
 }
 
-
-
-
-/* Bootstrap Breakpoints */
-/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
 
   .font_size_tier-4 {

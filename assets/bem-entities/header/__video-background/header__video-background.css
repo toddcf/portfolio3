@@ -1,7 +1,7 @@
-/* Background fallback in case video doens't load */
+/* Background image fallback in case video doesn't load */
 .header__video-background {
   background-attachment: fixed;
-  background-image: url(../../../video/tropical-1920x1080-min.jpg);
+  background-image: url(tropical-1920x1080-min.jpg);
   background-position: bottom right;
   background-size: cover;
   bottom: 0;

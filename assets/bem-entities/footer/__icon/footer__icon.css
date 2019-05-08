@@ -1,24 +1,21 @@
 .footer__icon {
   -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
+  -webkit-box-flex: 0;
+          flex: 0 0 50%;
   margin-bottom: 50px;
   max-width: 50%;
   min-height: 1px;
-  opacity: 0; /* Invisible before animations are triggered */
   position: relative;
   text-align: center;
   width: 100%;
-}
-
-.footer__icon.footer__icon_effects {
-  opacity: 1; /* Remains visible after animations are complete */
 }
 
 @media (min-width: 768px) {
 
   .footer__icon {
     -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
+    -webkit-box-flex: 0;
+            flex: 0 0 25%;
     max-width: 25%;
   }
 

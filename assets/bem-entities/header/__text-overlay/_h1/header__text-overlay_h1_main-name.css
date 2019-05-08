@@ -1,7 +1,10 @@
 .header__text-overlay_h1_main-name {
-  animation-duration: 8s;
-  animation-fill-mode: both;
-  animation-name: fadeInDown;
+  -webkit-animation-duration: 8000ms;
+          animation-duration: 8000ms;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+          animation-name: fadeInDown;
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
@@ -14,16 +17,34 @@
 }
 
 /* fadeInDown */
-@keyframes fadeInDown {
+@-webkit-keyframes fadeInDown {
 
   from {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
   }
 
   to {
     opacity: 1;
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
+  }
+
+}
+
+@keyframes fadeInDown {
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
   }
 
 }
