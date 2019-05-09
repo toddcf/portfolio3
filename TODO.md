@@ -36,7 +36,7 @@
 
 ### Homepage
 
-- DONE!
+- Rework the button grids: pyramid and single-stack.
 
 
 ## About Me
