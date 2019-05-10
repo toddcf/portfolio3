@@ -1,0 +1,20 @@
+.button-grid__dual-column-btn_left {
+  -ms-flex: 0 0 100%;
+  -webkit-box-flex: 0;
+          flex: 0 0 100%;
+  margin-bottom: 7.5px;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+
+  .button-grid__dual-column-btn_left {
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+            flex: 0 0 50%;
+    margin-bottom: 15px;
+    max-width: 50%;
+    padding-right: 7.5px;
+  }
+
+}

@@ -1,0 +1,7 @@
+.button-grid__dual-column-btn {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 1px;
+  position: relative;
+  width: 100%;
+}

@@ -8,15 +8,15 @@
       - Mobile: 76
       - Desktop: 94
     - After: 
-      - Mobile: 
-      - Desktop: 
+      - Mobile: 8
+      - Desktop: 26
   - About Me:
     - Before:
       - Mobile: 92
       - Desktop: 92
     - After: 
-      - Mobile: 
-      - Desktop: 
+      - Mobile: 17
+      - Desktop: 38
 - Make the "Live Site" buttons green for Widescreen Projects.
 - Run the deployment checklist.
   - RESUME: Validating at HEADING block.

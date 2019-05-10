@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__backboard/_my-portfolio/_effects/additional-sample__backboard_my-portfolio_effects.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__backboard/_omnifood/additional-sample__backboard_omnifood.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__backboard/_omnifood/_effects/additional-sample__backboard_omnifood_effects.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__button-duo/_btn-2/additional-sample__button-duo_btn-2.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__button-duo/_btn-2/additional-sample__button-duo_btn-2.css"> -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__content/additional-sample__content.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__img/additional-sample__img.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/additional-sample/__img/_author-site/additional-sample__img_author-site.css">
@@ -43,7 +43,7 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/body/__project-container/body__project-container.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/body/body_homepage.css">
 
-    <!-- Buttons CSS -->
+    <!-- Button CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/button/button.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/button/__button-outer/button-outer.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/button/__button-inner/button-inner.css">
@@ -52,8 +52,12 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/button/_theme/button_theme_secondary_dark-bg-sm-only.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/button/__button-icon/button-icon.css">
 
-    <!-- Button Single Stack -->
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/button-single-stack/_btn/button-single-stack_btn.css">
+    <!-- Button Grid -->
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/button-grid/button-grid.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/button-grid/__dual-column-btn/button-grid__dual-column-btn.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/button-grid/__dual-column-btn/_left/button-grid__dual-column-btn_left.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/button-grid/__dual-column-btn/_right/button-grid__dual-column-btn_right.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/button-grid/__single-column-btn/button-grid__single-column-btn.css">
 
     <!-- Center CSS -->
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/center/__1440/center__1440.css">
@@ -112,10 +116,10 @@
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__backboard/_bmw-el-cajon/widescreen-project__backboard_bmw-el-cajon.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__backboard/_honda-new-rochelle/widescreen-project__backboard_honda-new-rochelle.css">
 
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__button-trio/widescreen-project__button-trio.css">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__button-trio/widescreen-project__button-trio.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__button-trio/_btn-1/widescreen-project__button-trio_btn-1.css">
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__button-trio/_btn-2/widescreen-project__button-trio_btn-2.css">
-    <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__button-trio/_btn-3/widescreen-project__button-trio_btn-3.css">
+    <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__button-trio/_btn-3/widescreen-project__button-trio_btn-3.css"> -->
 
     <link rel="stylesheet" type="text/css" href="assets/bem-entities/widescreen-project/__content/widescreen-project__content.css">
     
@@ -451,9 +455,9 @@
                       
                       <p class="additional-sample__text">I designed and coded the portfolio you are looking at right now.</p>
 
-                      <div class="button-grid button-grid_layout_single-column">
+                      <div class="button-grid">
 
-                        <div class="button-stack_btn">
+                        <div class="button-grid__single-column-btn">
                           <a href="https://github.com/toddcf/portfolio3" target="_blank" class="button">
                             <div class="button__button-outer button_theme_secondary">
                               <div class="button__button-inner button__button-inner_theme_secondary"><i class="fab fa-github button__button-icon"></i>GitHub</div>
@@ -461,7 +465,7 @@
                           </a>
                         </div>
 
-                        <div class="button-single-stack_btn">
+                        <div class="button-grid__single-column-btn">
                           <a href="walkthrough/my-portfolio.html" class="button">
                             <div class="button__button-outer button_theme_primary">
                               <div class="button__button-inner"><i class="fas fa-code button__button-icon"></i>Project Walkthrough</div>
@@ -494,9 +498,9 @@
                         
                       <p class="additional-sample__text">Mobile responsive single-page sample site for high-end food delivery service.</p>
 
-                      <div class="button-single-stack">
+                      <div class="button-grid">
 
-                        <div class="button-single-stack_btn">
+                        <div class="button-grid__single-column-btn">
                           <a href="https://omnifood-delivery.herokuapp.com/" target="_blank" class="button">
                             <div class="button__button-outer button_theme_secondary">
                               <div class="button__button-inner button__button-inner_theme_secondary"><i class="fas fa-desktop button__button-icon"></i>Live Site</div>
@@ -504,7 +508,7 @@
                           </a>
                         </div>
 
-                        <div class="button-single-stack_btn">
+                        <div class="button-grid__single-column-btn">
                           <a href="https://github.com/toddcf/omnifood-delivery" target="_blank" class="button">
                             <div class="button__button-outer button_theme_secondary">
                               <div class="button__button-inner button__button-inner_theme_secondary"><i class="fab fa-github button__button-icon"></i>GitHub</div>
@@ -537,9 +541,9 @@
                         
                       <p class="additional-sample__text">Mobile responsive multipage website showcasing my published works.</p>
 
-                      <div class="additional-sample__button-duo">
+                      <div class="button-grid"> <!-- .additional-sample__button-duo -->
 
-                        <div class="additional-sample__button-duo_btn-1">
+                        <div class="button-grid__single-column-btn"> <!-- .additional-sample__button-duo_btn-1 -->
                           <a href="http://www.toddcf.com" target="_blank" class="button">
                             <div class="button__button-outer button_theme_secondary">
                               <div class="button__button-inner button__button-inner_theme_secondary"><i class="fas fa-desktop button__button-icon"></i>Live Site</div>
@@ -547,7 +551,7 @@
                           </a>
                         </div>
 
-                        <div class="additional-sample__button-duo_btn-2">
+                        <div class="button-grid__single-column-btn"> <!-- .additional-sample__button-duo_btn-2 -->
                           <a href="https://github.com/toddcf/toddcf" target="_blank" class="button">
                             <div class="button__button-outer button_theme_secondary">
                               <div class="button__button-inner button__button-inner_theme_secondary"><i class="fab fa-github button__button-icon"></i>GitHub</div>
