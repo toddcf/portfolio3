@@ -1,0 +1,32 @@
+.walkthrough-intro__right {
+  box-sizing: border-box;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  margin-bottom: 15px;
+  max-width: 100%;
+  min-height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+
+  .walkthrough-intro__right {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    padding-left: 15px;
+    max-width: 50%;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .walkthrough-intro__right {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    padding-right: calc(var(--header-icon-size) / 2);
+    max-width: 58.333333%;
+  }
+
+}

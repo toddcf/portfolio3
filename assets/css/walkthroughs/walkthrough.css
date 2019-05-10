@@ -3,9 +3,9 @@
   --header-icon-size-neg: -100px;
 }
 
-.center-1440 {
+/*.center-1440 {
   width: 97%;
-}
+}*/
 
 .header-layout-box {
   position: relative;
@@ -73,7 +73,7 @@
   margin-bottom: 4em;
 }
 
-.gray-card,
+/*.gray-card,
 .medium-gray-card,
 .dark-gray-card {
   color: #fff;
@@ -83,7 +83,7 @@
 
 .gray-card {
   background: rgb(153, 153, 153);
-}
+}*/
 
 .objective-flex-container {
   align-content: flex-start;
@@ -275,9 +275,9 @@
     margin-right: .75em;
   }
 
-  .process {
+  /*.process {
     margin-left: .75em;
-  }
+  }*/
 
   .walkthrough-heading {
     width: 85%;
@@ -331,15 +331,15 @@
     margin-bottom: 1.5em;
   }
 
-  .objective {
+  /*.objective {
     margin-top: -100px;
     position: relative;
     z-index: 2;
-  }
+  }*/
 
-  .process {
+  /*.process {
     margin-right: calc(var(--header-icon-size) / 2);
-  }
+  }*/
 
   .walkthrough-heading {
     width: 75%;
