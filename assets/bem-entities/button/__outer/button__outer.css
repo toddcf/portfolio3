@@ -1,0 +1,7 @@
+.button__outer {
+  position: relative;
+}
+
+.button__outer:hover {
+  cursor: pointer;
+}
