@@ -17,15 +17,6 @@
     - After: 
       - Mobile: 17
       - Desktop: 38
-- Make the "Live Site" buttons green for Widescreen Projects.
-- Run the deployment checklist.
-  - RESUME: Validating at HEADING block.
-- Push the BEM, non-walkthrough version live.
-- AFTER deployment:
-  - Add back `Here's how:` to My Portfolio card.
-  - Put the Walkthrough button on the bottom again.
-  - Put the Walkthrough buttons back.
-  - Revert the Live Site buttons to gray.
 
 ## Structure:
 
@@ -36,12 +27,11 @@
 
 ### Homepage
 
-- Rework the button grids: pyramid and single-stack.
+- DONE!
 
 
 ## About Me
 
-- Bio section: Add left and right padding for small screens.
 - Add animations to Professional Reference cards.
 
 
@@ -52,6 +42,7 @@
 
 ## Walkthrough Pages
 
+- Redo all mobile responsive font sizes.
 - Change all "Mobile, Tablet, Desktop" references to "Small, Medium, Large" to be compliant with Atomic Design.
 - Convert to BEM.
   - Remove Bootstrap grid and create your own flexbox.
