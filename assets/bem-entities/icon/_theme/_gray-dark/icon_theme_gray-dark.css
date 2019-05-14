@@ -1,0 +1,9 @@
+.icon_theme_gray-dark {
+  border-color: rgba(33, 33, 33, .5);
+  color: rgba(33, 33, 33, .5);
+}
+
+.icon_theme_gray-dark:hover {
+  border-color: #333;
+  color: #333;
+}

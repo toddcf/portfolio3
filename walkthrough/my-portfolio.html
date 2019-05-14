@@ -59,6 +59,14 @@
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/footer/__icon-row/footer__icon-row.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/footer/_theme/_black/footer_theme_black.css">
 
+    <!-- Icon CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/icon.css"> <!-- No code yet -->
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/__box/icon__box.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/__contents/icon__contents.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/__text/icon__text.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/_theme/_gray-dark/icon_theme_gray-dark.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/_walkthrough-header/icon_walkthrough-header.css">
+
     <!-- Panel CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/panel.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_icon/panel__flex-item_icon.css">
@@ -120,10 +128,10 @@
           <div class="header-layout-box">
             
             <div id="home-header-icon-invisible" class="header-icon-invisible">
-              <a href="../index.html">
-                <div id="home-header-icon" class="header-icon-visible">
-                  <div class="header-icon-contents">
-                    <div class="header-icon"><i class="fas fa-home"></i></div>
+              <a href="../index.html" class="icon__link">
+                <div id="home-header-icon" class="icon__box icon_theme_gray-dark"> <!-- header-icon-visible -->
+                  <div class="icon__contents"> <!-- header-icon-contents -->
+                    <div class="icon__icon"><i class="fas fa-home"></i></div> <!-- header-icon -->
                     <div class="header-icon-text">Home</div>
                   </div>
                 </div>
@@ -215,7 +223,7 @@
 
               </div> <!-- Close .walkthrough-intro__left -->
 
-              <div class="walkthrough-intro__right"> <!-- .col-12 .col-md-6 .col-lg-7 -->
+              <div class="walkthrough-intro__right">
 
                 <div class="panel panel_theme_gray">
 
@@ -223,7 +231,7 @@
 
                   <div class="panel__flexbox">
 
-                    <div class="panel__flex-item_icon panel__flex-item_icon-right panel__flex-item_right-768"> <!-- process-flex-item-1 -->
+                    <div class="panel__flex-item_icon panel__flex-item_icon-right panel__flex-item_right-768">
                       <div class="gray-card-icon-invisible">
                         <div class="process-icon-visible">
                           <div class="gray-card-icon-container"><i class="fas fa-code-branch gray-card-icon"></i></div>
@@ -232,9 +240,9 @@
                       </div>
                     </div> <!-- Close .panel__flex-item_icon -->
               
-                    <div class="panel__flex-item_textbox panel__flex-item_left-768"> <!-- process-flex-item-2 -->
+                    <div class="panel__flex-item_textbox panel__flex-item_left-768">
                       <p class="panel__text panel__text_right">Below is a walkthrough of the designing and coding process for this site. It's also a showcase for some of the features and problem-solving that users might otherwise never be aware of &mdash; especially the way layouts and designs change for different screen sizes.</p>
-                    </div> <!-- Close .process-flex-item-2 -->
+                    </div>
 
                   </div> <!-- Close .process-flex-container -->
                   

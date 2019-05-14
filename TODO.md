@@ -52,6 +52,7 @@
 
 ### My Portfolio Walkthrough:
 
+- Convert all icons (header, panels) to BEM *blocks*.
 - Redo the code snippets to reflect the new BEM structure.
 - Remove the "Live Site" header icon from the Portfolio Walkthrough.
 
