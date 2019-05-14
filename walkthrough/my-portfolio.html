@@ -61,11 +61,17 @@
 
     <!-- Panel CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/panel.css">
-    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__icon/panel__icon.css">
-    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__icon-and-text-flexbox/panel__icon-and-text-flexbox.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_icon/panel__flex-item_icon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_icon-left/panel__flex-item_icon-left.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_icon-right/panel__flex-item_icon-right.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_left-768/panel__flex-item_left-768.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_right-768/panel__flex-item_right-768.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flex-item/_textbox/panel__flex-item_textbox.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__flexbox/panel__flexbox.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__text/panel__text.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__text/_right/panel__text_right.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__title/panel__title.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__title/_right/panel__title_right.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/__title/_theme/_gray/panel__title_theme_gray.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/panel/_theme/_gray/panel_theme_gray.css">
 
@@ -173,23 +179,23 @@
 
                   <h2 class="panel__title panel__title_theme_gray font_size_tier-3">Objective</h2>
 
-                  <div class="objective-flex-container">
+                  <div class="panel__flexbox">
 
-                    <div class="objective-flex-item-1">
+                    <div class="panel__flex-item_icon panel__flex-item_icon-left"> <!-- objective-flex-item-1 -->
                       <div class="gray-card-icon-invisible">
                         <div class="objective-icon-visible">
                           <div class="gray-card-icon-container"><i class="far fa-compass gray-card-icon"></i></div>
                         </div>
                       </div>
-                    </div> <!-- Close .process-flex-item-1 -->
+                    </div> <!-- Close .panel__flex-item -->
 
-                    <div class="objective-flex-item-2">
+                    <div class="panel__flex-item_textbox"> <!-- objective-flex-item-2 -->
 
-                      <p>To build a portfolio from the ground up that would, in and of itself, demonstrate the creative, mobile-responsive UI/UX design &amp; coding I am capable of.</p>
+                      <p class="panel__text">To build a portfolio from the ground up that would, in and of itself, demonstrate the creative, mobile-responsive UI/UX design &amp; coding I am capable of.</p>
 
                     </div> <!-- Close .objective-flex-item-2 -->
 
-                  </div> <!-- Close .objective-flex-container -->
+                  </div> <!-- Close .panel__flexbox -->
 
                   <div class="button-grid">
                         
@@ -213,21 +219,21 @@
 
                 <div class="panel panel_theme_gray">
 
-                  <h2>The Process</h2>
+                  <h2 class="panel__title panel__title_right panel__title_theme_gray font_size_tier-3">The Process</h2>
 
-                  <div class="process-flex-container">
+                  <div class="panel__flexbox">
 
-                    <div class="process-flex-item-1">
+                    <div class="panel__flex-item_icon panel__flex-item_icon-right panel__flex-item_right-768"> <!-- process-flex-item-1 -->
                       <div class="gray-card-icon-invisible">
                         <div class="process-icon-visible">
                           <div class="gray-card-icon-container"><i class="fas fa-code-branch gray-card-icon"></i></div>
                           <!-- <i class="far fa-compass gray-card-icon"></i> -->
                         </div>
                       </div>
-                    </div> <!-- Close .process-flex-item-1 -->
+                    </div> <!-- Close .panel__flex-item_icon -->
               
-                    <div class="process-flex-item-2">
-                      <p>Below is a walkthrough of the designing and coding process for this site. It's also a showcase for some of the features and problem-solving that users might otherwise never be aware of &mdash; especially the way layouts and designs change for different screen sizes.</p>
+                    <div class="panel__flex-item_textbox panel__flex-item_left-768"> <!-- process-flex-item-2 -->
+                      <p class="panel__text panel__text_right">Below is a walkthrough of the designing and coding process for this site. It's also a showcase for some of the features and problem-solving that users might otherwise never be aware of &mdash; especially the way layouts and designs change for different screen sizes.</p>
                     </div> <!-- Close .process-flex-item-2 -->
 
                   </div> <!-- Close .process-flex-container -->

@@ -85,7 +85,7 @@
   background: rgb(153, 153, 153);
 }*/
 
-.objective-flex-container {
+/*.objective-flex-container {
   align-content: flex-start;
   align-items: flex-start;
   display: flex;
@@ -93,18 +93,18 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-bottom: 1rem;
-}
+}*/
 
-.objective-flex-item-1 {
+/*.objective-flex-item-1 {
   flex-grow: 1;
   order: 1;
-}
+}*/
 
-.objective-flex-item-2 {
+/*.objective-flex-item-2 {
   flex-grow: 10;
   order: 2;
   padding-left: 2em;
-}
+}*/
 
 .objective-icon-visible {
   border: 5px solid;
@@ -112,25 +112,25 @@
   padding: 1em;
 }
 
-.process-flex-container {
+/*.process-flex-container {
   align-content: flex-start;
   align-items: flex-start;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-}
+}*/
 
-.process-flex-item-1 {
+/*.process-flex-item-1 {
   flex-grow: 1;
   order: 1;
-}
+}*/
 
-.process-flex-item-2 {
+/*.process-flex-item-2 {
   flex-grow: 8;
   order: 2;
   padding-left: 2em;
-}
+}*/
 
 .gray-card-icon-invisible {
   position: relative;

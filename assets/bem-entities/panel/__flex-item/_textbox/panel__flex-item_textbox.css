@@ -1,0 +1,4 @@
+.panel__flex-item_textbox {
+  flex-grow: 10;
+  font-size: 16px;
+}
