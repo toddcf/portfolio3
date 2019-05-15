@@ -42,6 +42,8 @@
 
 ## Walkthrough Pages
 
+- Header:
+  - Fix icons and their placements.
 - Redo all mobile responsive font sizes.
 - Change all "Mobile, Tablet, Desktop" references to "Small, Medium, Large" to be compliant with Atomic Design.
 - Convert to BEM.

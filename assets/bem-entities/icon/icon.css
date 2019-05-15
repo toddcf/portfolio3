@@ -2,3 +2,12 @@
   --header-icon-size: 100px;
   --header-icon-size-neg: -100px;
 }
+
+@media (min-width: 1200px) {
+
+  :root {
+    --header-icon-size: 150px;
+    --header-icon-size-neg: -150px;
+  }
+
+}

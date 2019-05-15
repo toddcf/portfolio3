@@ -7,19 +7,19 @@
   width: 97%;
 }*/
 
-.header-layout-box {
+/*.header-layout-box {
   position: relative;
   width: 100%;
-}
+}*/
 
 /* Make this container an element of the header layout?? */
-.header-icon-invisible {
+/*.header-icon-invisible {
   display: inline-block;
   height: var(--header-icon-size);
   margin: 0 2em 1em 0;
   position: relative;
   width: var(--header-icon-size);
-}
+}*/
 
 .header-icon-visible {
   /*border: 8px solid var(--dark-gray-o);*/
@@ -306,26 +306,26 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  .header-icon-invisible {
+  /*.header-icon-invisible {
     display: block;
     margin: 0;
     position: absolute;
-  }
+  }*/
 
-  #home-header-icon-invisible {
+  /*#home-header-icon-invisible {
     left: 0;
     top: calc(var(--header-icon-size-neg) / 2);
-  }
+  }*/
 
-  #live-site-header-icon-invisible {
+  /*#live-site-header-icon-invisible {
     top: calc(var(--header-icon-size-neg) / 2);
     right: 0;
-  }
+  }*/
 
-  #github-header-icon-invisible {
-    top: calc(var(--header-icon-size) * .75); /* Is actually Calc (width + (width * .25)), which works out to width * .75 */
-    right: 0;
-  }
+  /*#github-header-icon-invisible {*/
+    /*top: calc(var(--header-icon-size) * .75);*/ /* Is actually Calc (width + (width * .25)), which works out to width * .75 */
+    /*right: 0;
+  }*/
 
   .header-main-img-container {
     margin: calc(var(--header-icon-size) / 2);
@@ -354,10 +354,10 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-  :root {
+  /*:root {
     --header-icon-size: 150px;
     --header-icon-size-neg: -150px;
-  }
+  }*/
 
   .walkthrough-heading {
     width: 65%;

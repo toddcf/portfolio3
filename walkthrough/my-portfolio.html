@@ -59,6 +59,13 @@
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/footer/__icon-row/footer__icon-row.css">
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/footer/_theme/_black/footer_theme_black.css">
 
+    <!-- Header CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/header/__layout/_walkthrough/header__layout_walkthrough.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/header/__walkthrough-icon/header__walkthrough-icon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/header/__walkthrough-icon/_1/header__walkthrough-icon_1.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/header/__walkthrough-icon/_2/header__walkthrough-icon_2.css">
+    <link rel="stylesheet" type="text/css" href="../assets/bem-entities/header/__walkthrough-icon/_3/header__walkthrough-icon_3.css">
+
     <!-- Icon CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/icon.css"> <!-- No code yet -->
     <link rel="stylesheet" type="text/css" href="../assets/bem-entities/icon/__box/icon__box.css">
@@ -116,7 +123,7 @@
 
     <div class="body__project-container">
 
-      <header>
+      <header class="header header_walkthrough"> <!-- No code -->
 
         <div class="center__1440">
               
@@ -125,9 +132,9 @@
             <p class="font_size_tier-5"><span class="sidelines">Project Walkthrough</span></p>
           </div>
 
-          <div class="header-layout-box">
+          <div class="header__layout_walkthrough"> <!-- header-layout-box -->
             
-            <div id="home-header-icon-invisible" class="header-icon-invisible">
+            <div class="header__walkthrough-icon header__walkthrough-icon_1"> <!-- #home-header-icon-invisible and .header-icon-invisible -->
               <a href="../index.html" class="icon__link">
                 <div id="home-header-icon" class="icon__box icon_theme_gray-dark"> <!-- header-icon-visible -->
                   <div class="icon__contents"> <!-- header-icon-contents -->
@@ -138,7 +145,7 @@
               </a>
             </div>
 
-            <div id="live-site-header-icon-invisible" class="header-icon-invisible">
+            <div class="header__walkthrough-icon header__walkthrough-icon_2"> <!-- #live-site-header-icon-invisible and .header-icon-invisible -->
               <!-- <a href="../index.html"> --> <!-- Remove this one for this page only -->
                 <div id="live-site-header-icon" class="header-icon-visible">
                   <div class="header-icon-contents">
@@ -149,7 +156,7 @@
               <!-- </a> -->
             </div>
 
-            <div id="github-header-icon-invisible" class="header-icon-invisible">
+            <div class="header__walkthrough-icon header__walkthrough-icon_2"> <!-- #github-header-icon-invisible and .header-icon-invisible -->
               <a href="https://github.com/toddcf/portfolio3" target="_blank">
                 <div id="github-header-icon" class="header-icon-visible">
                   <div class="header-icon-contents">
