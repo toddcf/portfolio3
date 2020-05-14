@@ -60,15 +60,18 @@
 - Update the new `https` URL across all my résumés, email signatures, and online job board accounts.
 
 
-### Add Brenda Canela Acting
+### Additional Updates
 
-- Wait until BEM structure is finalized so that adding this project block is as easy as possible.
-- Decide which order it should go in, and whether the text box should go on the left or right.
-- Photoshop: All image sizes.
-- REDEPLOY with Brenda Canela Acting.
+- Add Brenda Canela Acting
+  - Wait until BEM structure is finalized so that adding this project block is as easy as possible.
+  - Decide which order it should go in, and whether the text box should go on the left or right.
+  - Photoshop: All image sizes.
+- About Me Page
+  - Add sticky nav. (Ensure it can be reused on the walkthrough pages once those are ready to go.)
+- REDEPLOY.
 
 
-### Refine Non-Walkthrough Version
+### Optimize Non-Walkthrough Version
 
 - Run Google Page Insights.
   - Record the speed test scores.
