@@ -1,6 +1,6 @@
 # To Do:
 
-## Redeploy Non-Walkthrough Version
+## Non-Walkthrough Version
 
 - Page Speed Test:
   - Homepage:
@@ -18,29 +18,84 @@
       - Mobile: 17
       - Desktop: 38
 
-## Structure:
+
+### Overall Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
+  - You shouldn't even need the Bootstrap grid anymore, with the switch to BEM.
+  - Delete all Bootstrap files (including JS files).
 - Then delete all non-BEM CSS files.
-- Clean up fontawesome master file.
-  - Then pull just the parts you need for individual icons into the BEM folders of this project.
+- Condense all BEM CSS files into one (per HTML page).
+  - Replace the millions of BEM CSS links with the one combined link.
+  - Delete the massive BEM directory with separate files.
+- Remove `.html` extension from all internal links.
+- Change `index` to `/` for homepage internal links.
+- Upload latest résumé. (May already be done.)
+- Delete all unused font customizations.
+
 
 ### Homepage
 
-- DONE!
+- Update title to include MarTech:
+  - Front End Developer | MarTech Programmer
+- Add green buttons back to cards:
+  - Comment out the walkthrough buttons that aren't ready yet.
+  - Add the green style to the Live Site buttons instead.
+- Update author site link to `https`.
 
 
-## About Me
+### About Me
 
+- Decide on the URL/name:
+  - /about
+  - /about-me
+  - /bio
+- Add MarTech to bio.
 - Add animations to Professional Reference cards.
 
 
-## Flowchart
+### Deploy Non-Walkthrough Version
+
+- Deployment checklist on every single file.
+- Update the new `https` URL across all my résumés, email signatures, and online job board accounts.
+
+
+### Add Brenda Canela Acting
+
+- Wait until BEM structure is finalized so that adding this project block is as easy as possible.
+- Decide which order it should go in, and whether the text box should go on the left or right.
+- Photoshop: All image sizes.
+- REDEPLOY with Brenda Canela Acting.
+
+
+### Refine Non-Walkthrough Version
+
+- Run Google Page Insights.
+  - Record the speed test scores.
+  - Make list of any other recommendations for speeding up the site (and do those).
+- Remove jQuery
+  - Swap out Waypoints for Vanilla JS scroll triggers.
+    - One example: https://terwanerik.github.io/ScrollTrigger/
+    - Also revisit Wes Bos tutorial.
+  - Refactor background video in vanilla JS.
+  - Delete jQuery link.
+- Convert icons to SVG and remove links to fontawesome library.
+- Add Google Analytics throughout entire site.
+
+
+
+
+
+
+## Walkthrough Version
+
+
+### Flowchart
 
 - Create a flowchart for the portfolio user experience.
 
 
-## Walkthrough Pages
+### Walkthrough Pages
 
 - Header:
   - Fix icons and their placements.
@@ -52,14 +107,15 @@
 - Once this is done, delete the actual Bootstrap files (except for jQuery).
 - Also delete all non-BEM files.
 
-### My Portfolio Walkthrough:
+
+#### My Portfolio Walkthrough:
 
 - Convert all icons (header, panels) to BEM *blocks*.
 - Redo the code snippets to reflect the new BEM structure.
 - Remove the "Live Site" header icon from the Portfolio Walkthrough.
 
 
-### Acura of Tempe Walkthrough:
+#### Acura of Tempe Walkthrough:
 
 - Fix margins between each Acura button now that they are in two columns.
 - Restyle secondary buttons so they don't blend into the gray card bg.
@@ -72,12 +128,17 @@
 - Remove all unused CSS that was left over from the template.
 
 
-### BMW of El Cajon Walkthrough:
+#### BMW of El Cajon Walkthrough:
 
 - Show the button hover effect WITH and WITHOUT my solution so the user can see the flash. (Unless just using `background-image` for both would have allowed the transition to work?)
 - H1: Show the difference WITH and WITHOUT my linear gradient behind it.
 
-### Honda of New Rochelle:
+
+#### Brenda Canela Acting Walkthrough
+
+
+
+#### Honda of New Rochelle:
 
 - Original: http://rsp-hondaofnewrochelle.fzautomotive.com/2018-honda-accord
 - Mockups (JPGs for mobile and desktop).
@@ -85,22 +146,10 @@
 - Animations and Waypoints.
 
 
-## When Finished:
+#### Finally Deploy Walkthrough Version!
 
-- Delete all unused font customizations.
-- Delete all unused Bootstrap files (including JS files) except for grid.
-- Run Google page speed insights test.
-- Add Google Analytics throughout entire site.
-- Deployment checklist on every single file.
-  - Confirm that CSS autoprefixer adds `ms-flex:` to `flex:` items.
-- After everything is pushed live, update all the Acura of Tempe landing pages accordingly:
+- Deployment checklist.
+- After walkthrough version is pushed live, update all the Acura of Tempe landing pages accordingly:
   - Remove headers.
   - Remove any CSS affiliated with the headers.
   - Push these updates live on GH Pages.
-- Add SSL certificate.
-  - If this alters the URL, update the URL across all my résumés, email signatures, and online job board accounts.
-
-
-## Future Iterations:
-
-- Swap out Waypoints for Vanilla JS scroll triggers. One example: https://terwanerik.github.io/ScrollTrigger/
