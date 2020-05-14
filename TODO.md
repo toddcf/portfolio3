@@ -153,3 +153,14 @@
   - Remove headers.
   - Remove any CSS affiliated with the headers.
   - Push these updates live on GH Pages.
+
+
+## Future Refinements
+
+- Refactor Omnifood project. (Create separate project list.)
+  - Use BEM.
+  - Minimize images.
+  - Mobile-first.
+  - Remove jQuery and Waypoints -- convert to vanilla JS.
+  - Deploy via GH Pages instead of Heroku.
+  - Update all portfolio links (here and on any job boards) to point to the new GH Pages site.
