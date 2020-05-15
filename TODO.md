@@ -40,6 +40,9 @@
 
 - Put a horizontal line between Front End Developer | MarTech Programmer.
   - Possibly shrink this text, too.
+- Fallback image (tropical beach):
+  - Can I delete the unused background tropical beach image from the img directory?
+  - Smaller sizes for mobile, etc.
 - Update author site link to `https`.
 
 
@@ -49,7 +52,7 @@
   - /about
   - /about-me
   - /bio
-- Add MarTech to bio.
+- Add MarTech and PlayNetwork to bio.
 - Add animations to Professional Reference cards.
 
 
