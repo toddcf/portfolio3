@@ -22,12 +22,13 @@
 ### Overall Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
+  - Condense all BEM CSS files into one (per HTML page).
+    - Replace the millions of BEM CSS links with the one combined link.
+    - Delete the BEM directory CSS files as you go.
   - You shouldn't even need the Bootstrap grid anymore, with the switch to BEM.
   - Delete all Bootstrap files (including JS files).
-- Then delete all non-BEM CSS files.
-- Condense all BEM CSS files into one (per HTML page).
-  - Replace the millions of BEM CSS links with the one combined link.
-  - Delete the massive BEM directory with separate files.
+- Then delete any old non-BEM CSS files.
+- Is it more performant to group your CSS media queries together instead of having redundancies throughout the entire file?
 - Remove `.html` extension from all internal links.
 - Change `index` to `/` for homepage internal links.
 - Upload latest résumé. (May already be done.)
@@ -36,8 +37,8 @@
 
 ### Homepage
 
-- Update title to include MarTech:
-  - Front End Developer | MarTech Programmer
+- Put a horizontal line between Front End Developer | MarTech Programmer.
+  - Possibly shrink this text, too.
 - Add green buttons back to cards:
   - Comment out the walkthrough buttons that aren't ready yet.
   - Add the green style to the Live Site buttons instead.
