@@ -33,15 +33,13 @@
 - Change `index` to `/` for homepage internal links.
 - Upload latest résumé. (May already be done.)
 - Delete all unused font customizations.
+- Convert font sizes from responsive to fluid.
 
 
 ### Homepage
 
 - Put a horizontal line between Front End Developer | MarTech Programmer.
   - Possibly shrink this text, too.
-- Add green buttons back to cards:
-  - Comment out the walkthrough buttons that aren't ready yet.
-  - Add the green style to the Live Site buttons instead.
 - Update author site link to `https`.
 
 
