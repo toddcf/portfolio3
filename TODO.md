@@ -29,6 +29,7 @@
   - Delete all Bootstrap files (including JS files).
 - Then delete any old non-BEM CSS files.
 - Is it more performant to group your CSS media queries together instead of having redundancies throughout the entire file?
+- Refactor all JavaScript files.
 - Remove `.html` extension from all internal links.
 - Change `index` to `/` for homepage internal links.
 - Upload latest résumé. (May already be done.)
@@ -39,11 +40,10 @@
 ### Homepage
 
 - Put a horizontal line between Front End Developer | MarTech Programmer.
-  - Possibly shrink this text, too.
+  - Shrink this text, too.
 - Fallback image (tropical beach):
-  - Can I delete the unused background tropical beach image from the img directory?
+  - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
-- Update author site link to `https`.
 - Fix: Text box overlay touches the Acura slightly on medium-large screen.
 
 
