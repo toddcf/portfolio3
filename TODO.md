@@ -22,7 +22,7 @@
 ### Overall Structure:
 
 - Recode the entire website with BEM (and without Bootstrap). [IN PROGRESS]
-  - Condense all BEM CSS files into one (per HTML page).
+  - About Me page: Condense all BEM CSS files into one (plus footer.css).
     - Replace the millions of BEM CSS links with the one combined link.
     - Delete the BEM directory CSS files as you go.
   - You shouldn't even need the Bootstrap grid anymore, with the switch to BEM.
@@ -44,6 +44,7 @@
   - Can I delete the unused background tropical beach image from the img directory?
   - Smaller sizes for mobile, etc.
 - Update author site link to `https`.
+- Fix: Text box overlay touches the Acura slightly on medium-large screen.
 
 
 ### About Me
