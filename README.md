@@ -1,6 +1,6 @@
 # Portfolio - Version 3
 
-The third iteration of my front end web design portfolio: https://www.tcf-webdesign.com
+The third iteration of my front end web developer portfolio: https://www.tcf-webdesign.com
 
 ![Portfolio](https://github.com/toddcf/portfolio3/blob/master/assets/img/header/__video-background/tropical-1440x562-min.jpg "Portfolio")
 
