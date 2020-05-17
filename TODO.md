@@ -22,12 +22,6 @@
 ### Homepage
 
 - Put a horizontal line between Front End Developer | MarTech Programmer.
-  - Shrink this text, too.
-
-
-### About Me
-
-- Bio: Add MarTech and PlayNetwork.
 
 
 ### Deploy Non-Walkthrough Version
