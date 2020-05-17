@@ -27,12 +27,7 @@
 
 ### About Me
 
-- Decide on the URL/name:
-  - /about
-  - /about-me
-  - /bio
-- Add MarTech and PlayNetwork to bio.
-- Add animations to Professional Reference cards.
+- Bio: Add MarTech and PlayNetwork.
 
 
 ### Deploy Non-Walkthrough Version
@@ -54,6 +49,7 @@
   - Photoshop: All image sizes.
 - About Me Page
   - Add sticky nav. (Ensure it can be reused on the walkthrough pages once those are ready to go.)
+  - Add animations to Professional Reference cards.
 - REDEPLOY.
 
 
