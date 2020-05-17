@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .additional-sample {
   -ms-flex: 0 0 100%;
   -webkit-box-flex: 0;
@@ -45,9 +52,8 @@
 @media (max-width: 575.98px) {
 
   .additional-sample__backboard_author-site {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
   }
 
@@ -56,9 +62,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   .additional-sample__backboard_author-site {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_author-site/left-crop-768x840-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-768x840-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-768x840-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_author-site/left-crop-768x840-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-768x840-blur12px-min.jpg);
   }
 
@@ -67,9 +72,8 @@
 @media (min-width: 768px) {
 
   .additional-sample__backboard_author-site {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_author-site/left-crop-576x630-blur12px-min.jpg);
   }
 
@@ -137,9 +141,8 @@
 @media (max-width: 575.98px) {
 
   .additional-sample__backboard_my-portfolio {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
   }
 
@@ -148,9 +151,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   .additional-sample__backboard_my-portfolio {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-768x840-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-768x840-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-768x840-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-768x840-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-768x840-blur12px-min.jpg);
   }
 
@@ -159,9 +161,8 @@
 @media (min-width: 768px) {
 
   .additional-sample__backboard_my-portfolio {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_my-portfolio/center-crop-576x630-blur12px-min.jpg);
   }
 
@@ -220,9 +221,8 @@
 @media (max-width: 575.98px) {
 
   .additional-sample__backboard_omnifood {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
   }
 
@@ -231,9 +231,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   .additional-sample__backboard_omnifood {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_omnifood/left-crop-768x840-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-768x840-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-768x840-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_omnifood/left-crop-768x840-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-768x840-blur12px-min.jpg);
   }
 
@@ -242,9 +241,8 @@
 @media (min-width: 768px) {
 
   .additional-sample__backboard_omnifood {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .75)), to(rgba(255, 255, 255, .75))), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(255, 255, 255, .75) 0, rgba(255, 255, 255, .75) 100%), url(../img/additional-sample/__backboard/_omnifood/left-crop-576x630-blur12px-min.jpg);
   }
 
@@ -501,9 +499,8 @@
 }
 
 .button_theme_primary {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3c6221), color-stop(50%, #33531c), to(#213612));
-  background-image: -webkit-linear-gradient(top, #3c6221 0, #33531c 50%, #213612 100%);
   background-image: -o-linear-gradient(top, #3c6221 0, #33531c 50%, #213612 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3c6221), color-stop(50%, #33531c), to(#213612));
   background-image: linear-gradient(to bottom, #3c6221 0, #33531c 50%, #213612 100%);
   background-position: left bottom;
   background-size: 100% 200%;
@@ -530,9 +527,8 @@
 }*/
 
 .button_theme_secondary {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9f9f9f), color-stop(50%, #5a5a5a), to(#292929));
-  background-image: -webkit-linear-gradient(top, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
   background-image: -o-linear-gradient(top, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #9f9f9f), color-stop(50%, #5a5a5a), to(#292929));
   background-image: linear-gradient(to bottom, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
   background-position: left top;
   background-size: 100% 200%;
@@ -571,9 +567,8 @@
 @media (max-width: 575.98px) {
 
   .button_theme_secondary_dark-bg-sm-only {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(50%, #9f9f9f), to(#5a5a5a));
-    background-image: -webkit-linear-gradient(top, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
     background-image: -o-linear-gradient(top, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(50%, #9f9f9f), to(#5a5a5a));
     background-image: linear-gradient(to bottom, #fff 0, #9f9f9f 50%, #5a5a5a 100%);
     background-position: left bottom;
     background-size: 100% 200%;
@@ -890,9 +885,8 @@
 }
 
 .portfolio__heading {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, .5)));
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .5) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, .5)));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .5) 100%);
   padding: 7em 0 3.5em 0;
   width: 100%;
@@ -911,9 +905,8 @@
 }
 
 .professional-section__heading {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .5)), to(rgba(255, 255, 255, 1)));
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 1) 100%);
   background-image: -o-linear-gradient(top, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 1) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, .5)), to(rgba(255, 255, 255, 1)));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, 1) 100%);
   padding: 1.5em 0 7em 0;
   width: 100%;
@@ -1035,9 +1028,8 @@
 @media (max-width: 575.98px) {
 
   .widescreen-project__backboard_acura-of-tempe {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(../img/widescreen-project/__backboard/_acura-of-tempe/left-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_acura-of-tempe/left-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_acura-of-tempe/left-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(../img/widescreen-project/__backboard/_acura-of-tempe/left-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_acura-of-tempe/left-crop-576x630-blur12px-min.jpg);
   }
 
@@ -1046,9 +1038,8 @@
 @media (max-width: 575.98px) {
 
   .widescreen-project__backboard_bmw-el-cajon {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(../img/widescreen-project/__backboard/_bmw-el-cajon/left-crop-576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_bmw-el-cajon/left-crop-576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_bmw-el-cajon/left-crop-576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(../img/widescreen-project/__backboard/_bmw-el-cajon/left-crop-576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_bmw-el-cajon/left-crop-576x630-blur12px-min.jpg);
   }
 
@@ -1057,9 +1048,8 @@
 @media (max-width: 575.98px) {
 
   .widescreen-project__backboard_honda-new-rochelle {
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(../img/widescreen-project/__backboard/_honda-new-rochelle/576x630-blur12px-min.jpg);
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_honda-new-rochelle/576x630-blur12px-min.jpg);
     background-image: -o-linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_honda-new-rochelle/576x630-blur12px-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(../img/widescreen-project/__backboard/_honda-new-rochelle/576x630-blur12px-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .5) 100%), url(../img/widescreen-project/__backboard/_honda-new-rochelle/576x630-blur12px-min.jpg);
   }
 
@@ -1242,9 +1232,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   .widescreen-project__img_md_acura-of-tempe {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_acura-of-tempe/768x303-min.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_acura-of-tempe/768x303-min.jpg);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_acura-of-tempe/768x303-min.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_acura-of-tempe/768x303-min.jpg);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_acura-of-tempe/768x303-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1256,9 +1245,8 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 
   .widescreen-project__img_md_acura-of-tempe {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_acura-of-tempe/992x391-min.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_acura-of-tempe/992x391-min.jpg);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_acura-of-tempe/992x391-min.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_acura-of-tempe/992x391-min.jpg);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_acura-of-tempe/992x391-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1270,9 +1258,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   .widescreen-project__img_md_bmw-el-cajon {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/768x303-min.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/768x303-min.jpg);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/768x303-min.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/768x303-min.jpg);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/768x303-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1284,9 +1271,8 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 
   .widescreen-project__img_md_bmw-el-cajon {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/992x391-min.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/992x391-min.jpg);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/992x391-min.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/992x391-min.jpg);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_bmw-el-cajon/992x391-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1298,9 +1284,8 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 
   .widescreen-project__img_md_honda-new-rochelle {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/768x303-min.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/768x303-min.jpg);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/768x303-min.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/768x303-min.jpg);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/768x303-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -1312,9 +1297,8 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 
   .widescreen-project__img_md_honda-new-rochelle {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/992x391-min.jpg);
-    background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/992x391-min.jpg);
     background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/992x391-min.jpg);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 1)), color-stop(10%, rgba(255, 255, 255, 0))), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/992x391-min.jpg);
     background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 0, rgba(255, 255, 255, 0) 10%), url(../img/widescreen-project/__img/_md/_honda-new-rochelle/992x391-min.jpg);
     background-position: center;
     background-repeat: no-repeat;
