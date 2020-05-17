@@ -11,8 +11,8 @@
       - Mobile: 8
       - Desktop: 26
     - After BEM Compiling & Minifying:
-      - Mobile: 
-      - Desktop: 
+      - Mobile: 85
+      - Desktop: 97
   - About Me:
     - Before BEM:
       - Mobile: 92
@@ -21,8 +21,8 @@
       - Mobile: 17
       - Desktop: 38
     - After BEM Compiling & Minifying:
-      - Mobile: 
-      - Desktop: 
+      - Mobile: 89
+      - Desktop: 98
 
 
 ### Additional Updates
@@ -44,6 +44,8 @@
 - About Me Page
   - Add sticky nav. (Ensure it can be reused on the walkthrough pages once those are ready to go.)
   - Add animations to Professional Reference cards.
+- Acura:
+  - Figure out better UX for a hub that links out to all six pages. (Maybe in each car's footer? I didn't notice the menu at the top of the NSX page.)
 - REDEPLOY.
 
 
