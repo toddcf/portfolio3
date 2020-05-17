@@ -19,11 +19,6 @@
       - Desktop: 38
 
 
-### Overall Structure:
-
-- Delete all unused font customizations.
-
-
 ### Homepage
 
 - Put a horizontal line between Front End Developer | MarTech Programmer.

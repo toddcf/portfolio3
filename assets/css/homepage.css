@@ -922,7 +922,7 @@
 .professional-section__heading_title-text {
   color: #808080;
   display: inline;
-  font-weight: 500;
+  font-weight: 400;
   position: relative;
   text-transform: uppercase;
 }
@@ -1433,7 +1433,7 @@
 .widescreen-project__title {
   color: #fff;
   font-family: 'Lato', sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 0 16px 0;
   text-align: center;
 }
