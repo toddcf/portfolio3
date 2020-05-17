@@ -21,8 +21,6 @@
 
 ### Overall Structure:
 
-- Remove `.html` extension from all internal links.
-- Change `index` to `/` for homepage internal links.
 - Upload latest résumé. (May already be done.)
 - Delete all unused font customizations.
 - Convert font sizes from responsive to fluid.
