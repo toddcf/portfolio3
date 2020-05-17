@@ -21,19 +21,13 @@
 
 ### Overall Structure:
 
-- Upload latest résumé. (May already be done.)
 - Delete all unused font customizations.
-- Convert font sizes from responsive to fluid.
 
 
 ### Homepage
 
 - Put a horizontal line between Front End Developer | MarTech Programmer.
   - Shrink this text, too.
-- Fallback image (tropical beach):
-  - Can I delete the unused background tropical beach image size from the img directory?
-  - Smaller sizes for mobile, etc.
-- Fix: Text box overlay touches the Acura slightly on medium-large screen.
 
 
 ### About Me
@@ -54,6 +48,11 @@
 
 ### Additional Updates
 
+- Convert font sizes from responsive to fluid.
+- Fallback image (tropical beach):
+  - Can I delete the unused background tropical beach image size from the img directory?
+  - Smaller sizes for mobile, etc.
+- Fix: Text box overlay touches the Acura slightly on medium-large screen.
 - Add Brenda Canela Acting
   - Wait until BEM structure is finalized so that adding this project block is as easy as possible.
   - Decide which order it should go in, and whether the text box should go on the left or right.
