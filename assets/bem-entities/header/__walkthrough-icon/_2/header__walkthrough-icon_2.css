@@ -1,8 +1,0 @@
-@media (min-width: 992px) {
-
-  .header__walkthrough-icon_2 {
-    top: calc(var(--header-icon-size-neg) / 2);
-    right: 0;
-  }
-
-}

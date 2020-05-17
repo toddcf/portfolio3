@@ -1,8 +1,0 @@
-@media (min-width: 992px) {
-
-  .header__walkthrough-icon_3 {
-    top: calc(var(--header-icon-size) * .75); /* Is actually Calc (width + (width * .25)), which works out to width * .75 */
-    right: 0;
-  }
-
-}

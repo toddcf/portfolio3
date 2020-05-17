@@ -1,8 +1,0 @@
-.icon__box {
-  border-radius: 5%;
-  border-style: solid;
-  border-width: 8px; /* May need to be adjusted */
-  position: relative;
-  text-align: center;
-  transition: 300ms;
-}

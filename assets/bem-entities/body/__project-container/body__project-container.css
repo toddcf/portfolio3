@@ -1,5 +1,0 @@
-.body__project-container {
-  overflow: hidden; /* Prevents the header video from going wider than the rest of the project */
-  position: relative;
-  width: 100%;
-}
