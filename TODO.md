@@ -4,31 +4,35 @@
 
 - Page Speed Test:
   - Homepage:
-    - Before:
+    - Before BEM:
       - Mobile: 76
       - Desktop: 94
-    - After: 
+    - After BEM:
       - Mobile: 8
       - Desktop: 26
+    - After BEM Compiling & Minifying:
+      - Mobile: 
+      - Desktop: 
   - About Me:
-    - Before:
+    - Before BEM:
       - Mobile: 92
       - Desktop: 92
-    - After: 
+    - After BEM:
       - Mobile: 17
       - Desktop: 38
-
-
-### Deploy Non-Walkthrough Version
-
-- Deployment checklist on every single file.
-- Update the new `https` URL across all my résumés, email signatures, and online job board accounts.
+    - After BEM Compiling & Minifying:
+      - Mobile: 
+      - Desktop: 
 
 
 ### Additional Updates
 
-- Convert font sizes from responsive to fluid.
-- Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
+- Update the new `https` URL across all my résumés, email signatures, and online job board accounts.
+- Fonts:
+  - Convert all font sizes from responsive to fluid.
+  - Front End Developer | MarTech Programmer:
+    - Make the size and font weight readable on mobile.
+    - Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.

@@ -1,19 +1,20 @@
 # Portfolio - Version 3
 
-The third iteration of my UI/UX web design portfolio: http://www.tcf-webdesign.com
+The third iteration of my front end web design portfolio: https://www.tcf-webdesign.com
 
-![Portfolio](https://github.com/toddcf/portfolio3/blob/master/assets/video/tropical-1440x562-min.jpg "Portfolio")
+![Portfolio](https://github.com/toddcf/portfolio3/blob/master/assets/img/header/__video-background/tropical-1440x562-min.jpg "Portfolio")
 
-## Technology Used
+
+## Technologies & Methodologies Used
 
 * HTML5
 * CSS3
-* Bootstrap 4
-* Foundation 5
 * JavaScript
 * jQuery
 * Adobe XD
 * Adobe Photoshop
+* BEM
+
 
 ## Future Iterations
 
