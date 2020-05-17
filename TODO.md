@@ -19,11 +19,6 @@
       - Desktop: 38
 
 
-### Homepage
-
-- Put a horizontal line between Front End Developer | MarTech Programmer.
-
-
 ### Deploy Non-Walkthrough Version
 
 - Deployment checklist on every single file.
@@ -33,6 +28,7 @@
 ### Additional Updates
 
 - Convert font sizes from responsive to fluid.
+- Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
