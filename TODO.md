@@ -13,6 +13,9 @@
     - After BEM Compiling & Minifying:
       - Mobile: 85
       - Desktop: 97
+    - After HTML & JavaScript Minifying:
+      - Mobile: 91
+      - Desktop: 98
   - About Me:
     - Before BEM:
       - Mobile: 92
@@ -23,6 +26,9 @@
     - After BEM Compiling & Minifying:
       - Mobile: 89
       - Desktop: 98
+    - After HTML & JavaScript Minifying:
+      - Mobile: 94
+      - Desktop: 99
 
 
 ### Additional Updates
