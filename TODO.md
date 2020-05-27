@@ -42,13 +42,16 @@
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
+- Add a slim, white, fixed nav to all pages. Link it to:
+  - Home
+  - About
+  - Résumé
 - Fix: Text box overlay touches the Acura slightly on medium-large screen.
 - Add Brenda Canela Acting
   - Wait until BEM structure is finalized so that adding this project block is as easy as possible.
   - Decide which order it should go in, and whether the text box should go on the left or right.
   - Photoshop: All image sizes.
 - About Me Page
-  - Add sticky nav. (Ensure it can be reused on the walkthrough pages once those are ready to go.)
   - Add animations to Professional Reference cards.
 - Acura:
   - Figure out better UX for a hub that links out to all six pages. (Maybe in each car's footer? I didn't notice the menu at the top of the NSX page.)
