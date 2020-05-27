@@ -1,10 +1,95 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+/* Current font ratios */
+.body_homepage {
+  font-size: 4.5px; /* .28125em */
+  margin: 0;
+  padding: 0;
+}
 
+@media (min-width: 576px) {
+
+  .body_homepage {
+    font-size: .53125em; /* 8.5px */
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .body_homepage {
+    font-size: .6875em; /* 11px */
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .body_homepage {
+    font-size: 14.5px; /* .90625em */
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .body_homepage {
+    font-size: 16px; /* 1rem */
+  }
+
+}
+
+
+.font_size_tier-1 {
+  font-size: 5.653em; /* 90px */
+}
+
+.font_size_tier-2 {
+  font-size: 3.998em;
+}
+
+.font_size_tier-3 {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+
+  .font_size_tier-3 {
+    font-size: 2.827em;
+  }
+
+}
+
+.font_size_tier-4 {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+
+  .font_size_tier-4 {
+    font-size: 1.999em;
+  }
+
+}
+
+/* Tier 5 is not used */
+.font_size_tier-5 {
+  font-size: 16px;
+}
+
+@media (min-width: 576px) {
+
+  .font_size_tier-5 {
+    font-size: 1.414em; /* May need to move this to a higher breakpoint */
+  }
+
+}
+
+
+
+
+
+
+
+/* New Ratio Code */
 html {
   font-size: 16px;
 }
@@ -83,17 +168,15 @@ html {
   .font_size_6 {
     font-size: 3.052em; /* 1.250 */
   }
-}.example {
-    display: -ms-grid;
-    display: grid;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
-    background: -o-linear-gradient(top, white, black);
-    background: linear-gradient(to bottom, white, black);
 }
+
+
+
+
+
+
+
+
+
+
+

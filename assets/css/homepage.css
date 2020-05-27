@@ -384,7 +384,7 @@
 .additional-sample__text {
   color: #000;
   font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
+  /*font-size: 16px;*/
   -webkit-margin-after: 24px;
           margin-block-end: 24px;
   -webkit-margin-before: 16px;
@@ -1406,7 +1406,7 @@
 .widescreen-project__info-module_text {
   color: #fff;
   font-family: 'PT Sans', sans-serif;
-  font-size: 16px;
+  /*font-size: 16px;*/
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
   -webkit-margin-before: 0;

@@ -33,15 +33,24 @@
 
 ### Additional Updates
 
-- Update the new `https` URL across all my résumés, email signatures, and online job board accounts.
 - Fonts:
   - Convert all font sizes from responsive to fluid.
+    - Will need to reverse the numbering of all the font tiers, smallest to largest:
+      - Tier 6 => 1
+      - Tier 5 => 2
+      - Tier 4 => 3
+      - Tier 3 => 4
+      - Tier 2 => 5
+      - Tier 1 => 6
+    - DONE: Remove font size from `.info-module_text`. Add a class of `.font_size_body` to each of these elements.
+    - DONE: Remove font size from `.additional-sample_text`. Add a class of `.font_size_body` to each of these elements.
   - Front End Developer | MarTech Programmer:
     - Make the size and font weight readable on mobile.
     - Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
+- Update the new `https` URL across all my online job board accounts.
 - Add a slim, white, fixed nav to all pages. Link it to:
   - Home
   - About
