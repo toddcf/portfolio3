@@ -419,7 +419,7 @@
 }
 
 .body_homepage {
-  font-size: 4.5px; /* .28125em */
+  /*font-size: 4.5px;*/ /* .28125em */
   margin: 0;
   padding: 0;
 }
@@ -427,7 +427,7 @@
 @media (min-width: 576px) {
 
   .body_homepage {
-    font-size: .53125em; /* 8.5px */
+    /*font-size: .53125em;*/ /* 8.5px */
   }
 
 }
@@ -435,7 +435,7 @@
 @media (min-width: 768px) {
 
   .body_homepage {
-    font-size: .6875em; /* 11px */
+    /*font-size: .6875em;*/ /* 11px */
   }
 
 }
@@ -443,7 +443,7 @@
 @media (min-width: 992px) {
 
   .body_homepage {
-    font-size: 14.5px; /* .90625em */
+    /*font-size: 14.5px;*/ /* .90625em */
   }
 
 }
@@ -451,7 +451,7 @@
 @media (min-width: 1200px) {
 
   .body_homepage {
-    font-size: 16px; /* 1rem */
+    /*font-size: 16px;*/ /* 1rem */
   }
 
 }
@@ -621,8 +621,8 @@
 
 }
 
-.font_size_tier-1 {
-  font-size: 5.653em; /* 90px */
+/*.font_size_tier-1 {
+  font-size: 5.653em;
 }
 
 .font_size_tier-2 {
@@ -651,20 +651,7 @@
     font-size: 1.999em;
   }
 
-}
-
-/* Tier 5 is not used */
-.font_size_tier-5 {
-  font-size: 16px;
-}
-
-@media (min-width: 576px) {
-
-  .font_size_tier-5 {
-    font-size: 1.414em; /* May need to move this to a higher breakpoint */
-  }
-
-}
+}*/
 
 .header {
   min-height: 100vh;
@@ -682,6 +669,10 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
   width: 100%;
+}
+
+.header__text-overlay_h1 {
+  font-size: 1em; /* Overrides H1 default size */
 }
 
 .header__text-overlay_h1_main-name {
@@ -745,7 +736,7 @@
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
-  font-size: .5em; /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
+  /*font-size: .5em;*/ /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
   font-weight: 300;
   letter-spacing: .25em;
   text-align: center;
@@ -796,7 +787,7 @@
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
-  font-size: .5em; /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
+  /*font-size: .5em;*/ /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
   font-weight: 300;
   letter-spacing: .25em;
   text-align: center;

@@ -1,43 +1,4 @@
 /* Current font ratios */
-.body_homepage {
-  font-size: 4.5px; /* .28125em */
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 576px) {
-
-  .body_homepage {
-    font-size: .53125em; /* 8.5px */
-  }
-
-}
-
-@media (min-width: 768px) {
-
-  .body_homepage {
-    font-size: .6875em; /* 11px */
-  }
-
-}
-
-@media (min-width: 992px) {
-
-  .body_homepage {
-    font-size: 14.5px; /* .90625em */
-  }
-
-}
-
-@media (min-width: 1200px) {
-
-  .body_homepage {
-    font-size: 16px; /* 1rem */
-  }
-
-}
-
-
 .font_size_tier-1 {
   font-size: 5.653em; /* 90px */
 }
@@ -90,27 +51,12 @@
 
 
 /* New Ratio Code */
+
+/* Use 1.125 (Major Second) for smallest screens */
+
 html {
   font-size: 16px;
 }
-
-@media (min-width: 800px) {
-  html {
-    font-size: 2vw;
-  }
-}
-
-@media (min-width: 1140px) {
-  html {
-    font-size: 22.8px;
-  }
-}
-
-/*@media (min-width: 1440px) {
-  html {
-    font-size: 28.6px;
-  }
-}*/
 
 .font_size_body {
   font-size: 16px;
@@ -124,59 +70,61 @@ html {
   font-size: 1.125em;
 }
 
-@media (min-width: 800px) {
-  .font_size_2 {
-    font-size: 1.25em;
-  }
-}
-
 .font_size_3 {
   font-size: 1.266em;
-}
-
-@media (min-width: 800px) {
-  .font_size_3 {
-    font-size: 1.563em;
-  }
 }
 
 .font_size_4 {
   font-size: 1.424em;
 }
 
-@media (min-width: 800px) {
-  .font_size_4 {
-    font-size: 1.953em;
-  }
-}
-
 .font_size_5 {
   font-size: 1.602em;
 }
 
-@media (min-width: 800px) {
-  .font_size_5 {
-    font-size: 2.441em;
-  }
-}
-
 .font_size_6 {
-  font-size: 1.802em; /* 1.125 */
+  font-size: 1.802em;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 576px) {
+  
+  
+  html {
+    font-size: 2vw;
+  }
+
+  /* Switch to 1.333 (Perfect Fourth) for larger screens */
+  .font_size_2 {
+    font-size: 1.333em;
+  }
+
+  .font_size_3 {
+    font-size: 1.777em;
+  }
+
+  .font_size_4 {
+    font-size: 2.369em;
+  }
+
+  .font_size_5 {
+    font-size: 3.157em;
+  }
+
   .font_size_6 {
-    font-size: 3.052em; /* 1.250 */
+    font-size: 4.209em;
+  }
+
+}
+
+/*@media (min-width: 1140px) {
+  html {
+    font-size: 22.8px;
+  }
+}*/
+
+/* Max Root Font Size */
+@media (min-width: 1440px) {
+  html {
+    font-size: 28.8px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-

@@ -36,14 +36,16 @@
 - Fonts:
   - Convert all font sizes from responsive to fluid.
     - Will need to reverse the numbering of all the font tiers, smallest to largest:
-      - Tier 6 => 1
-      - Tier 5 => 2
-      - Tier 4 => 3
-      - Tier 3 => 4
-      - Tier 2 => 5
-      - Tier 1 => 6
+      - Tier 6 => Font Size 1 [DOESN'T EXIST]
+      - Tier 5 => Font Size 2 [DOESN'T EXIST]
+      - Tier 4 => Font Size 3 [DONE]
+      - Tier 3 => Font Size 4 [DONE]
+      - Tier 2 => Font Size 5 [DONE]
+      - Tier 1 => Font Size 6 [DONE]
     - DONE: Remove font size from `.info-module_text`. Add a class of `.font_size_body` to each of these elements.
     - DONE: Remove font size from `.additional-sample_text`. Add a class of `.font_size_body` to each of these elements.
+    - DONE: Footer: Use `.font_size_body` for all text.
+    - Button font sizes.
   - Front End Developer | MarTech Programmer:
     - Make the size and font weight readable on mobile.
     - Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
