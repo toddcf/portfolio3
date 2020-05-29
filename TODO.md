@@ -49,6 +49,8 @@
   - Front End Developer | MarTech Programmer:
     - Make the size and font weight readable on mobile.
     - Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
+- Spacing, Shadowing:
+  - Any margins, padding, or text-shadows that were set to `em` will probably need to be recalculated. Check each screen size.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.

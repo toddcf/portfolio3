@@ -1,59 +1,4 @@
-/* Current font ratios */
-.font_size_tier-1 {
-  font-size: 5.653em; /* 90px */
-}
-
-.font_size_tier-2 {
-  font-size: 3.998em;
-}
-
-.font_size_tier-3 {
-  font-size: 16px;
-}
-
-@media (min-width: 576px) {
-
-  .font_size_tier-3 {
-    font-size: 2.827em;
-  }
-
-}
-
-.font_size_tier-4 {
-  font-size: 16px;
-}
-
-@media (min-width: 576px) {
-
-  .font_size_tier-4 {
-    font-size: 1.999em;
-  }
-
-}
-
-/* Tier 5 is not used */
-.font_size_tier-5 {
-  font-size: 16px;
-}
-
-@media (min-width: 576px) {
-
-  .font_size_tier-5 {
-    font-size: 1.414em; /* May need to move this to a higher breakpoint */
-  }
-
-}
-
-
-
-
-
-
-
-/* New Ratio Code */
-
-/* Use 1.125 (Major Second) for smallest screens */
-
+/* Fixed root font size for smallest screens */
 html {
   font-size: 16px;
 }
@@ -62,6 +7,7 @@ html {
   font-size: 16px;
 }
 
+/* Font Ratio 1.125 (Major Second) for smallest screens */
 .font_size_1 {
   font-size: 1em;
 }
@@ -82,18 +28,14 @@ html {
   font-size: 1.602em;
 }
 
-/*.font_size_6 {
-  font-size: 1.802em;
-}*/
-
 @media (min-width: 576px) {
   
-  
+  /* Fluid root font size for medium screens and up */
   html {
     font-size: 2vw;
   }
 
-  /* Switch to 1.333 (Perfect Fourth) for larger screens */
+  /* Font Ratio 1.333 (Perfect Fourth) for larger screens */
   .font_size_2 {
     font-size: 1.333em;
   }
@@ -110,17 +52,7 @@ html {
     font-size: 3.157em;
   }
 
-  /*.font_size_6 {
-    font-size: 4.209em;
-  }*/
-
 }
-
-/*@media (min-width: 1140px) {
-  html {
-    font-size: 22.8px;
-  }
-}*/
 
 /* Max Root Font Size */
 @media (min-width: 1440px) {
