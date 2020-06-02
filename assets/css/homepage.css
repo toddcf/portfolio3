@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .additional-sample {
   -ms-flex: 0 0 100%;
   -webkit-box-flex: 0;
@@ -384,7 +391,6 @@
 .additional-sample__text {
   color: #000;
   font-family: 'PT Sans', sans-serif;
-  /*font-size: 16px;*/
   -webkit-margin-after: 24px;
           margin-block-end: 24px;
   -webkit-margin-before: 16px;
@@ -419,41 +425,8 @@
 }
 
 .body_homepage {
-  /*font-size: 4.5px;*/ /* .28125em */
   margin: 0;
   padding: 0;
-}
-
-@media (min-width: 576px) {
-
-  .body_homepage {
-    /*font-size: .53125em;*/ /* 8.5px */
-  }
-
-}
-
-@media (min-width: 768px) {
-
-  .body_homepage {
-    /*font-size: .6875em;*/ /* 11px */
-  }
-
-}
-
-@media (min-width: 992px) {
-
-  .body_homepage {
-    /*font-size: 14.5px;*/ /* .90625em */
-  }
-
-}
-
-@media (min-width: 1200px) {
-
-  .body_homepage {
-    /*font-size: 16px;*/ /* 1rem */
-  }
-
 }
 
 .body__project-container {
@@ -510,14 +483,6 @@
 .button_theme_primary:active {
   background-position: left top;
 }
-
-/*@media (max-width: 575.98px) {
-
-  .button_theme_primary {
-    margin-bottom: 2em;
-  }
-
-}*/
 
 .button_theme_secondary {
   background-image: -o-linear-gradient(top, #9f9f9f 0, #5a5a5a 50%, #292929 100%);
@@ -684,7 +649,6 @@
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
-  /*font-size: .5em;*/ /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
   font-weight: 300;
   letter-spacing: .25em;
   text-align: center;
@@ -735,7 +699,6 @@
   color: #fff;
   display: block;
   font-family: 'Lato', sans-serif;
-  /*font-size: .5em;*/ /* Calculated as a percentage of the H1, because it's in a span inside the H1 */
   font-weight: 300;
   letter-spacing: .25em;
   text-align: center;
@@ -1345,7 +1308,6 @@
 .widescreen-project__info-module_text {
   color: #fff;
   font-family: 'PT Sans', sans-serif;
-  /*font-size: 16px;*/
   -webkit-margin-after: 1em;
           margin-block-end: 1em;
   -webkit-margin-before: 0;
@@ -1386,7 +1348,7 @@
   .widescreen-project__title-box {
     background: #fff;
     color: #000;
-    margin: 0 auto -1.5em auto;
+    margin: 0 auto -2.25% auto;
     padding: .25em 1em;
     position: relative;
     width: 85%; /* Fallback */

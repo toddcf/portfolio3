@@ -54,6 +54,7 @@
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
+- Can I remove "type" attribute from all JS script tags?
 - Update the new `https` URL across all my online job board accounts.
 - Add a slim, white, fixed nav to all pages. Link it to:
   - Home
