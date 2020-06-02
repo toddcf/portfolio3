@@ -599,11 +599,18 @@
   display: block;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  letter-spacing: .25em;
+  letter-spacing: .5em;
   margin-bottom: .5em;
   text-align: center;
-  text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
+  text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.9);
   z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .header__text-overlay_h1_main-name {
+    letter-spacing: .25em;
+    text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
+  }
 }
 
 /* fadeInDown */
@@ -650,10 +657,17 @@
   display: block;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  letter-spacing: .25em;
+  letter-spacing: .5em;
   text-align: center;
-  text-shadow: .15em .15em .15em rgba(0, 0, 0, 0.5);
+  text-shadow: .15em .15em .15em rgba(0, 0, 0, 0.8);
   z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .header__text-overlay_h1_main-subheading {
+    letter-spacing: .25em;
+    text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
+  }
 }
 
 /* fadeInUp */

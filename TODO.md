@@ -33,37 +33,21 @@
 
 ### Additional Updates
 
-- Fonts:
-  - Convert all font sizes from responsive to fluid.
-    - Will need to reverse the numbering of all the font tiers, smallest to largest:
-      - Tier 6 => Font Size 1 [DOESN'T EXIST]
-      - Tier 5 => Font Size 2 [DOESN'T EXIST]
-      - Tier 4 => Font Size 3 [DONE]
-      - Tier 3 => Font Size 4 [DONE]
-      - Tier 2 => Font Size 5 [DONE]
-      - Tier 1 => Font Size 6 [DONE]
-    - DONE: Remove font size from `.info-module_text`. Add a class of `.font_size_body` to each of these elements.
-    - DONE: Remove font size from `.additional-sample_text`. Add a class of `.font_size_body` to each of these elements.
-    - DONE: Footer: Use `.font_size_body` for all text.
-    - Button font sizes.
-  - Front End Developer | MarTech Programmer:
-    - Make the size and font weight readable on mobile.
-    - Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of spinning animation icon.
-- Spacing, Shadowing:
-  - Any margins, padding, or text-shadows that were set to `em` will probably need to be recalculated. Check each screen size.
+- Update letter-spacing and text-shadowing at different screen sizes for:
+  - `.header__text-overlay_h1_main-name`
+  - `.header__text-overlay_h1_main-subheading`
+  - `.header__text-overlay_h1_main-subheading_divider`
+- Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of slowly-spinning round icon.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
-- Can I remove "type" attribute from all JS script tags?
 - Update the new `https` URL across all my online job board accounts.
 - Add a slim, white, fixed nav to all pages. Link it to:
   - Home
   - About
   - Résumé
-- Fix: Text box overlay touches the Acura slightly on medium-large screen.
 - Add Brenda Canela Acting
   - Wait until BEM structure is finalized so that adding this project block is as easy as possible.
-  - Decide which order it should go in, and whether the text box should go on the left or right.
   - Photoshop: All image sizes.
 - About Me Page
   - Add animations to Professional Reference cards.
