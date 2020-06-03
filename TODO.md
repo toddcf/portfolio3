@@ -47,7 +47,7 @@
   - About
   - Résumé
 - Add Brenda Canela Acting
-  - Wait until BEM structure is finalized so that adding this project block is as easy as possible.
+  - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
 - About Me Page
   - Add animations to Professional Reference cards.

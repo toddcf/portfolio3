@@ -1,50 +1,9 @@
-/* OLD SIZES */
-.body_about-me {
-  /*font-size: 4.5px;*/ /* .28125em */
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 576px) {
-
-  .body_about-me {
-    /*font-size: .53125em;*/ /* 8.5px */
-  }
-
-}
-
-@media (min-width: 768px) {
-
-  .body_about-me {
-    /*font-size: .6875em;*/ /* 11px */
-  }
-
-}
-
-@media (min-width: 992px) {
-
-  .body_about-me {
-    /*font-size: 14.5px;*/ /* .90625em */
-  }
-
-}
-
-@media (min-width: 1200px) {
-
-  .body_about-me {
-    /*font-size: 16px;*/ /* 1rem */
-  }
-
-}
-
-
-
-
-
-
-
-
-
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 
 /* Fixed root font size for smallest screens */
 html {
