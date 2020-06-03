@@ -2,43 +2,6 @@
 
 ## Non-Walkthrough Version
 
-- Page Speed Tests:
-  - Homepage:
-    - Before BEM:
-      - Mobile: 76
-      - Desktop: 94
-    - After BEM:
-      - Mobile: 8
-      - Desktop: 26
-    - After BEM Compiling & Minifying:
-      - Mobile: 85
-      - Desktop: 97
-    - After HTML & JavaScript Minifying:
-      - Mobile: 91
-      - Desktop: 98
-    - After Fluid Font Sizes (which includes separate CSS file for fonts):
-      - Mobile: 80
-      - Desktop: 97
-  - About Me:
-    - Before BEM:
-      - Mobile: 92
-      - Desktop: 92
-    - After BEM:
-      - Mobile: 17
-      - Desktop: 38
-    - After BEM Compiling & Minifying:
-      - Mobile: 89
-      - Desktop: 98
-    - After HTML & JavaScript Minifying:
-      - Mobile: 94
-      - Desktop: 99
-    - After Fluid Font Sizes (which includes separate CSS file for fonts):
-      - Mobile: 92
-      - Desktop: 92
-
-
-### Additional Updates
-
 - Condense each HTML page's CSS files into one CSS file.
   - But group each section together: Main, Footer, Fonts.
 - Update letter-spacing and text-shadowing at different screen sizes for:
@@ -49,24 +12,17 @@
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
-- Update the new `https` URL across all my online job board accounts.
 - Add a slim, white, fixed nav to all pages. Link it to:
   - Home
   - About
   - Résumé
+- Do everything Google Page Insights recommends to optimize the site.
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
 - Acura:
   - Figure out better UX for a hub that links out to all six pages. (Maybe in each car's footer? I didn't notice the menu at the top of the NSX page.)
-- REDEPLOY.
-
-
-### Optimize Non-Walkthrough Version
-
-- Run Google Page Insights.
-  - Record the speed test scores.
-  - Make list of any other recommendations for speeding up the site (and do those).
+- Update the new `https` URL across all my online job board accounts.
 - Remove jQuery
   - Swap out Waypoints for Vanilla JS scroll triggers.
     - One example: https://terwanerik.github.io/ScrollTrigger/
@@ -77,12 +33,7 @@
 - Add Google Analytics throughout entire site.
 
 
-
-
-
-
 ## Walkthrough Version
-
 
 ### Flowchart
 
