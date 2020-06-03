@@ -2,7 +2,7 @@
 
 ## Non-Walkthrough Version
 
-- Page Speed Test:
+- Page Speed Tests:
   - Homepage:
     - Before BEM:
       - Mobile: 76
@@ -16,6 +16,9 @@
     - After HTML & JavaScript Minifying:
       - Mobile: 91
       - Desktop: 98
+    - After Fluid Font Sizes (which includes separate CSS file for fonts):
+      - Mobile: 80
+      - Desktop: 97
   - About Me:
     - Before BEM:
       - Mobile: 92
@@ -29,15 +32,20 @@
     - After HTML & JavaScript Minifying:
       - Mobile: 94
       - Desktop: 99
+    - After Fluid Font Sizes (which includes separate CSS file for fonts):
+      - Mobile: 92
+      - Desktop: 92
 
 
 ### Additional Updates
 
+- Condense each HTML page's CSS files into one CSS file.
+  - But group each section together: Main, Footer, Fonts.
 - Update letter-spacing and text-shadowing at different screen sizes for:
   - `.header__text-overlay_h1_main-name`
   - `.header__text-overlay_h1_main-subheading`
   - `.header__text-overlay_h1_main-subheading_divider`
-- Replace the horizontal line between Front End Developer | MarTech Programmer with some sort of slowly-spinning round icon.
+- Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
@@ -49,8 +57,6 @@
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
-- About Me Page
-  - Add animations to Professional Reference cards.
 - Acura:
   - Figure out better UX for a hub that links out to all six pages. (Maybe in each car's footer? I didn't notice the menu at the top of the NSX page.)
 - REDEPLOY.
