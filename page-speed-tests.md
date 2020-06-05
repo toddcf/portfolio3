@@ -50,3 +50,15 @@
 - About Me:
   - Mobile: 92
   - Desktop: 92
+
+
+### 2020-06-04
+
+Adjusted text shadow on header overlay. Combined CSS into one file per HTML page.
+
+- Homepage:
+  - Mobile: 78 (why did it get worse?)
+  - Desktop: 98
+- About Me:
+  - Mobile: 94
+  - Desktop: 92

@@ -2,19 +2,19 @@
 
 ## Non-Walkthrough Version
 
-- Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
-- Fallback image (tropical beach):
-  - Can I delete the unused background tropical beach image size from the img directory?
-  - Smaller sizes for mobile, etc.
 - Add a slim, white, fixed nav to all pages. Link it to:
   - Home
   - About
   - Résumé
-- Do everything Google Page Insights recommends to optimize the site.
-- Add Adobe DTM and Launch logos to "About Me" page.
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
+- Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
+- Fallback image (tropical beach):
+  - Can I delete the unused background tropical beach image size from the img directory?
+  - Smaller sizes for mobile, etc.
+- Do everything Google Page Insights recommends to optimize the site.
+- Add Adobe DTM and Launch logos to "About Me" page.
 - Acura:
   - Figure out better UX for a hub that links out to all six pages. (Maybe in each car's footer? I didn't notice the menu at the top of the NSX page.)
 - Update the new `https` URL across all my online job board accounts.
