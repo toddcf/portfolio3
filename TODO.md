@@ -4,10 +4,6 @@
 
 - Condense each HTML page's CSS files into one CSS file.
   - But group each section together: Main, Footer, Fonts.
-- Update letter-spacing and text-shadowing at different screen sizes for:
-  - `.header__text-overlay_h1_main-name`
-  - `.header__text-overlay_h1_main-subheading`
-  - `.header__text-overlay_h1_main-subheading_divider`
 - Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?

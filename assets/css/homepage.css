@@ -602,7 +602,7 @@
   letter-spacing: .5em;
   margin-bottom: .5em;
   text-align: center;
-  text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.9);
+  text-shadow: .3em .3em .15em rgba(0, 0, 0, 0.9);
   z-index: 10;
 }
 
@@ -659,14 +659,14 @@
   font-weight: 300;
   letter-spacing: .5em;
   text-align: center;
-  text-shadow: .15em .15em .15em rgba(0, 0, 0, 0.8);
+  text-shadow: .2em .2em .2em rgba(0, 0, 0, 0.9);
   z-index: 10;
 }
 
 @media (min-width: 800px) {
   .header__text-overlay_h1_main-subheading {
     letter-spacing: .25em;
-    text-shadow: .2em .2em .1em rgba(0, 0, 0, 0.5);
+    text-shadow: .2em .2em .2em rgba(0, 0, 0, 0.7);
   }
 }
 
@@ -716,8 +716,14 @@
   font-weight: 300;
   letter-spacing: .25em;
   text-align: center;
-  text-shadow: .15em .15em .15em rgba(0, 0, 0, 0.5);
+  text-shadow: .2em .2em .2em rgba(0, 0, 0, 0.9);
   z-index: 10;
+}
+
+@media (min-width: 800px) {
+  .header__text-overlay_h1_main-subheading_divider {
+    text-shadow: .2em .2em .2em rgba(0, 0, 0, 0.7);
+  }
 }
 
 /* Background image fallback in case video doesn't load */
