@@ -17,6 +17,7 @@
   - About
   - Résumé
 - Do everything Google Page Insights recommends to optimize the site.
+- Add Adobe DTM and Launch logos to "About Me" page.
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
