@@ -5,6 +5,7 @@
 - Add a slim, white, top nav to all pages. USE SEPARATE GITHUB BRANCH.
   - It's hidden when user is scrolled all the way up. Then when you start scrolling down, it slides down into view and stays fixed at the top. (And slides back up out of sight when user scrolls all the way to the top again.)
   - A slight shadow beneath it.
+  - Very slight color gradient so it appears a little rounded.
   - Link it to:
     - Portfolio (Home) or About Me. (Whichever page the user is not currently on)
     - Résumé

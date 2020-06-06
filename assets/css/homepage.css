@@ -1594,3 +1594,58 @@ html {
   background: #000;
   color: #808080;
 }
+
+
+
+
+/* NAV */
+.nav {
+  background-image: linear-gradient(to bottom, #fff 0, #fff 50%, #e6e6e6 100%);
+  padding: .15em 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 20;
+
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav__link,
+.nav__link:active,
+.nav__link:focus,
+.nav__link:visited {
+  color: #000;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 250ms;
+  -o-transition: 250ms;
+  transition: 250ms;
+}
+
+.nav__link:hover {
+  color: #808080;
+}
