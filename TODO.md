@@ -2,6 +2,7 @@
 
 ## Non-Walkthrough Version
 
+- Recode `.center__1140` and `.center__1440` to have fluid widths up until they hit their max. (This should eliminate the need for multiple breakpoints.)
 - Add a slim, white, top nav to all pages. USE SEPARATE GITHUB BRANCH.
   - It's hidden when user is scrolled all the way up. Then when you start scrolling down, it slides down into view and stays fixed at the top. (And slides back up out of sight when user scrolls all the way to the top again.)
   - A slight shadow beneath it.
