@@ -2,10 +2,13 @@
 
 ## Non-Walkthrough Version
 
-- Add a slim, white, fixed nav to all pages. Link it to:
-  - Home
-  - About
-  - Résumé
+- Add a slim, white, top nav to all pages.
+  - It's hidden when user is scrolled all the way up. Then when you start scrolling down, it slides down into view and stays fixed at the top. (And slides back up out of sight when user scrolls all the way to the top again.)
+  - A slight shadow beneath it.
+  - Link it to:
+    - Portfolio (Home) or About Me. (Whichever page the user is not currently on)
+    - Résumé
+    - GitHub
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
