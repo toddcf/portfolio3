@@ -3,10 +3,9 @@ function navReveal() {
   var navBar = document.querySelector('.nav');
   var navBarHeight = navBar.offsetHeight;
   if (window.scrollY < navBarHeight) {
-    navBar.style.top = '-' + navBarHeight + 'px';
+    navBar.style.top = '-' + (navBarHeight + 10) + 'px';
   } else {
     navBar.style.top = '0';
-    navBar.style.transition = '500ms';
   }
 }
 navReveal();
