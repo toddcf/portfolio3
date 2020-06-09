@@ -1021,7 +1021,7 @@ html {
   position: fixed;
   left: 0;
   right: 0;
-  /*top: 0;*/
+  top: -60px; /* Hidden on page load */
   z-index: 20;
 }
 
