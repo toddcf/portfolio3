@@ -1,3 +1,17 @@
+// Hide/Reveal Nav:
+function navReveal() {
+  var navBar = document.querySelector('.nav');
+  var navBarHeight = navBar.offsetHeight;
+  if (window.scrollY < navBarHeight) {
+    navBar.style.top = '-' + navBarHeight + 'px';
+  } else {
+    navBar.style.top = '0';
+    navBar.style.transition = '500ms';
+  }
+}
+navReveal();
+window.addEventListener('scroll', navReveal);
+
 $( document ).ready( function() {
 
   // Author Site Effects:
