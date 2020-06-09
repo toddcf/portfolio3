@@ -662,6 +662,7 @@ html {
 .nav {
   background-image: linear-gradient(to bottom, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
   box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
+  font-size: 16px; /* Workaround */
   padding: .2em 0;
   position: fixed;
   left: 0;
@@ -669,6 +670,20 @@ html {
   top: 0;
   z-index: 20;
 }
+
+/* Font Size Workaround for Nav */
+@media (min-width: 800px) {
+  .nav {
+    font-size: 2vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav {
+    font-size: 28.8px;
+  }
+}
+/* End Font Size Workaround for Nav */
 
 .nav__flex {
   -ms-flex-line-pack: start;
@@ -696,7 +711,6 @@ html {
 }
 
 .nav__flex_link,
-.nav__flex_link:active,
 .nav__flex_link:focus,
 .nav__flex_link:visited {
   color: #000;
@@ -713,6 +727,7 @@ html {
   transition: 250ms;
 }
 
+.nav__flex_link:active,
 .nav__flex_link:hover {
   color: #808080;
 }

@@ -5,9 +5,7 @@ function navSpacing() {
   var aboutSection = document.querySelector('.about-section');
   aboutSection.style.paddingTop = navBarHeight + 'px';
 }
-
 navSpacing();
-
 window.addEventListener('resize', navSpacing);
 
 // Skills Icon Effects

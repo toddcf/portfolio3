@@ -2,19 +2,15 @@
 
 ## Non-Walkthrough Version
 
-- Recode `.center__1140` and `.center__1440` to have fluid widths up until they hit their max. (This should eliminate the need for multiple breakpoints.)
-- Add a slim, white, top nav to all pages. USE SEPARATE GITHUB BRANCH.
+- Top Nav:
+  - Max font size is different for Homepage vs. About Me, which is throwing off the Nav font sizes.
   - It's hidden when user is scrolled all the way up. Then when you start scrolling down, it slides down into view and stays fixed at the top. (And slides back up out of sight when user scrolls all the way to the top again.)
-  - A slight shadow beneath it.
-  - Very slight color gradient so it appears a little rounded.
-  - Link it to:
-    - Portfolio (Home) or About Me. (Whichever page the user is not currently on)
-    - Résumé
-    - GitHub
+  - Merge back into master branch.
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
 - Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
+  - SVG with shadow.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.

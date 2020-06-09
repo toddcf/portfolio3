@@ -1051,7 +1051,6 @@ html {
 }
 
 .nav__flex_link,
-.nav__flex_link:active,
 .nav__flex_link:focus,
 .nav__flex_link:visited {
   color: #000;
@@ -1068,6 +1067,7 @@ html {
   transition: 250ms;
 }
 
+.nav__flex_link:active,
 .nav__flex_link:hover {
   color: #808080;
 }
