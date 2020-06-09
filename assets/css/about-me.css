@@ -8,7 +8,7 @@
 /* MAIN CODE */
 
 .about-section {
-  
+  box-sizing: border-box;
 }
 
 .background_theme_wood-panel {
