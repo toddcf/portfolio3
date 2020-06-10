@@ -1015,13 +1015,18 @@ html {
 }
 
 .nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cecece), color-stop(10%, #fff), color-stop(50%, #fff), to(#d8d8d8));
+  background-image: -o-linear-gradient(top, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
   background-image: linear-gradient(to bottom, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
-  box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
+          box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
   padding: .2em 0;
   position: fixed;
   left: 0;
   right: 0;
   top: -60px; /* Hidden on page load */
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
   transition: 500ms;
   z-index: 20;
 }

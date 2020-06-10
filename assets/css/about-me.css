@@ -8,7 +8,8 @@
 /* MAIN CODE */
 
 .about-section {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .background_theme_wood-panel {
@@ -660,8 +661,11 @@ html {
 }
 
 .nav {
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cecece), color-stop(10%, #fff), color-stop(50%, #fff), to(#d8d8d8));
+  background-image: -o-linear-gradient(top, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
   background-image: linear-gradient(to bottom, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
-  box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
+          box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
   font-size: 16px; /* Workaround */
   padding: .2em 0;
   position: fixed;
