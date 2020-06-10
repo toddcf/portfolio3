@@ -3,13 +3,19 @@
 ## Non-Walkthrough Version
 
 - Top Nav:
-  - Merge back into master branch.
   - Push live.
 - Remove jQuery
-  - Swap out Waypoints for Vanilla JS scroll triggers.
-    - Revisit Wes Bos tutorial.
-    - Another example: https://terwanerik.github.io/ScrollTrigger/
-  - Delete jQuery link.
+  - Homepage:
+    - Swap out Waypoints for vanilla JS scroll triggers.
+      - Revisit Wes Bos tutorial.
+      - Another example: https://terwanerik.github.io/ScrollTrigger/
+    - Merge Footer JS file into a single JS file for this page.
+    - Delete jQuery link.
+  - About Me (harder):
+    - Swap out Waypoints for vanilla JS scroll triggers. (Same process as homepage.)
+    - Recode parallax background with vanilla JS.
+    - Merge Footer JS file into a single JS file for this page.
+    - Delete jQuery link.
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
