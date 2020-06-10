@@ -62,3 +62,15 @@ Adjusted text shadow on header overlay. Combined CSS into one file per HTML page
 - About Me:
   - Mobile: 94
   - Desktop: 92
+
+
+### 2020-06-09
+
+Added navbar.
+
+- Homepage:
+  - Mobile: 80
+  - Desktop: 97
+- About Me:
+  - Mobile: 92
+  - Desktop: 93

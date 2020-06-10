@@ -2,8 +2,8 @@
 
 ## Non-Walkthrough Version
 
-- Top Nav:
-  - Push live.
+- Navbar:
+  - Too slim on mobile. Give it a taller min-height.
 - Remove jQuery
   - Homepage:
     - Swap out Waypoints for vanilla JS scroll triggers.
@@ -17,7 +17,7 @@
     - Merge Footer JS file into a single JS file for this page.
     - Delete jQuery link.
 - Add Brenda Canela Acting
-  - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
+  - (See if the new BEM structure makes adding this project block easy.)
   - Photoshop: All image sizes.
 - Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
   - SVG with shadow.
