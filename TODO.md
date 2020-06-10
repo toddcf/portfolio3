@@ -2,17 +2,19 @@
 
 ## Non-Walkthrough Version
 
-- Add a slim, white, top nav to all pages.
-  - It's hidden when user is scrolled all the way up. Then when you start scrolling down, it slides down into view and stays fixed at the top. (And slides back up out of sight when user scrolls all the way to the top again.)
-  - A slight shadow beneath it.
-  - Link it to:
-    - Portfolio (Home) or About Me. (Whichever page the user is not currently on)
-    - Résumé
-    - GitHub
+- Top Nav:
+  - Merge back into master branch.
+  - Push live.
+- Remove jQuery
+  - Swap out Waypoints for Vanilla JS scroll triggers.
+    - Revisit Wes Bos tutorial.
+    - Another example: https://terwanerik.github.io/ScrollTrigger/
+  - Delete jQuery link.
 - Add Brenda Canela Acting
   - Wait until the portfolio's BEM structure is finalized so that adding this project block is as easy as possible.
   - Photoshop: All image sizes.
 - Replace the horizontal line between Front End Developer | MarTech Programmer with a slowly-spinning compass.
+  - SVG with shadow.
 - Fallback image (tropical beach):
   - Can I delete the unused background tropical beach image size from the img directory?
   - Smaller sizes for mobile, etc.
@@ -21,12 +23,6 @@
 - Acura:
   - Figure out better UX for a hub that links out to all six pages. (Maybe in each car's footer? I didn't notice the menu at the top of the NSX page.)
 - Update the new `https` URL across all my online job board accounts.
-- Remove jQuery
-  - Swap out Waypoints for Vanilla JS scroll triggers.
-    - One example: https://terwanerik.github.io/ScrollTrigger/
-    - Also revisit Wes Bos tutorial.
-  - Refactor background video in vanilla JS.
-  - Delete jQuery link.
 - Convert icons to SVG and remove links to fontawesome library.
 - Add Google Analytics throughout entire site.
 
