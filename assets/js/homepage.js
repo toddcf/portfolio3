@@ -2,11 +2,7 @@
 function navReveal() {
   var navBar = document.querySelector('.nav');
   var navBarHeight = navBar.offsetHeight;
-  if (window.scrollY < navBarHeight) {
-    navBar.style.top = '-' + (navBarHeight + 10) + 'px';
-  } else {
-    navBar.style.top = '0';
-  }
+  navBar.style.top = (window.scrollY < navBarHeight) ? '-' + (navBarHeight + 10) + 'px' : '0';
 }
 navReveal();
 window.addEventListener('scroll', navReveal);
