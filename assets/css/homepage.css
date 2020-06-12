@@ -1034,7 +1034,13 @@ html {
 
 @media (min-width: 800px) {
   .nav {
-    font-size: 1em; /* Back to normal ratio */
+    font-size: 2vw; /* Back to normal ratio */
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav {
+    font-size: 28.8px; /* Workaround -- keep consistent with all pages despite different center content widths */
   }
 }
 
