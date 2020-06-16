@@ -74,3 +74,15 @@ Added navbar.
 - About Me:
   - Mobile: 92
   - Desktop: 93
+
+
+### 2020-06-15
+
+Added min-height to navbar and set anchor tags to full height.
+
+- Homepage:
+  - Mobile: 80
+  - Desktop: 97
+- About Me:
+  - Mobile: 88
+  - Desktop: 92
