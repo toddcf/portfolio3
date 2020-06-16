@@ -3,7 +3,7 @@
 ## Non-Walkthrough Version
 
 - Navbar:
-  - Too slim on mobile. Give it a taller min-height.
+  - Get the links themselves to have a height that matches their parent container.
 - Remove jQuery
   - Homepage:
     - Swap out Waypoints for vanilla JS scroll triggers.
