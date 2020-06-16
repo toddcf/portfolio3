@@ -666,35 +666,29 @@ html {
   background-image: linear-gradient(to bottom, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
   -webkit-box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
           box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
-  font-size: 16px; /* Workaround */
-  padding: .2em 0;
-  position: fixed;
+  font-size: 1.1em; /* Workaround -- make larger on smaller screens */
   left: 0;
+  position: fixed;
   right: 0;
   top: 0;
   z-index: 20;
 }
 
-/* Font Size Workaround for Nav */
 @media (min-width: 800px) {
   .nav {
-    font-size: 2vw;
+    font-size: 2vw; /* Workaround -- keep consistent with homepage sizing despite different center content widths */
   }
 }
 
 @media (min-width: 1440px) {
   .nav {
-    font-size: 28.8px;
+    font-size: 28.8px; /* Workaround -- keep consistent with all pages despite different center content widths */
   }
 }
-/* End Font Size Workaround for Nav */
 
 .nav__flex {
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-content: stretch;
+  align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -707,7 +701,6 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  
 }
 
 .nav__flex_icon {
@@ -724,6 +717,8 @@ html {
   font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   margin: 0;
+  min-height: 57px;
+  position: relative;
   text-align: center;
   text-decoration: none;
   -webkit-transition: 250ms;
@@ -734,6 +729,14 @@ html {
 .nav__flex_link:active,
 .nav__flex_link:hover {
   color: #808080;
+}
+
+.nav__flex_text {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .parallax_circuit-board {

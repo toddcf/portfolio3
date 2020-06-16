@@ -2,8 +2,6 @@
 
 ## Non-Walkthrough Version
 
-- Navbar:
-  - Too slim on mobile. Give it a taller min-height.
 - Remove jQuery
   - Homepage:
     - Swap out Waypoints for vanilla JS scroll triggers.
