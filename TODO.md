@@ -2,8 +2,6 @@
 
 ## Non-Walkthrough Version
 
-- Navbar:
-  - Get the links themselves to have a height that matches their parent container.
 - Remove jQuery
   - Homepage:
     - Swap out Waypoints for vanilla JS scroll triggers.
