@@ -661,8 +661,8 @@ html {
 }
 
 .nav {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cecece), color-stop(10%, #fff), color-stop(50%, #fff), to(#d8d8d8));
   background-image: -o-linear-gradient(top, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cecece), color-stop(10%, #fff), color-stop(50%, #fff), to(#d8d8d8));
   background-image: linear-gradient(to bottom, #cecece 0, #fff 10%, #fff 50%, #d8d8d8 100%);
   -webkit-box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
           box-shadow: 0 .1em .5em rgba(0, 0, 0, .5);
@@ -687,8 +687,11 @@ html {
 }
 
 .nav__flex {
-  align-content: stretch;
-  align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -735,7 +738,9 @@ html {
   left: 50%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100%;
 }
 
