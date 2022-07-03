@@ -5,6 +5,7 @@
 - Instead of this being inside a "portfolio3" repo, move it into the "tcf-webdesign" repo.
 - Utilize GitHub's "Projects" kanban for the rest of this list.
   - Set up automations.
+- As for the "toddcf" GitHub account overall, there is a "secret" where you can create a repository with the same name as the account (toddcf/toddcf), and this will allow you to create a README for the overall account.  NOTE: This may be an issue because I already have a repository by that name.  I probably want to rename that one "tcf-author" or something in order to take advantage of this.
 
 
 ## Non-Walkthrough Version
