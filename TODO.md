@@ -1,5 +1,12 @@
 # To Do:
 
+## Refactor Git Usage
+
+- Instead of this being inside a "portfolio3" repo, move it into the "tcf-webdesign" repo.
+- Utilize GitHub's "Projects" kanban for the rest of this list.
+  - Set up automations.
+
+
 ## Non-Walkthrough Version
 
 - Remove jQuery
